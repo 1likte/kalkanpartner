@@ -65,8 +65,8 @@ export function BrandLogo({
       {variant !== "mark" && (
         <span className="flex flex-col leading-none">
           <span
-            className={`font-serif font-semibold tracking-[0.16em] uppercase ${
-              variant === "compact" ? "text-[15px]" : "text-[18px] sm:text-[19px]"
+            className={`font-serif font-semibold tracking-[0.15em] uppercase whitespace-nowrap ${
+              variant === "compact" ? "text-[15px]" : "text-[17px] sm:text-[18px]"
             } ${primaryTextColor}`}
           >
             KALKAN{" "}
@@ -79,7 +79,7 @@ export function BrandLogo({
           </span>
           {variant === "full" && showDescriptor && (
             <span
-              className={`mt-1 text-[9.5px] font-medium tracking-[0.2em] uppercase ${subTextColor}`}
+              className={`mt-1 text-[9.5px] font-medium tracking-[0.2em] uppercase whitespace-nowrap ${subTextColor}`}
             >
               International Business &amp; Service Solutions
             </span>
