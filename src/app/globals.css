@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --kp-navy: #0b1d3a;
+  --kp-navy-deep: #071327;
+  --kp-navy-mid: #132c54;
+  --kp-gold: #c5a567;
+  --kp-gold-light: #dfca9f;
+  --kp-gold-dark: #9e7f43;
+  --kp-ivory: #f8f7f4;
+  --kp-surface: #ffffff;
+  --kp-border: #e5e2da;
+  --kp-ink: #162133;
+  --kp-muted: #4b586e;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-navy: var(--kp-navy);
+  --color-navy-deep: var(--kp-navy-deep);
+  --color-navy-mid: var(--kp-navy-mid);
+  --color-gold: var(--kp-gold);
+  --color-gold-light: var(--kp-gold-light);
+  --color-gold-dark: var(--kp-gold-dark);
+  --color-ivory: var(--kp-ivory);
+  --color-surface: var(--kp-surface);
+  --color-border-subtle: var(--kp-border);
+  --color-ink: var(--kp-ink);
+  --color-muted: var(--kp-muted);
+
+  --font-sans: var(--font-plus-jakarta), "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--kp-surface);
+  color: var(--kp-ink);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: rgba(197, 165, 103, 0.28);
+  color: #0b1d3a;
+}
+
+/* Subtle architectural grid overlay for hero and featured dark sections */
+.bg-architectural-grid {
+  background-image:
+    linear-gradient(to right, rgba(197, 165, 103, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(197, 165, 103, 0.08) 1px, transparent 1px);
+  background-size: 64px 64px;
 }

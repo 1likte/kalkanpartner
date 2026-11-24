@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" fill="none">
+  <rect width="1080" height="1080" fill="#0B1D3A" />
+  <rect x="48" y="48" width="984" height="984" stroke="#C5A567" stroke-opacity="0.24" stroke-width="2" />
+  <g transform="translate(340, 210)">
+    <path
+      d="M200 18L362 86V214C362 320 293 393 200 426C107 393 38 320 38 214V86L200 18Z"
+      stroke="#C5A567"
+      stroke-width="14"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M142 122V318"
+      stroke="#FFFFFF"
+      stroke-width="20"
+      stroke-linecap="round"
+    />
+    <path
+      d="M268 126L156 220L272 318"
+      stroke="#C5A567"
+      stroke-width="20"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+  <text
+    x="540"
+    y="760"
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Georgia, serif"
+    font-size="76"
+    font-weight="600"
+    letter-spacing="14"
+  >
+    KALKAN PARTNER
+  </text>
+  <line x1="340" y1="802" x2="740" y2="802" stroke="#C5A567" stroke-width="2.5" />
+  <text
+    x="540"
+    y="856"
+    text-anchor="middle"
+    fill="#DFCA9F"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="24"
+    font-weight="500"
+    letter-spacing="6"
+  >
+    INTERNATIONAL BUSINESS &amp; SERVICE SOLUTIONS
+  </text>
+</svg>
