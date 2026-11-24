@@ -19,6 +19,9 @@ export const siteConfig = {
     email: "kontakt@kalkanpartner.de",
     phone: "+49 152 04481954",
     phoneHref: "+4915204481954",
+    whatsappUrl: "https://wa.me/4915204481954",
+    telegramUrl:
+      process.env.NEXT_PUBLIC_TELEGRAM_URL || "https://t.me/+4915204481954",
     commercialRegister:
       "TODO: Handelsregister & Registernummer (nur falls Eintragung besteht)",
     vatId:

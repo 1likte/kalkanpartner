@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { CheckCircle2, Info } from "lucide-react";
+import { CheckCircle2, Info, MessageCircle, Send } from "lucide-react";
 import { isValidLocale, LOCALE_META } from "@/i18n/config";
 import { siteConfig } from "@/config/site";
 import { getPagesContent } from "@/content/pages";
@@ -82,6 +82,59 @@ export default async function ContactPage({
             </div>
 
             <aside className="lg:col-span-4 space-y-6">
+              {/* Direct Messenger Buttons: WhatsApp & Telegram */}
+              <div className="rounded-2xl border border-gold/50 bg-navy p-6 sm:p-7 text-white shadow-md">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-light">
+                  {locale === "tr" ? "Hızlı İletişim" : "Direktkontakt"}
+                </p>
+                <h2 className="mt-2 font-serif text-2xl font-semibold text-white">
+                  {locale === "tr"
+                    ? "WhatsApp & Telegram"
+                    : "Per WhatsApp & Telegram"}
+                </h2>
+                <p className="mt-2 text-xs leading-relaxed text-white/80">
+                  {locale === "tr"
+                    ? "Kısa sorularınız veya ön görüşme talebiniz için bize doğrudan WhatsApp ya da Telegram üzerinden yazabilirsiniz."
+                    : "Für kurze Rückfragen oder eine schnelle Terminabstimmung erreichen Sie uns direkt per WhatsApp oder Telegram."}
+                </p>
+
+                <div className="mt-5 flex flex-col gap-3">
+                  <a
+                    href={siteConfig.legal.whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex w-full items-center justify-center gap-2.5 rounded-lg bg-[#25D366] px-4 py-3 text-sm font-semibold text-navy-deep shadow-xs transition-all hover:brightness-105"
+                  >
+                    <MessageCircle className="h-4 w-4 shrink-0" aria-hidden="true" />
+                    <span>
+                      {locale === "tr"
+                        ? "WhatsApp ile İletişime Geç"
+                        : "Über WhatsApp kontaktieren"}
+                    </span>
+                  </a>
+
+                  <a
+                    href={siteConfig.legal.telegramUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex w-full items-center justify-center gap-2.5 rounded-lg bg-[#229ED9] px-4 py-3 text-sm font-semibold text-white shadow-xs transition-all hover:brightness-110"
+                  >
+                    <Send className="h-4 w-4 shrink-0" aria-hidden="true" />
+                    <span>
+                      {locale === "tr"
+                        ? "Telegram ile İletişime Geç"
+                        : "Über Telegram kontaktieren"}
+                    </span>
+                  </a>
+                </div>
+
+                <p className="mt-4 text-[11px] leading-relaxed text-white/65">
+                  {locale === "tr"
+                    ? "Not: Lütfen mesajlaşma uygulamaları üzerinden de pasaport veya tıbbi belge göndermeyiniz."
+                    : "Hinweis: Bitte senden Sie auch über Messenger keine Reisepässe oder medizinischen Befunde."}
+                </p>
+              </div>
+
               <div className="rounded-2xl border border-border-subtle bg-surface p-6 sm:p-7 shadow-xs">
                 <h2 className="font-serif text-2xl font-semibold text-navy">
                   {contact.sidebar.title}

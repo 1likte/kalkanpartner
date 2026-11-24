@@ -22,7 +22,7 @@ export function Header({ locale, dict }: HeaderProps) {
     { label: dict.nav.services, href: `/${locale}/services` },
     { label: dict.nav.restaurant, href: `/${locale}/services/restaurant-kitchen` },
     { label: locale === "tr" ? "Hakkımızda" : "Über uns", href: `/${locale}/about` },
-    { label: dict.nav.howWeWork, href: `/${locale}/how-we-work` },
+    { label: dict.nav.contact, href: `/${locale}/contact` },
     { label: dict.nav.network, href: `/${locale}/international-network` },
     { label: "Insights", href: `/${locale}/insights` },
     { label: "FAQ", href: `/${locale}/faq` },
