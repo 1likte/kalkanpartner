@@ -68,6 +68,7 @@ export default async function LocaleLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: siteConfig.brandName,
+    url: siteConfig.siteUrl,
     description: dict.meta.description,
     areaServed: ["DE", "TR"],
     availableLanguage: ["German", "Turkish"],

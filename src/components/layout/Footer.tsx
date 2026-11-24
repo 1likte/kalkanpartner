@@ -88,11 +88,28 @@ export function Footer({ locale, dict }: FooterProps) {
               ))}
             </ul>
 
-            <div className="mt-6 space-y-1.5 border-t border-white/10 pt-4 text-xs text-white/60">
-              <p className="font-medium text-white/80">{siteConfig.brandName}</p>
+            <div className="mt-6 space-y-1.5 border-t border-white/10 pt-4 text-xs text-white/65">
+              <p className="font-medium text-white/90">{siteConfig.brandName}</p>
               <p>{siteConfig.legal.streetAddress}</p>
-              <p>{siteConfig.legal.postalCodeCity}</p>
-              <p>{siteConfig.legal.email}</p>
+              <p>
+                {siteConfig.legal.postalCodeCity}, {siteConfig.legal.country}
+              </p>
+              <p>
+                <a
+                  href={`tel:${siteConfig.legal.phoneHref}`}
+                  className="hover:text-gold-light transition-colors"
+                >
+                  {siteConfig.legal.phone}
+                </a>
+              </p>
+              <p>
+                <a
+                  href={`mailto:${siteConfig.legal.email}`}
+                  className="hover:text-gold-light transition-colors"
+                >
+                  {siteConfig.legal.email}
+                </a>
+              </p>
             </div>
           </div>
         </div>

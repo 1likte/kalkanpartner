@@ -1,29 +1,35 @@
 /**
- * Central site configuration and verified legal metadata.
- * IMPORTANT: Never fabricate registration numbers, addresses, emails, phone numbers,
- * or licenses. Keep unverified items explicitly marked as TODO until supplied.
+ * Central site configuration and legal metadata.
+ * IMPORTANT: Unverified legal fields (Rechtsform, Handelsregister, USt-IdNr./W-IdNr.)
+ * remain explicitly marked as TODO until legally finalized and verified.
  */
 export const siteConfig = {
   brandName: "KALKAN PARTNER",
   descriptor: "International Business & Service Solutions",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://example.com",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://kalkanpartner.de",
+  domain: "kalkanpartner.de",
   baseCountry: "Germany",
   markets: ["Germany", "Türkiye", "International"],
   legal: {
-    companyLegalName: "TODO: Vollständiger Firmenname / Rechtsform eintragen",
-    managingDirector: "TODO: Vertretungsberechtigte Person eintragen",
-    streetAddress: "TODO: Geschäftsadresse (Straße, Hausnummer)",
-    postalCodeCity: "TODO: PLZ & Ort, Deutschland",
-    email: "TODO: Geschäftliche E-Mail-Adresse",
-    phone: "TODO: Geschäftliche Telefonnummer",
-    commercialRegister: "TODO: Handelsregister & Registernummer (falls zutreffend)",
-    vatId: "TODO: USt-IdNr. gemäß § 27a UStG (falls zutreffend)",
-    supervisoryAuthority: "TODO: Zuständige Aufsichtsbehörde (falls erforderlich)",
+    owner: "Semra Kalkan",
+    companyLegalName: "[Rechtsform – nach Festlegung ergänzen]",
+    streetAddress: "Hauptstraße 192",
+    postalCodeCity: "79739 Schwörstadt",
+    country: "Deutschland",
+    email: "kontakt@kalkanpartner.de",
+    phone: "+49 152 04481954",
+    phoneHref: "+4915204481954",
+    commercialRegister:
+      "TODO: Handelsregister & Registernummer (nur falls Eintragung besteht)",
+    vatId:
+      "TODO: USt-IdNr. / W-IdNr. (erst nach Prüfung des BZSt-Bescheids ergänzen)",
+    supervisoryAuthority:
+      "TODO: Zuständige Aufsichtsbehörde (nur falls für einzelne Tätigkeiten erforderlich)",
   },
   // Prepared for future Local SEO & Google Business Profile integration
   localSeo: {
     googleBusinessProfileUrl: null as string | null,
-    verifiedAddressAvailable: false,
+    verifiedAddressAvailable: true,
     openingHours: null as string | null,
   },
   // Prepared for future scalability (CRM, booking calendar, analytics)

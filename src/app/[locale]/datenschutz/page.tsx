@@ -77,9 +77,14 @@ export default async function DatenschutzPage({
               </h2>
               <div className="mt-3 space-y-1">
                 <p className="font-semibold text-navy">{siteConfig.brandName}</p>
-                <p>{siteConfig.legal.companyLegalName}</p>
+                <p>
+                  {isTr ? "İşletme Sahibi (Inhaberin): " : "Inhaberin: "}
+                  {siteConfig.legal.owner}
+                </p>
                 <p>{siteConfig.legal.streetAddress}</p>
                 <p>{siteConfig.legal.postalCodeCity}</p>
+                <p>{siteConfig.legal.country}</p>
+                <p>Telefon: {siteConfig.legal.phone}</p>
                 <p>E-Mail: {siteConfig.legal.email}</p>
               </div>
             </div>

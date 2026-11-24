@@ -120,9 +120,25 @@ export default async function ContactPage({
                     {siteConfig.brandName}
                   </p>
                   <p>{siteConfig.legal.streetAddress}</p>
-                  <p>{siteConfig.legal.postalCodeCity}</p>
-                  <p>{siteConfig.legal.email}</p>
-                  <p>{siteConfig.legal.phone}</p>
+                  <p>
+                    {siteConfig.legal.postalCodeCity}, {siteConfig.legal.country}
+                  </p>
+                  <p>
+                    <a
+                      href={`mailto:${siteConfig.legal.email}`}
+                      className="text-navy hover:text-gold-dark transition-colors"
+                    >
+                      {siteConfig.legal.email}
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href={`tel:${siteConfig.legal.phoneHref}`}
+                      className="text-navy hover:text-gold-dark transition-colors"
+                    >
+                      {siteConfig.legal.phone}
+                    </a>
+                  </p>
                 </div>
               </div>
             </aside>
