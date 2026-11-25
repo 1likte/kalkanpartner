@@ -408,11 +408,19 @@ export const tr: Dictionary = {
       { label: "İletişim", href: "/contact" },
     ],
     legalLinks: [
-      { label: "Impressum", href: "/impressum", todoBadge: "TODO" },
-      { label: "Gizlilik Politikası (Datenschutz)", href: "/datenschutz", todoBadge: "TODO" },
-      { label: "Genel Şartlar (AGB)", href: "/agb", todoBadge: "TODO" },
+      { label: "Künye (Impressum)", href: "/kuenye", todoBadge: "TODO" },
+      {
+        label: "Gizlilik ve Kişisel Verilerin Korunması Beyanı",
+        href: "/gizlilik-ve-kisisel-verilerin-korunmasi-beyani",
+        todoBadge: "TODO",
+      },
+      {
+        label: "Hizmet Şartları ve Cayma Hakları",
+        href: "/hizmet-sartlari-ve-cayma-haklari",
+        todoBadge: "TODO",
+      },
     ],
-    futureLanguageNote: "Diller: Deutsch (Varsayılan) · Türkçe · English (Hazırlanıyor)",
+    futureLanguageNote: "Diller: Deutsch · Türkçe · English",
     copyright: "KALKAN PARTNER. Tüm hakları saklıdır.",
   },
 };

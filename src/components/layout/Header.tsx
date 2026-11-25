@@ -6,23 +6,32 @@ import { usePathname } from "next/navigation";
 import { Menu, X, ArrowUpRight, MessageCircle, Send } from "lucide-react";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/content/types";
-import { siteConfig } from "@/config/site";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
 
 interface HeaderProps {
   locale: Locale;
   dict: Dictionary;
+  whatsappUrl: string;
+  telegramUrl: string;
 }
 
-export function Header({ locale, dict }: HeaderProps) {
+export function Header({
+  locale,
+  dict,
+  whatsappUrl,
+  telegramUrl,
+}: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
+
+  const aboutLabel =
+    locale === "tr" ? "Hakkımızda" : locale === "en" ? "About" : "Über uns";
 
   const navItems = [
     { label: dict.nav.services, href: `/${locale}/services` },
     { label: dict.nav.restaurant, href: `/${locale}/services/restaurant-kitchen` },
-    { label: locale === "tr" ? "Hakkımızda" : "Über uns", href: `/${locale}/about` },
+    { label: aboutLabel, href: `/${locale}/about` },
     { label: dict.nav.contact, href: `/${locale}/contact` },
     { label: dict.nav.network, href: `/${locale}/international-network` },
     { label: "Insights", href: `/${locale}/insights` },
@@ -210,7 +219,7 @@ export function Header({ locale, dict }: HeaderProps) {
 
             <div className="grid grid-cols-2 gap-2.5">
               <a
-                href={siteConfig.legal.whatsappUrl}
+                href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-1.5 rounded-lg bg-[#25D366] px-3 py-2 text-xs font-semibold text-navy-deep transition-all hover:brightness-105"
@@ -219,7 +228,7 @@ export function Header({ locale, dict }: HeaderProps) {
                 <span>WhatsApp</span>
               </a>
               <a
-                href={siteConfig.legal.telegramUrl}
+                href={telegramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-1.5 rounded-lg bg-[#229ED9] px-3 py-2 text-xs font-semibold text-white transition-all hover:brightness-110"

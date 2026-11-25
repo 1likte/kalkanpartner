@@ -62,9 +62,7 @@ export function ContactCtaSection({ locale, dict }: ContactCtaSectionProps) {
                 aria-hidden="true"
               />
               <p className="text-xs leading-relaxed text-white/80">
-                {locale === "tr"
-                  ? "Her talep yolu ilgili departmanı otomatik seçer. Gerçek e-posta servisi ortam değişkenleriyle tanımlandığında anlık iletim aktif olur."
-                  : "Jeder Anfrageweg wählt automatisch den passenden Fachbereich vor. Der Live-E-Mail-Versand erfolgt über konfigurierbare Umgebungsvariablen."}
+                {contactCta.noticeBody}
               </p>
             </div>
             <div className="flex items-start gap-3 rounded-lg border border-white/15 bg-white/[0.04] p-4">

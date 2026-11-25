@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             "de-DE": `${baseUrl}/de${path}`,
             "tr-TR": `${baseUrl}/tr${path}`,
+            "en-US": `${baseUrl}/en${path}`,
           },
         },
       });
@@ -47,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             "de-DE": `${baseUrl}/de/services/${slug}`,
             "tr-TR": `${baseUrl}/tr/services/${slug}`,
+            "en-US": `${baseUrl}/en/services/${slug}`,
           },
         },
       });
@@ -63,6 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             "de-DE": `${baseUrl}/de/insights/${slug}`,
             "tr-TR": `${baseUrl}/tr/insights/${slug}`,
+            "en-US": `${baseUrl}/en/insights/${slug}`,
           },
         },
       });

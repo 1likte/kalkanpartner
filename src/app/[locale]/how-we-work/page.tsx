@@ -23,6 +23,7 @@ export async function generateMetadata({
       languages: {
         "de-DE": "/de/how-we-work",
         "tr-TR": "/tr/how-we-work",
+        "en-US": "/en/how-we-work",
         "x-default": "/de/how-we-work",
       },
     },

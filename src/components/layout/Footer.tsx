@@ -1,15 +1,16 @@
 import Link from "next/link";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/content/types";
-import { siteConfig } from "@/config/site";
+import type { SiteSettings } from "@/lib/cms";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 
 interface FooterProps {
   locale: Locale;
   dict: Dictionary;
+  site: SiteSettings;
 }
 
-export function Footer({ locale, dict }: FooterProps) {
+export function Footer({ locale, dict, site }: FooterProps) {
   return (
     <footer className="bg-navy-deep text-white border-t border-gold/20">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
@@ -67,47 +68,49 @@ export function Footer({ locale, dict }: FooterProps) {
             </ul>
           </div>
 
-          {/* Legal & Contact Placeholders Column */}
+          {/* Language-Specific Legal & Contact Column */}
           <div id="legal-notice" className="lg:col-span-3">
             <h3 className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-light">
               {dict.footer.columns.legalTitle}
             </h3>
             <ul className="mt-4 space-y-2.5 text-sm">
               {dict.footer.legalLinks.map((item) => (
-                <li key={item.label} className="flex items-center gap-2">
+                <li key={item.label} className="flex items-start gap-2">
                   <Link
                     href={`/${locale}${item.href}`}
-                    className="text-white/75 transition-colors hover:text-gold-light"
+                    className="text-white/80 transition-colors hover:text-gold-light leading-snug"
                   >
                     {item.label}
                   </Link>
-                  <span className="rounded bg-gold/20 px-1.5 py-0.5 text-[10px] font-semibold tracking-wider text-gold-light">
-                    {item.todoBadge}
-                  </span>
+                  {item.todoBadge && (
+                    <span className="mt-0.5 shrink-0 rounded bg-gold/20 px-1.5 py-0.5 text-[10px] font-semibold tracking-wider text-gold-light">
+                      {item.todoBadge}
+                    </span>
+                  )}
                 </li>
               ))}
             </ul>
 
             <div className="mt-6 space-y-1.5 border-t border-white/10 pt-4 text-xs text-white/65">
-              <p className="font-medium text-white/90">{siteConfig.brandName}</p>
-              <p>{siteConfig.legal.streetAddress}</p>
+              <p className="font-medium text-white/90">{site.brandName}</p>
+              <p>{site.streetAddress}</p>
               <p>
-                {siteConfig.legal.postalCodeCity}, {siteConfig.legal.country}
+                {site.postalCodeCity}, {site.country}
               </p>
               <p>
                 <a
-                  href={`tel:${siteConfig.legal.phoneHref}`}
+                  href={`tel:${site.phoneHref}`}
                   className="hover:text-gold-light transition-colors"
                 >
-                  {siteConfig.legal.phone}
+                  {site.phone}
                 </a>
               </p>
               <p>
                 <a
-                  href={`mailto:${siteConfig.legal.email}`}
+                  href={`mailto:${site.email}`}
                   className="hover:text-gold-light transition-colors"
                 >
-                  {siteConfig.legal.email}
+                  {site.email}
                 </a>
               </p>
             </div>

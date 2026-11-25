@@ -23,6 +23,7 @@ export async function generateMetadata({
       languages: {
         "de-DE": "/de/international-network",
         "tr-TR": "/tr/international-network",
+        "en-US": "/en/international-network",
         "x-default": "/de/international-network",
       },
     },

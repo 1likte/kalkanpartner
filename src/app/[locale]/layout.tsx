@@ -8,6 +8,7 @@ import {
 } from "@/i18n/config";
 import { getDictionary } from "@/content";
 import { siteConfig } from "@/config/site";
+import { getSiteSettings } from "@/lib/cms";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
@@ -35,6 +36,7 @@ export async function generateMetadata({
       languages: {
         "de-DE": "/de",
         "tr-TR": "/tr",
+        "en-US": "/en",
         "x-default": "/de",
       },
     },
@@ -62,16 +64,17 @@ export default async function LocaleLayout({
 
   const typedLocale: Locale = locale;
   const dict = getDictionary(typedLocale);
+  const site = getSiteSettings();
 
   // Verified Organization structured data only (no fabricated address, phone, or registration numbers)
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: siteConfig.brandName,
+    name: site.brandName,
     url: siteConfig.siteUrl,
     description: dict.meta.description,
     areaServed: ["DE", "TR"],
-    availableLanguage: ["German", "Turkish"],
+    availableLanguage: ["German", "Turkish", "English"],
   };
 
   return (
@@ -80,9 +83,14 @@ export default async function LocaleLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
       />
-      <Header locale={typedLocale} dict={dict} />
+      <Header
+        locale={typedLocale}
+        dict={dict}
+        whatsappUrl={site.whatsappUrl}
+        telegramUrl={site.telegramUrl}
+      />
       <main className="flex-1">{children}</main>
-      <Footer locale={typedLocale} dict={dict} />
+      <Footer locale={typedLocale} dict={dict} site={site} />
     </div>
   );
 }

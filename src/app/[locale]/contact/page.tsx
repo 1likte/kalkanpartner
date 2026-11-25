@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { CheckCircle2, Info, MessageCircle, Send } from "lucide-react";
 import { isValidLocale, LOCALE_META } from "@/i18n/config";
 import { siteConfig } from "@/config/site";
+import { getSiteSettings } from "@/lib/cms";
 import { getPagesContent } from "@/content/pages";
 import { ContactForm } from "@/components/contact/ContactForm";
 
@@ -24,6 +25,7 @@ export async function generateMetadata({
       languages: {
         "de-DE": "/de/contact",
         "tr-TR": "/tr/contact",
+        "en-US": "/en/contact",
         "x-default": "/de/contact",
       },
     },
@@ -46,6 +48,35 @@ export default async function ContactPage({
   if (!isValidLocale(locale)) notFound();
 
   const { contact } = getPagesContent(locale);
+  const site = getSiteSettings();
+
+  const directCopy =
+    locale === "tr"
+      ? {
+          eyebrow: "Hızlı İletişim",
+          title: "WhatsApp & Telegram",
+          body: "Kısa sorularınız veya ön görüşme talebiniz için bize doğrudan WhatsApp ya da Telegram üzerinden yazabilirsiniz.",
+          whatsapp: "WhatsApp ile İletişime Geç",
+          telegram: "Telegram ile İletişime Geç",
+          note: "Not: Lütfen mesajlaşma uygulamaları üzerinden de pasaport veya tıbbi belge göndermeyiniz.",
+        }
+      : locale === "en"
+        ? {
+            eyebrow: "Direct Messaging",
+            title: "WhatsApp & Telegram",
+            body: "For quick questions or scheduling an initial call, you can reach us directly via WhatsApp or Telegram.",
+            whatsapp: "Contact via WhatsApp",
+            telegram: "Contact via Telegram",
+            note: "Note: Please do not send passports or medical records via messaging apps either.",
+          }
+        : {
+            eyebrow: "Direktkontakt",
+            title: "Per WhatsApp & Telegram",
+            body: "Für kurze Rückfragen oder eine schnelle Terminabstimmung erreichen Sie uns direkt per WhatsApp oder Telegram.",
+            whatsapp: "Über WhatsApp kontaktieren",
+            telegram: "Über Telegram kontaktieren",
+            note: "Hinweis: Bitte senden Sie auch über Messenger keine Reisepässe oder medizinischen Befunde.",
+          };
 
   return (
     <div className="bg-surface">
@@ -82,56 +113,41 @@ export default async function ContactPage({
             </div>
 
             <aside className="lg:col-span-4 space-y-6">
-              {/* Direct Messenger Buttons: WhatsApp & Telegram */}
               <div className="rounded-2xl border border-gold/50 bg-navy p-6 sm:p-7 text-white shadow-md">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-light">
-                  {locale === "tr" ? "Hızlı İletişim" : "Direktkontakt"}
+                  {directCopy.eyebrow}
                 </p>
                 <h2 className="mt-2 font-serif text-2xl font-semibold text-white">
-                  {locale === "tr"
-                    ? "WhatsApp & Telegram"
-                    : "Per WhatsApp & Telegram"}
+                  {directCopy.title}
                 </h2>
                 <p className="mt-2 text-xs leading-relaxed text-white/80">
-                  {locale === "tr"
-                    ? "Kısa sorularınız veya ön görüşme talebiniz için bize doğrudan WhatsApp ya da Telegram üzerinden yazabilirsiniz."
-                    : "Für kurze Rückfragen oder eine schnelle Terminabstimmung erreichen Sie uns direkt per WhatsApp oder Telegram."}
+                  {directCopy.body}
                 </p>
 
                 <div className="mt-5 flex flex-col gap-3">
                   <a
-                    href={siteConfig.legal.whatsappUrl}
+                    href={site.whatsappUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex w-full items-center justify-center gap-2.5 rounded-lg bg-[#25D366] px-4 py-3 text-sm font-semibold text-navy-deep shadow-xs transition-all hover:brightness-105"
                   >
                     <MessageCircle className="h-4 w-4 shrink-0" aria-hidden="true" />
-                    <span>
-                      {locale === "tr"
-                        ? "WhatsApp ile İletişime Geç"
-                        : "Über WhatsApp kontaktieren"}
-                    </span>
+                    <span>{directCopy.whatsapp}</span>
                   </a>
 
                   <a
-                    href={siteConfig.legal.telegramUrl}
+                    href={site.telegramUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex w-full items-center justify-center gap-2.5 rounded-lg bg-[#229ED9] px-4 py-3 text-sm font-semibold text-white shadow-xs transition-all hover:brightness-110"
                   >
                     <Send className="h-4 w-4 shrink-0" aria-hidden="true" />
-                    <span>
-                      {locale === "tr"
-                        ? "Telegram ile İletişime Geç"
-                        : "Über Telegram kontaktieren"}
-                    </span>
+                    <span>{directCopy.telegram}</span>
                   </a>
                 </div>
 
                 <p className="mt-4 text-[11px] leading-relaxed text-white/65">
-                  {locale === "tr"
-                    ? "Not: Lütfen mesajlaşma uygulamaları üzerinden de pasaport veya tıbbi belge göndermeyiniz."
-                    : "Hinweis: Bitte senden Sie auch über Messenger keine Reisepässe oder medizinischen Befunde."}
+                  {directCopy.note}
                 </p>
               </div>
 
@@ -169,27 +185,25 @@ export default async function ContactPage({
                   {contact.sidebar.legalNoticeBody}
                 </p>
                 <div className="border-t border-border-subtle pt-3 text-xs text-muted space-y-1">
-                  <p className="font-semibold text-navy">
-                    {siteConfig.brandName}
-                  </p>
-                  <p>{siteConfig.legal.streetAddress}</p>
+                  <p className="font-semibold text-navy">{site.brandName}</p>
+                  <p>{site.streetAddress}</p>
                   <p>
-                    {siteConfig.legal.postalCodeCity}, {siteConfig.legal.country}
+                    {site.postalCodeCity}, {site.country}
                   </p>
                   <p>
                     <a
-                      href={`mailto:${siteConfig.legal.email}`}
+                      href={`mailto:${site.email}`}
                       className="text-navy hover:text-gold-dark transition-colors"
                     >
-                      {siteConfig.legal.email}
+                      {site.email}
                     </a>
                   </p>
                   <p>
                     <a
-                      href={`tel:${siteConfig.legal.phoneHref}`}
+                      href={`tel:${site.phoneHref}`}
                       className="text-navy hover:text-gold-dark transition-colors"
                     >
-                      {siteConfig.legal.phone}
+                      {site.phone}
                     </a>
                   </p>
                 </div>

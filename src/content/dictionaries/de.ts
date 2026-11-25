@@ -411,10 +411,10 @@ export const de: Dictionary = {
     ],
     legalLinks: [
       { label: "Impressum", href: "/impressum", todoBadge: "TODO" },
-      { label: "Datenschutzerklärung", href: "/datenschutz", todoBadge: "TODO" },
-      { label: "AGB", href: "/agb", todoBadge: "TODO" },
+      { label: "Datenschutzerklärung", href: "/datenschutzerklaerung", todoBadge: "TODO" },
+      { label: "AGB & Widerrufshinweise", href: "/agb", todoBadge: "TODO" },
     ],
-    futureLanguageNote: "Sprachen: Deutsch (Standard) · Türkçe · English (in Vorbereitung)",
+    futureLanguageNote: "Sprachen: Deutsch · Türkçe · English",
     copyright: "KALKAN PARTNER. Alle Rechte vorbehalten.",
   },
 };

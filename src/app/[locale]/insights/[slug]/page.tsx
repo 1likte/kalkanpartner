@@ -35,6 +35,7 @@ export async function generateMetadata({
       languages: {
         "de-DE": `/de/insights/${slug}`,
         "tr-TR": `/tr/insights/${slug}`,
+        "en-US": `/en/insights/${slug}`,
         "x-default": `/de/insights/${slug}`,
       },
     },
