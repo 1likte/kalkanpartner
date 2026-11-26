@@ -21,6 +21,11 @@ export const siteConfig = {
     whatsappUrl: "https://wa.me/4915204481954",
     telegramUrl:
       process.env.NEXT_PUBLIC_TELEGRAM_URL || "https://t.me/+4915204481954",
+    instagramUrl: "",
+    linkedinUrl: "",
+    facebookUrl: "",
+    youtubeUrl: "",
+    tiktokUrl: "",
     mstvResponsible:
       "Semra Kalkan, Hauptstraße 192, 79739 Schwörstadt, Deutschland",
     // Optional statutory fields (leave empty for Einzelunternehmen without HR/USt-IdNr.; fill via /admin if later issued)

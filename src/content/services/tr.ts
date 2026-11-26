@@ -8,7 +8,7 @@ export const servicesOverviewTr: ServicesOverviewContent = {
   seo: {
     title: "Hizmetlerimiz – Dokuz Uzmanlık Departmanı | KALKAN PARTNER",
     description:
-      "KALKAN PARTNER'in dokuz hizmet departmanı: Recruitment, Relocation, Behördenservice, Translation & Communication, Business Setup, Medical Tourism Coordination, Digital & AI, Family & Education ve Restaurant & Kitchen Solutions.",
+      "KALKAN PARTNER'in dokuz hizmet departmanı: Recruitment, Relocation, Behördenservice, Translation, Business Setup, Medical Tourism, Digital & AI, Family & Education ve Restaurant & Kitchen Solutions.",
     keywords: [
       "Almanya iş ve hizmet koordinasyonu",
       "Almanya Türkiye personel koordinasyonu",
@@ -18,40 +18,37 @@ export const servicesOverviewTr: ServicesOverviewContent = {
     ],
   },
   eyebrow: "Hizmet Portföyümüz",
-  title: "Yapılandırılmış uluslararası çözümler için dokuz uzman departman",
+  title: "Yapılandırılmış çözümler için dokuz uzman departman",
   subtitle:
-    "Her departman net bir koordinasyon sürecini izler; şeffaf hukuki sınırlar, sahada uygulanabilir adımlar ve hem kurumsal hem bireysel müşteriler için doğrudan talep yolu sunar.",
+    "Net koordinasyon adımları, şeffaf hukuki sınırlar ve doğrudan talep akışı.",
   categories: [
     {
       id: "business-gastronomy",
       label: "Şirketler, Pazara Giriş & Gastronomi",
-      description:
-        "Almanya ve uluslararası pazarlardaki işverenler, girişimciler, restoran yatırımcıları ve KOBİ'ler için.",
+      description: "İşverenler, girişimciler, restoran yatırımcıları ve KOBİ'ler için.",
       slugs: ["restaurant-kitchen", "recruitment", "business-setup", "digital-ai"],
     },
     {
       id: "mobility-administration",
       label: "Taşınma, İdari Süreçler & İletişim",
-      description:
-        "Almanya'ya başlangıç ve günlük resmi/ticari süreçler için düzenli organizasyon ve iletişim desteği.",
+      description: "Almanya'ya başlangıç ve günlük resmî süreçler için düzenli destek.",
       slugs: ["relocation", "behoerdenservice", "translation-communication"],
     },
     {
       id: "family-health",
       label: "Aile, Eğitim & Sağlık Turizmi Koordinasyonu",
-      description:
-        "Aileler, öğrenciler ve uluslararası hastalar için yetkili iş ortaklarıyla net sınırlı süreç koordinasyonu.",
+      description: "Aileler, öğrenciler ve uluslararası hastalar için net koordinasyon.",
       slugs: ["family-education", "medical-tourism"],
     },
   ],
-  cardReadMore: "Departman Detayını İncele",
+  cardReadMore: "Detayı İncele",
   breadcrumbHome: "Ana Sayfa",
   breadcrumbServices: "Hizmetler",
-  relatedHeading: "Tamamlayıcı Hizmet Departmanları",
-  allServicesCta: "Tüm Dokuz Departmanı İncele",
-  legalBannerTitle: "Hizmetlerimizin Açık Hukuki Çerçevesi",
+  relatedHeading: "İlgili Departmanlar",
+  allServicesCta: "Tüm Departmanlar",
+  legalBannerTitle: "Açık Hukuki Çerçeve",
   legalBannerBody:
-    "KALKAN PARTNER organizasyon, iletişim ve süreç koordinasyonu hizmetleri sunar. Hukuki, vergisel, tıbbi, mimari veya izin gerektiren tüm faaliyetler yalnızca ilgili alanda yetkili iş ortakları tarafından yürütülür.",
+    "KALKAN PARTNER yalnızca organizasyon, iletişim ve süreç koordinasyonu sunar. Hukuki, vergisel, tıbbi, mimari veya izin gerektiren işlemler yetkili iş ortaklarınca yürütülür.",
 };
 
 export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
@@ -62,7 +59,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     seo: {
       title: "Recruitment & Uluslararası Aday Koordinasyonu | KALKAN PARTNER",
       description:
-        "Almanya'daki işverenler ile Türkiye ve uluslararası pazarlardaki nitelikli adaylar arasında yapılandırılmış süreç ve işe giriş koordinasyonu.",
+        "Almanya'daki işverenler ile Türkiye ve uluslararası pazarlardaki adaylar arasında yapılandırılmış süreç koordinasyonu.",
       keywords: [
         "Almanya Türkiye personel koordinasyonu",
         "Almanya işveren aday bulma desteği",
@@ -70,121 +67,107 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Departman 01 · Recruitment",
-    title: "Recruitment & Uluslararası Aday Koordinasyonu",
-    lead: "Almanya'daki işverenleri Türkiye ve diğer ülkelerdeki nitelikli adaylarla buluşturuyor; CV ve belge düzeninden görüşme planlamasına ve işe giriş koordinasyonuna kadar süreci şeffaf biçimde yönetiyoruz.",
-    audienceBadge: "Almanya'daki işverenler & uluslararası adaylar için",
+    title: "Recruitment & Aday Koordinasyonu",
+    lead: "Almanya'daki işverenleri Türkiye ve yurt dışındaki nitelikli adaylarla buluşturuyor, süreci baştan sona koordine ediyoruz.",
+    audienceBadge: "Almanya'daki işverenler & uluslararası adaylar",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Recruitment departmanımız, Almanya'daki işletmelerin uluslararası aday arama ve değerlendirme süreçlerini düzenli bir yapıya kavuşturmasına yardımcı olur; dil ve organizasyon kaynaklı kopuklukları ortadan kaldırır.",
-        "Dağınık başvurular yerine aday araştırmasını, CV ve belgelerin eksiksiz hazırlanmasını, işveren–aday görüşmelerinin planlanmasını ve işe başlangıç sürecindeki organizasyon adımlarını tek elden koordine ediyoruz.",
+        "İşverenlerin uluslararası personel arayışını düzenli bir yapıya kavuşturuyor; aday bulma, belge düzenleme, görüşme planlama ve işe giriş adımlarını tek elden koordine ediyoruz.",
       ],
-      scopeTitle: "Somut Koordinasyon Adımları",
+      scopeTitle: "Koordinasyon Kapsamı",
       scopeItems: [
-        "Türkiye ve diğer ülkelerden ihtiyaca uygun aday araştırması",
-        "CV, sertifika ve temel başvuru belgelerinin toplanıp düzenli hale getirilmesi",
-        "İşveren profiline göre aday ön organizasyonu",
-        "Online veya yüz yüze işveren–aday görüşmelerinin planlanması",
-        "Almanca–Türkçe çift dilli iletişim koordinasyonu",
-        "İşe alım ve işe başlangıç (onboarding) sürecinin organizasyonel takibi",
+        "Türkiye ve yurt dışından aday araştırması",
+        "CV ve temel belgelerin Alman standardında düzeni",
+        "İşveren profiline uygun ön eleme organizasyonu",
+        "Online veya yüz yüze mülakat planlaması",
+        "Almanca–Türkçe çift dilli süreç iletişimi",
+        "İşe başlangıç (onboarding) koordinasyonu",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "Somut personel ihtiyacı bulunan Alman işletmelerine ve sürecini profesyonelce yürütmek isteyen uluslararası adaylara.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Doğrudan istihdam hedefleyen işverenler ve nitelikli adaylar için.",
       groups: [
         {
           title: "Almanya'daki İşverenler",
-          description:
-            "Doğrudan kendi bünyesinde istihdam yapmak isteyen KOBİ'ler, restoranlar, üretim ve hizmet işletmeleri.",
+          description: "KOBİ'ler, restoranlar ve doğrudan personel istihdam etmek isteyen işletmeler.",
         },
         {
-          title: "Türkiye ve Yurt Dışındaki Adaylar",
-          description:
-            "Belgelerini Alman işveren standartlarına uygun düzenlemek ve şeffaf mülakat süreçlerine katılmak isteyen nitelikli adaylar.",
+          title: "Nitelikli Adaylar",
+          description: "Belgelerini düzenli hazırlayıp Alman işverenlerle net görüşmek isteyen profesyoneller.",
         },
         {
-          title: "Yeni Açılış ve Büyüme Ekipleri",
-          description:
-            "Yeni şube veya operasyon açılışları için düzenli aday koordinasyonuna ihtiyaç duyan işletmeler.",
+          title: "Yeni Açılış Ekipleri",
+          description: "Yeni şube ve operasyonlar için planlı personel koordinasyonu arayan firmalar.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Sınır ötesi işe alım süreçleri çoğu zaman eksik belgeler, dil engelleri ve takipsiz kalan görüşmeler nedeniyle uzar.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "Eksik evrak ve dil bariyerini ortadan kaldırıyoruz.",
       items: [
         {
-          problem: "Eksik veya karşılaştırılması zor aday dosyaları",
-          solution:
-            "CV ve temel belgeleri Alman işverenlerin hızlıca değerlendirebileceği tutarlı bir düzende topluyoruz.",
+          problem: "Eksik ve dağınık aday dosyaları",
+          solution: "Tüm CV ve belgeleri tek bir net formatta hazırlıyoruz.",
         },
         {
-          problem: "İşveren ve aday arasında dil ve beklenti uyuşmazlıkları",
-          solution:
-            "İletişimi Almanca ve Türkçe olarak net biçimde koordine ederek her iki tarafın beklentisini baştan hizalıyoruz.",
+          problem: "Dil ve beklenti uyumsuzluğu",
+          solution: "Almanca–Türkçe net iletişimle her iki tarafı baştan hizalıyoruz.",
         },
         {
-          problem: "Görüşme planlama ve geri bildirimlerde zaman kaybı",
-          solution:
-            "Randevu, takip ve ön organizasyon adımlarını tek bir muhatap üzerinden yönetiyoruz.",
+          problem: "Görüşme planlamasında zaman kaybı",
+          solution: "Randevu ve geri bildirimleri tek muhatapla hızlandırıyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "İhtiyaç analizinden işe başlangıç koordinasyonuna kadar dört net aşamada ilerliyoruz.",
+      heading: "4 Adımda İşleyiş",
+      intro: "İhtiyaç analizinden işe başlangıca.",
       steps: [
         {
           number: "01",
-          title: "Pozisyon ve Profil Analizi",
-          description:
-            "Görev tanımı, aranan nitelikler, dil seviyesi ve hedeflenen başlangıç zamanının netleştirilmesi.",
+          title: "Profil Analizi",
+          description: "Pozisyon, nitelik, dil seviyesi ve başlangıç takvimi belirlenir.",
         },
         {
           number: "02",
-          title: "Aday Araştırması & Belge Düzeni",
-          description:
-            "Uygun profillerin belirlenmesi, CV ve ilgili belgelerin düzenli biçimde hazırlanması.",
+          title: "Aday & Belge Düzeni",
+          description: "Uygun profiller bulunur; CV ve temel belgeler hazırlanır.",
         },
         {
           number: "03",
-          title: "Görüşme Koordinasyonu",
-          description:
-            "İşveren ve aday arasındaki tanışma ve değerlendirme görüşmelerinin planlanıp takip edilmesi.",
+          title: "Görüşme Yönetimi",
+          description: "İşveren–aday mülakatları planlanır ve takip edilir.",
         },
         {
           number: "04",
-          title: "Doğrudan Sözleşme & İşe Giriş Desteği",
-          description:
-            "Tarafların doğrudan anlaşması sonrasında işe başlangıç sürecindeki organizasyon adımlarının koordine edilmesi.",
+          title: "Sözleşme & Başlangıç",
+          description: "Doğrudan sözleşme sonrası işe giriş adımları koordine edilir.",
         },
       ],
     },
     inquiry: {
-      heading: "Personel Talebi Oluşturun veya Görüşme İsteyin",
-      description:
-        "Personel ihtiyacınızı veya aday profilinizi kısaca paylaşın; sürecin nasıl ilerleyebileceğine dair gerçekçi bir değerlendirmeyle dönüş yapalım.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      heading: "Personel Talebi Oluşturun",
+      description: "İhtiyacınızı veya profilinizi paylaşın; net bir yol haritasıyla dönüş yapalım.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "Aranan pozisyon(lar) veya uzmanlık alanı ve çalışılacak şehir",
-        "Gerekli dil seviyesi ve hedeflenen zaman aralığı",
-        "İşverenler için şirket adı ve doğrudan yetkili kişi bilgisi",
+        "Pozisyon ve çalışılacak şehir",
+        "İstenen dil seviyesi ve zaman planı",
+        "İşverenler için şirket ve yetkili bilgisi",
       ],
       primaryCtaLabel: "Recruitment Talebi Oluştur",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "İlk iletişim aşamasında pasaport veya hassas kimlik kopyaları göndermeyiniz.",
+        "İlk iletişimde pasaport veya kimlik kopyası göndermeyiniz.",
     },
     legalBoundary: {
-      heading: "Hukuki Sınırlar & Şeffaflık",
+      heading: "Hukuki Sınırlar",
       points: [
-        "İş sözleşmeleri her zaman doğrudan işveren ile çalışan arasında akdedilir.",
-        "KALKAN PARTNER kesinlikle personel kiralama (Arbeitnehmerüberlassung) faaliyeti yürütmez.",
-        "Vize, çalışma izni veya kesin iş garantisi verilmez; resmî kararlar yalnızca yetkili makamlara aittir.",
-        "İşe yerleştirme ve adaydan ücret alınması konularında Alman mevzuatının öngördüğü sınırlar eksiksiz gözetilir.",
+        "İş sözleşmeleri doğrudan işveren ile çalışan arasında imzalanır.",
+        "Personel kiralama (Arbeitnehmerüberlassung) kesinlikle yapılmaz.",
+        "Vize veya iş garantisi verilmez; resmî kararlar makamlara aittir.",
+        "Adaydan mevzuata aykırı yerleştirme ücreti alınmaz.",
       ],
     },
     relatedSlugs: ["relocation", "behoerdenservice", "translation-communication"],
@@ -195,9 +178,9 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "home",
     seo: {
-      title: "Relocation – Almanya Taşınma & Yerleşim Koordinasyonu | KALKAN PARTNER",
+      title: "Relocation – Almanya Taşınma Koordinasyonu | KALKAN PARTNER",
       description:
-        "Almanya'ya taşınan bireyler ve aileler için taşınma planı, ev arama iletişim koordinasyonu, okul/kreş araştırması ve abonelik organizasyonu.",
+        "Almanya'ya taşınan bireyler ve aileler için taşınma planı, ev arama iletişimi, okul/kreş araştırması ve abonelik organizasyonu.",
       keywords: [
         "Almanya relocation desteği",
         "Almanya'ya taşınma organizasyonu",
@@ -205,120 +188,106 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Departman 02 · Relocation",
-    title: "Relocation & Almanya Yerleşim Koordinasyonu",
-    lead: "Almanya'ya taşınma sürecini rastlantıya bırakmadan; planlama, iletişim, randevu ve abonelik organizasyonlarıyla düzenli bir başlangıca dönüştürüyoruz.",
-    audienceBadge: "Uzmanlar, bireyler & aileler için",
+    title: "Relocation & Yerleşim Desteği",
+    lead: "Almanya'ya taşınırken konut iletişimi, okul araştırması ve abonelik kurulumlarını adım adım organize ediyoruz.",
+    audienceBadge: "Uzmanlar, bireyler & aileler",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Relocation departmanımız, Almanya'ya iş veya aile nedeniyle taşınan kişilere pratik ve adım adım organize edilmiş yerleşim desteği sunar.",
-        "Taşınma öncesi takvimden ev arama sürecindeki iletişim ve randevu koordinasyonuna, okul ve kreş araştırmasından elektrik ile internet aboneliklerinin düzenlenmesine kadar günlük hayatın temel adımlarını planlıyoruz.",
+        "Taşınma öncesi takvimden ev arama randevularına, kreş/okul araştırmasından elektrik ve internet aboneliklerine kadar Almanya'daki ilk yerleşim sürecinizi düzenliyoruz.",
       ],
-      scopeTitle: "Somut Koordinasyon Adımları",
+      scopeTitle: "Koordinasyon Kapsamı",
       scopeItems: [
-        "Taşınma öncesi ve sonrası kişiselleştirilmiş yerleşim planı",
-        "Ev arama sürecinde iletişim ve görüntüleme randevusu koordinasyonu",
-        "Hedef bölgede okul, kreş ve bakım imkânlarının araştırılması",
-        "Taşınma ve lojistik süreçlerinin organizasyonu",
-        "Elektrik, doğalgaz ve internet aboneliklerinin başvuru koordinasyonu",
-        "Almanya'daki ilk haftalar için genel yerleşim rehberliği",
+        "Kişiye özel taşınma ve yerleşim planı",
+        "Ev arama sürecinde iletişim ve randevu takibi",
+        "Bölgesel okul ve kreş (Kita) araştırması",
+        "Taşınma ve lojistik organizasyonu",
+        "Elektrik, doğalgaz ve internet abonelikleri",
+        "İlk haftalar için pratik yerleşim rehberliği",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "Yeni işine veya ailesinin uyum sürecine odaklanırken organizasyon yükünü azaltmak isteyen herkese.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Almanya'ya düzenli ve stressiz başlamak isteyen herkes için.",
       groups: [
         {
-          title: "Uluslararası Uzmanlar",
-          description:
-            "Almanya'da yeni görevine başlayan ve hızlıca düzenli bir yaşam kurmak isteyen çalışanlar.",
+          title: "Uluslararası Çalışanlar",
+          description: "Yeni işine odaklanırken yerleşim işlerini düzenli yürütmek isteyenler.",
         },
         {
           title: "Taşınan Aileler",
-          description:
-            "Konut, okul/kreş ve günlük aboneliklerin eş zamanlı ve sorunsuz ilerlemesini isteyen aileler.",
+          description: "Ev, okul ve abonelikleri aynı anda sorunsuz çözmek isteyen aileler.",
         },
         {
-          title: "Yurt Dışından Personel Getiren İşverenler",
-          description:
-            "Yeni çalışanlarının Almanya'ya yerleşim sürecini düzenli biçimde desteklemek isteyen şirketler.",
+          title: "İşverenler",
+          description: "Yurt dışından gelen personeline düzenli başlangıç sunmak isteyen şirketler.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Almanya'daki ilk haftalarda dil bariyeri, katı randevu sistemleri ve birbirine bağlı resmi/günlük adımlar ciddi stres yaratır.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "Yeni bir ülkedeki ilk haftaların karmaşasını azaltıyoruz.",
       items: [
         {
-          problem: "Hangi işlemin önce yapılacağının bilinmemesi",
-          solution:
-            "Tüm yerleşim adımlarını mantıklı bir sıraya koyan net bir yol haritası çıkarıyoruz.",
+          problem: "Karışık işlem sırası",
+          solution: "Tüm yerleşim adımlarını net bir takvime oturtuyoruz.",
         },
         {
-          problem: "Ev sahipleri ve abonelik sağlayıcılarıyla Almanca iletişim zorluğu",
-          solution:
-            "Başvuru yazışmalarını ve randevu iletişimini düzenli ve profesyonel biçimde koordine ediyoruz.",
+          problem: "Ev sahibi ve kurumlarla dil bariyeri",
+          solution: "Başvuru yazışmalarını ve randevuları Almanca koordine ediyoruz.",
         },
         {
-          problem: "Dağınık okul, kreş ve bölge araştırmaları",
-          solution:
-            "Hedef şehrinize özel derlenmiş, karar vermeyi kolaylaştıran net bilgiler sunuyoruz.",
+          problem: "Dağınık bilgi ve zaman kaybı",
+          solution: "Okul, kreş ve abonelik seçeneklerini tek özette sunuyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "Taşınma öncesi hazırlıktan ilk ayın yerleşim düzenine kadar dört aşamada.",
+      heading: "4 Adımda İşleyiş",
+      intro: "Taşınma öncesinden ilk ayın düzenine kadar.",
       steps: [
         {
           number: "01",
-          title: "Hedef Bölge ve İhtiyaç Analizi",
-          description:
-            "Hedef şehir, taşınma tarihi, aile yapısı ve öncelikli ihtiyaçların belirlenmesi.",
+          title: "İhtiyaç Analizi",
+          description: "Hedef şehir, tarih ve aile yapınız belirlenir.",
         },
         {
           number: "02",
-          title: "Yerleşim Takviminin Hazırlanması",
-          description:
-            "Tüm organizasyon adımlarının ve gerekli belgelerin sıraya konması.",
+          title: "Yerleşim Planı",
+          description: "Belgeler ve işlemler doğru sıraya konur.",
         },
         {
           number: "03",
-          title: "İletişim, Randevu & Araştırma",
-          description:
-            "Ev arama iletişimi, okul/kreş araştırması ve abonelik süreçlerinin koordine edilmesi.",
+          title: "Randevu & Araştırma",
+          description: "Ev iletişimi, okul araştırması ve abonelikler organize edilir.",
         },
         {
           number: "04",
-          title: "Varış ve İlk Düzen Takibi",
-          description:
-            "Temel kurulumların tamamlanması ve açık kalan başlıkların düzenli takibi.",
+          title: "İlk Düzen",
+          description: "Varış sonrası temel kurulumların takibi tamamlanır.",
         },
       ],
     },
     inquiry: {
       heading: "Taşınma Görüşmesi Talep Edin",
-      description:
-        "Hedef şehrinizi, taşınma tarihinizi ve aile yapınızı paylaşın; sizin için en uygun destek kapsamını birlikte planlayalım.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      description: "Hedef şehrinizi ve tarihinizi paylaşın; size uygun planı çıkaralım.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "Almanya'daki hedef şehir/bölge ve planlanan taşınma dönemi",
-        "Bireysel mi yoksa aile olarak mı taşınıldığı (okul/kreş ihtiyacı)",
-        "Öncelikli beklentiler (planlama, iletişim koordinasyonu, abonelikler)",
+        "Hedef şehir ve planlanan taşınma tarihi",
+        "Bireysel veya aile durumu (okul/kreş ihtiyacı)",
+        "Öncelikli destek başlıkları",
       ],
       primaryCtaLabel: "Relocation Görüşmesi İste",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "İlk iletişimde kimlik, pasaport, banka veya gelir belgesi göndermeyiniz.",
+        "İlk iletişimde kimlik, pasaport veya banka belgesi göndermeyiniz.",
     },
     legalBoundary: {
       heading: "Hukuki Sınır (§ 34c GewO)",
       points: [
-        "KALKAN PARTNER izin gerektiren emlak aracılığı (§ 34c GewO) sunmaz ve kendisini lisanslı emlak komisyoncusu olarak konumlandırmaz.",
-        "Hizmet kapsamı yalnızca taşınma planlaması, iletişim organizasyonu ve randevu koordinasyonu ile sınırlıdır.",
-        "Kira, nakliye ve abonelik sözleşmeleri doğrudan müşteri ile ilgili sağlayıcı arasında yapılır.",
+        "§ 34c GewO kapsamında izin gerektiren emlak aracılığı sunulmaz.",
+        "Hizmet yalnızca planlama, iletişim ve randevu organizasyonunu kapsar.",
+        "Kira ve abonelik sözleşmeleri doğrudan ilgili sağlayıcıyla yapılır.",
       ],
     },
     relatedSlugs: ["behoerdenservice", "family-education", "recruitment"],
@@ -329,9 +298,9 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "landmark",
     seo: {
-      title: "Behördenservice – Almanya İdari Süreç & Randevu Koordinasyonu | KALKAN PARTNER",
+      title: "Behördenservice – Almanya İdari Süreç Koordinasyonu | KALKAN PARTNER",
       description:
-        "Almanya'da randevu organizasyonu, belge hazırlığı, dosya takibi ve geçerli vekâlet çerçevesinde idari iletişim koordinasyonu – hukuki danışmanlık olmadan.",
+        "Almanya'da randevu organizasyonu, belge hazırlığı, dosya takibi ve geçerli vekâletle idari iletişim.",
       keywords: [
         "Almanya resmi kurum randevu organizasyonu",
         "Behördenservice Türkçe destek Almanya",
@@ -339,119 +308,105 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Departman 03 · Behördenservice",
-    title: "Behördenservice & İdari Süreç Koordinasyonu",
-    lead: "Almanya'daki resmî süreçlerde eksiksiz belge hazırlığı, düzenli randevu organizasyonu ve izin verilen kapsamda idari iletişim desteği.",
-    audienceBadge: "Almanya'daki bireyler & işletmeler için",
+    title: "Behördenservice & İdari Koordinasyon",
+    lead: "Resmî süreçlerde randevu planlaması, eksiksiz evrak hazırlığı ve izin verilen kapsamda idari takip desteği.",
+    audienceBadge: "Almanya'daki bireyler & işletmeler",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Almanya'da kamu kurumlarıyla yürütülen işlemlerde küçük bir belge eksikliği veya kaçırılan bir süre, sürecin haftalarca uzamasına yol açabilir.",
-        "Behördenservice departmanımız hukuki danışmanlık alanına girmeden; belgelerin düzenli hazırlanmasını, randevuların planlanmasını, dosya takibini ve kurumun kabul ettiği ölçüde geçerli vekâletle idari iletişimi koordine eder.",
+        "Kamu kurumlarıyla yürütülen işlemlerde eksik evrak veya kaçırılan süreler haftalarca gecikmeye yol açar. Hukuki danışmanlık alanına girmeden dosyalarınızı düzenler, randevu ve teslim süreçlerini koordine ederiz.",
       ],
-      scopeTitle: "Somut Koordinasyon Adımları",
+      scopeTitle: "Koordinasyon Kapsamı",
       scopeItems: [
-        "Randevu planlama ve süre takibi organizasyonu",
-        "Başvuru ve işlem dosyalarının eksiksizlik kontrol listeleriyle hazırlanması",
-        "Belgelerin zamanında teslim edilmesine yönelik süreç koordinasyonu",
-        "Kurumca kabul edildiği ölçüde geçerli vekâletle idari yazışma koordinasyonu",
-        "Uygun kapsamda dosya durumu (Sachstand) sorgulama ve takip desteği",
+        "Randevu ve son tarih takibi",
+        "Belge eksiksizlik kontrol listeleri",
+        "Zamanında teslim organizasyonu",
+        "Kabul edilen hallerde vekâletli idari yazışma",
+        "Uygun kapsamda dosya durumu sorgulama",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "İdari işlemlerini düzenli, eksiksiz ve zamanında yürütmek isteyen birey ve işletmelere.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Resmî işlerini düzenli ve eksiksiz yürütmek isteyenler için.",
       groups: [
         {
-          title: "Almanya'ya Yeni Gelen Bireyler & Aileler",
-          description:
-            "Standart idari randevular ve belge dosyaları için düzenli hazırlık desteğine ihtiyaç duyanlar.",
+          title: "Yeni Gelenler & Aileler",
+          description: "Standart kurum randevuları için düzenli dosya hazırlığı arayanlar.",
         },
         {
-          title: "Yoğun Çalışan Profesyoneller",
-          description:
-            "Süreleri, resmî yazışmaları ve randevu takibini disiplinli biçimde yönetmek isteyenler.",
+          title: "Çalışan Profesyoneller",
+          description: "Süre ve yazışmaları disiplinle takip etmek isteyenler.",
         },
         {
-          title: "Şirketler & Girişimciler",
-          description:
-            "Avukat veya mali müşavir süreçlerine paralel olarak idari belge ve randevu organizasyonu arayan işletmeler.",
+          title: "İşletmeler",
+          description: "Avukat veya mali müşavir süreçlerine paralel evrak düzeni arayan firmalar.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Çoğu aksaklık konunun özünden değil, eksik evrak veya anlaşılmayan kurumsal yazışmalardan kaynaklanır.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "Eksik evrak kaynaklı gecikmelerin önüne geçiyoruz.",
       items: [
         {
-          problem: "Randevuya eksik veya düzensiz evrakla gitmek",
-          solution:
-            "Randevu öncesinde tüm belgeleri açık bir kontrol listesiyle sıraya koyuyoruz.",
+          problem: "Randevuya eksik belgeyle gitmek",
+          solution: "Tüm evrakları önceden kontrol listesiyle eksiksiz sıralıyoruz.",
         },
         {
-          problem: "Resmî mektuplardaki sürelerin ve taleplerin gözden kaçması",
-          solution:
-            "Süreleri takip ediyor ve idari yanıtların düzenli hazırlanmasını koordine ediyoruz.",
+          problem: "Anlaşılamayan resmî mektuplar",
+          solution: "Süreleri netleştiriyor ve idari yanıtları organize ediyoruz.",
         },
         {
-          problem: "Birden fazla kurumla yürüyen süreçlerde dağınıklık",
-          solution:
-            "Tüm randevu ve teslim adımlarını tek bir düzenli takip sisteminde topluyoruz.",
+          problem: "Dağınık kurum süreçleri",
+          solution: "Tüm randevu ve teslimleri tek takvimde topluyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "Hukuki sınırlar baştan netleştirilerek dört düzenli adımda.",
+      heading: "4 Adımda İşleyiş",
+      intro: "Hukuki sınırlar gözetilerek dört net aşamada.",
       steps: [
         {
           number: "01",
-          title: "Kapsam ve Yetki Kontrolü",
-          description:
-            "Talebin idari organizasyon kapsamında olup olmadığının; avukat gerektirip gerektirmediğinin netleştirilmesi.",
+          title: "Kapsam Kontrolü",
+          description: "İdari destek kapsamı ve avukat ihtiyacı baştan netleştirilir.",
         },
         {
           number: "02",
-          title: "Belge Dosyasının Hazırlanması",
-          description:
-            "Gerekli evrakların eksiksiz ve incelemeye hazır düzende toplanması.",
+          title: "Dosya Düzeni",
+          description: "Gerekli belgeler incelemeye hazır sıraya konur.",
         },
         {
           number: "03",
-          title: "Randevu & Teslim Koordinasyonu",
-          description:
-            "Randevuların organize edilmesi ve teslim/yazışma adımlarının takip edilmesi.",
+          title: "Randevu & Teslim",
+          description: "Randevular alınır ve evrak teslimi takip edilir.",
         },
         {
           number: "04",
-          title: "Durum Takibi & Bilgilendirme",
-          description:
-            "Uygun kapsamda dosya durumu sorgulaması ve gelişmelerin şeffaf paylaşımı.",
+          title: "Durum Takibi",
+          description: "İzin verilen kapsamda dosya durumu düzenli izlenir.",
         },
       ],
     },
     inquiry: {
-      heading: "İdari Destek Talebi Gönderin",
-      description:
-        "İdari işleminizin türünü ve zaman çerçevenizi paylaşın; hangi adımlarda organizasyonel destek verebileceğimizi açıkça belirtelim.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      heading: "İdari Destek Talebi",
+      description: "İşlem türünüzü ve zaman planınızı paylaşın; size açıkça dönüş yapalım.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "İdari işlemin genel konusu ve ilgili şehir/bölge",
-        "Mevcut bir son tarih veya alınmış randevu olup olmadığı",
-        "Sürece dahil bir avukat bulunup bulunmadığı",
+        "İdari işlemin konusu ve ilgili şehir",
+        "Varsa son tarih veya mevcut randevu",
+        "Avukat desteği olup olmadığı",
       ],
       primaryCtaLabel: "Behördenservice Talebi",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "İlk iletişimde kimlik fotokopisi, ikamet belgesi veya resmî karar metni göndermeyiniz.",
+        "İlk iletişimde kimlik fotokopisi veya resmî karar metni göndermeyiniz.",
     },
     legalBoundary: {
-      heading: "Alman RDG Mevzuatı Kapsamında Önemli Bilgilendirme",
+      heading: "Alman RDG Sınırları",
       points: [
-        "KALKAN PARTNER kesinlikle hukuki danışmanlık, hukuki temsil veya göç/yabancılar hukuku değerlendirmesi yapmaz (RDG).",
-        "İdari iletişim yalnızca hukuken izin verilen çerçevede ve ilgili kurumun geçerli vekâleti kabul etmesi halinde yürütülür.",
-        "Hukuki yorum, itiraz veya ihtilaflı süreçlerde mutlaka yetkili bir avukata yönlendirme yapılır.",
+        "Hukuki danışmanlık, temsil veya göç hukuku değerlendirmesi yapılmaz (RDG).",
+        "İdari iletişim yalnızca kurumca kabul edilen geçerli vekâlet kapsamında yürütülür.",
+        "Hukuki itiraz veya değerlendirmelerde yetkili avukata yönlendirme yapılır.",
       ],
     },
     relatedSlugs: ["relocation", "translation-communication", "business-setup"],
@@ -464,7 +419,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     seo: {
       title: "Translation & Communication (DE · TR · EN) | KALKAN PARTNER",
       description:
-        "Almanca–Türkçe–İngilizce iş yazışmaları, genel belge çeviri organizasyonu ve gerektiğinde yeminli tercüman koordinasyonu.",
+        "Almanca–Türkçe–İngilizce iş yazışmaları, belge çeviri organizasyonu ve yeminli tercüman koordinasyonu.",
       keywords: [
         "Almanca Türkçe iş yazışması desteği",
         "Çeviri ve yeminli tercüman koordinasyonu Almanya",
@@ -472,118 +427,104 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Departman 04 · Translation & Communication",
-    title: "Translation & Communication (DE · TR · EN)",
-    lead: "Almanya, Türkiye ve uluslararası iş ortakları arasında doğru ton, net terminoloji ve güvenilir tercüman koordinasyonu ile kusursuz iletişim.",
-    audienceBadge: "Kurumsal & bireysel iletişim için (DE · TR · EN)",
+    title: "Translation & Communication",
+    lead: "Almanca, Türkçe ve İngilizce iş yazışmalarından yeminli tercüman koordinasyonuna kadar net ve güvenilir iletişim.",
+    audienceBadge: "Kurumsal & bireysel (DE · TR · EN)",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Uluslararası iş dünyasında yalnızca kelimeleri çevirmek yetmez; resmî üslup, ticari nezaket ve sektörel terminoloji güvenin temelidir.",
-        "Almanca–Türkçe ve İngilizce iş yazışmalarını, CV ve kurumsal belge organizasyonunu yürütüyor; resmî onay gerektiren belgelerde ise yeminli ve yetkili tercümanların devreye alınmasını koordine ediyoruz.",
+        "Ticari yazışmalarınızı, CV ve kurumsal belgelerinizi hedef pazarın dil kültürüne uygun biçimde yapılandırıyor; resmî onay gereken durumlarda yeminli tercümanlarla koordine ediyoruz.",
       ],
-      scopeTitle: "Somut Koordinasyon Adımları",
+      scopeTitle: "Koordinasyon Kapsamı",
       scopeItems: [
-        "Almanca–Türkçe ve İngilizce iş yazışmaları ile toplantı hazırlığı",
-        "Genel belge çevirilerinin organizasyonu ve kalite koordinasyonu",
-        "CV, motivasyon mektubu ve şirket tanıtım metinlerinin yapılandırılması",
-        "Resmî işlemlerde yeminli/yetkili tercüman koordinasyonu",
-        "Tedarikçi, müşteri ve iş ortaklarıyla uluslararası iletişim desteği",
+        "DE–TR–EN kurumsal iş yazışmaları",
+        "Genel belge çeviri organizasyonu",
+        "CV ve şirket profili düzenlemesi",
+        "Resmî işlemlerde yeminli tercüman bağlantısı",
+        "Tedarikçi ve iş ortağı iletişim desteği",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "Çok dilli süreçlerde net, saygın ve yanlış anlaşılmaya yer bırakmayan bir iletişim kurmak isteyenlere.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Çok dilli iletişimde hata payı bırakmak istemeyenlere.",
       groups: [
         {
-          title: "Almanya–Türkiye Ticaret Yapan Şirketler",
-          description:
-            "Teklif, sözleşme ön yazışması ve tedarikçi iletişimini profesyonelce yürütmek isteyen işletmeler.",
+          title: "DE–TR Ticaret Yapan Şirketler",
+          description: "Teklif ve tedarikçi yazışmalarını profesyonelce yürütmek isteyenler.",
         },
         {
-          title: "Bireyler & İş Arayan Uzmanlar",
-          description:
-            "CV, başvuru yazısı ve belge çeviri süreçlerini eksiksiz organize etmek isteyen adaylar.",
+          title: "Bireyler & Adaylar",
+          description: "CV ve resmî belge çevirilerini eksiksiz organize etmek isteyenler.",
         },
         {
-          title: "Uluslararası Proje Ekipleri",
-          description:
-            "Almanca, Türkçe ve İngilizce konuşan paydaşlar arasında kesintisiz bilgi akışı arayan projeler.",
+          title: "Uluslararası Ekipler",
+          description: "Üç dilde tutarlı bilgi akışı arayan proje ekipleri.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Otomatik çeviri araçları kurumsal güveni zedeler ve kritik ticari ayrıntılarda hatalara yol açar.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "Makine çevirisinin yarattığı güvensizliği ortadan kaldırıyoruz.",
       items: [
         {
-          problem: "Doğal olmayan veya hatalı iş yazışmaları",
-          solution:
-            "Alman ve Türk iş kültürüne uygun, açık ve profesyonel metinler hazırlıyoruz.",
+          problem: "Yapay veya hatalı iş metinleri",
+          solution: "Her iki iş kültürüne uygun, doğal ve net metinler hazırlıyoruz.",
         },
         {
-          problem: "Hangi belgenin yeminli çeviri gerektirdiğinin bilinmemesi",
-          solution:
-            "Belgenin kullanım amacını netleştiriyor ve resmî gerekliliklerde yalnızca yeminli tercümanlarla koordinasyon sağlıyoruz.",
+          problem: "Yeminli çeviri karmaşası",
+          solution: "Resmî gerekleri baştan netleştirip yalnızca yetkili yeminli tercümana yönlendiriyoruz.",
         },
         {
-          problem: "Dil farkı yüzünden yavaşlayan iş ortaklıkları",
-          solution:
-            "Düzenli çok dilli iletişim desteğiyle karar ve geri bildirim süreçlerini hızlandırıyoruz.",
+          problem: "Dil kaynaklı iş yavaşlamaları",
+          solution: "Düzenli iletişim koordinasyonuyla karar süreçlerini hızlandırıyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "Hızlı kapsam belirleme, doğru uzman eşleştirmesi ve zamanında teslim.",
+      heading: "4 Adımda İşleyiş",
+      intro: "Hızlı kapsam belirleme ve zamanında teslim.",
       steps: [
         {
           number: "01",
-          title: "Dil ve Kullanım Amacı Analizi",
-          description:
-            "Dil yönü, belge türü ve resmî onay/yeminli çeviri gerekliliğinin belirlenmesi.",
+          title: "Dil & Amaç Analizi",
+          description: "Dil çifti ve resmî onay gerekliliği belirlenir.",
         },
         {
           number: "02",
-          title: "Kapsam & Takvim Onayı",
-          description:
-            "Süre, çalışma yöntemi ve gerekiyorsa yeminli tercüman koordinasyonunun netleştirilmesi.",
+          title: "Takvim Onayı",
+          description: "Süre ve gerekiyorsa yeminli tercüman planlanır.",
         },
         {
           number: "03",
-          title: "Uygulama & Terminoloji Kontrolü",
-          description:
-            "Metinlerin hazırlanması veya ilgili uzman tercümanla sürecin yönetilmesi.",
+          title: "Hazırlık & Kontrol",
+          description: "Metinler terminoloji kontrolüyle tamamlanır.",
         },
         {
           number: "04",
-          title: "Teslim & Sürekli İletişim Desteği",
-          description:
-            "Belgelerin teslimi ve talep edilirse devam eden yazışmaların desteklenmesi.",
+          title: "Teslim & Destek",
+          description: "Belgeler teslim edilir ve yazışmalar desteklenir.",
         },
       ],
     },
     inquiry: {
-      heading: "Çeviri veya İletişim Desteği Talep Edin",
-      description:
-        "Dil yönünü, belge türünü ve hedef tarihinizi paylaşın; en uygun organizasyon planıyla dönüş yapalım.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      heading: "Çeviri & İletişim Talebi",
+      description: "Dil yönünü ve belge türünü paylaşın; hızlıca planlayalım.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "Dil kombinasyonu (ör. DE ↔ TR veya DE ↔ EN)",
-        "Belge veya iletişim türü (ticari yazışma, CV, resmî belge)",
-        "Hedeflenen teslim süresi",
+        "Dil çifti (DE ↔ TR veya DE ↔ EN)",
+        "Belge türü (ticari, CV, resmî)",
+        "Hedef teslim tarihi",
       ],
       primaryCtaLabel: "Çeviri & İletişim Talebi",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "Gizli belgeleri veya kimlik kopyalarını yalnızca güvenli aktarım yolu belirlendikten sonra paylaşınız.",
+        "Gizli belgeleri yalnızca güvenli aktarım kanalı belirlendikten sonra paylaşınız.",
     },
     legalBoundary: {
       heading: "Yeminli Çeviri Sınırı",
       points: [
         "Her genel çeviri resmî/yeminli çeviri niteliği taşımaz.",
-        "Resmî makamlarca talep edilen onaylı/yeminli çeviriler yalnızca yetkili ve yeminli tercümanlar tarafından düzenlenir; KALKAN PARTNER bu uzmanlarla koordinasyonu sağlar.",
+        "Resmî onaylı çeviriler yalnızca yetkili ve yeminli tercümanlarca düzenlenir.",
       ],
     },
     relatedSlugs: ["behoerdenservice", "business-setup", "recruitment"],
@@ -594,9 +535,9 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "business",
     icon: "briefcase",
     seo: {
-      title: "Business Setup – Almanya Şirket Kuruluşu & Pazar Koordinasyonu | KALKAN PARTNER",
+      title: "Business Setup – Almanya Pazarına Giriş | KALKAN PARTNER",
       description:
-        "Almanya pazarına girişte pazar ve tedarikçi araştırması, iş ortağı bağlantıları ile noter, avukat ve mali müşavir randevu koordinasyonu.",
+        "Almanya'da pazar ve tedarikçi araştırması, iş ortağı bağlantıları ve noter, avukat, mali müşavir randevu koordinasyonu.",
       keywords: [
         "Almanya şirket kuruluş süreci organizasyonu",
         "Almanya pazar ve tedarikçi araştırması",
@@ -604,119 +545,105 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Departman 05 · Business Setup",
-    title: "Business Setup & Almanya Pazarına Giriş Koordinasyonu",
-    lead: "Almanya pazarında iş kurmak veya büyümek isteyen girişimciler için pazar araştırması, iş ortağı ve tedarikçi bağlantıları ile yetkili uzman randevularının tek elden organizasyonu.",
-    audienceBadge: "Uluslararası girişimciler & şirketler için",
+    title: "Business Setup & Pazara Giriş",
+    lead: "Almanya pazarına girişte pazar ve tedarikçi araştırması, iş ortağı bağlantıları ve uzman randevularının koordinasyonu.",
+    audienceBadge: "Uluslararası girişimciler & şirketler",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Almanya pazarına sağlam bir giriş yapmak; doğru pazar verisi, güvenilir yerel bağlantılar ve noter, avukat ile mali müşavir süreçlerinin düzenli koordine edilmesini gerektirir.",
-        "KALKAN PARTNER, yerel proje koordinatörünüz olarak araştırma, iletişim ve idari organizasyon yükünü üstlenir; hukuki ve vergisel adımlarda sizi doğru yetkili uzmanlarla buluşturur.",
+        "Almanya'da iş kurma veya büyüme sürecinizde yerel proje koordinatörünüz olarak araştırma, tedarikçi bağlantıları ve noter, avukat ile mali müşavir randevularını düzenliyoruz.",
       ],
-      scopeTitle: "Somut Koordinasyon Adımları",
+      scopeTitle: "Koordinasyon Kapsamı",
       scopeItems: [
-        "Almanya pazarına yönelik sektör ve rekabet araştırması",
-        "Potansiyel iş ortağı ve distribütör araştırması",
-        "Tedarikçi araştırması ve ön teklif iletişimlerinin yürütülmesi",
-        "Şirket kuruluş sürecindeki idari ve operasyonel adımların organizasyonu",
-        "Noter, avukat ve mali müşavir (Steuerberater) randevularının koordinasyonu",
-        "Uluslararası iş ağı bağlantıları ve proje takibi",
+        "Almanya pazar ve rekabet araştırması",
+        "İş ortağı ve distribütör araştırması",
+        "Tedarikçi bulma ve ön teklif takibi",
+        "Şirket kuruluş süreci organizasyonu",
+        "Noter, avukat ve Steuerberater randevuları",
+        "Uluslararası iş ağı eşleştirmesi",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "Almanya'da deneme-yanılma yerine planlı ve kontrollü ilerlemek isteyen iş insanlarına.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Almanya'da planlı ve kontrollü büyümek isteyen iş insanlarına.",
       groups: [
         {
-          title: "Türkiye ve Yurt Dışındaki Şirketler",
-          description:
-            "Almanya'da şube, şirket veya satış/tedarik ağı kurmak isteyen mevcut işletmeler.",
+          title: "Türk & Uluslararası Şirketler",
+          description: "Almanya'da şube, iştirak veya dağıtım ağı kurmak isteyen firmalar.",
         },
         {
           title: "Yeni Girişimciler",
-          description:
-            "Kuruluş adımlarını, yerel tedarikçileri ve uzman görüşmelerini düzenli yürütmek isteyen girişimciler.",
+          description: "Kuruluş adımlarını ve yerel bağlantıları düzenli yönetmek isteyenler.",
         },
         {
-          title: "Ticaret ve Hizmet Markaları",
-          description:
-            "Almanya–Türkiye ekseninde güvenilir iş ortağı ve tedarikçi arayan kurumlar.",
+          title: "Ticaret Markaları",
+          description: "DE–TR ekseninde güvenilir tedarikçi ve iş ortağı arayanlar.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Yerel ağ eksikliği ve koordinasyonsuz adımlar pazara giriş maliyetini ve süresini gereksiz yere artırır.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "Yerel ağ eksikliğinden kaynaklanan zaman ve bütçe kaybını önlüyoruz.",
       items: [
         {
-          problem: "Almanya'daki kuruluş ve iş süreçlerinde doğru sıranın bilinmemesi",
-          solution:
-            "İdari adımları planlıyor, yetkili noter/avukat/mali müşavir görüşmelerini düzenli hazırlıyoruz.",
+          problem: "Belirsiz kuruluş ve iş sırası",
+          solution: "İdari adımları planlayıp uzman görüşmelerini hazır hale getiriyoruz.",
         },
         {
-          problem: "Güvenilir tedarikçi ve iş ortağı bulmakta zorluk",
-          solution:
-            "Sektörünüze uygun yerel araştırma yaparak ilk ticari temasları koordine ediyoruz.",
+          problem: "Güvenilir tedarikçi bulma zorluğu",
+          solution: "Hedef sektöre özel araştırma yapıp ilk temasları kuruyoruz.",
         },
         {
-          problem: "İki ülke arasında kopuk ilerleyen proje yönetimi",
-          solution:
-            "Çift dilli tek bir koordinasyon noktasıyla tüm paydaşları aynı takvimde tutuyoruz.",
+          problem: "İki ülke arası kopuk koordinasyon",
+          solution: "Çift dilli tek merkezle tüm süreci aynı takvimde tutuyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "Pazar analizinden uzman koordinasyonuna dört aşamalı yapı.",
+      heading: "4 Adımda İşleyiş",
+      intro: "Pazar analizinden operasyonel başlangıca.",
       steps: [
         {
           number: "01",
-          title: "İş Modeli & Hedef Analizi",
-          description:
-            "Sektör, hedef bölge, yatırım çerçevesi ve öncelikli ihtiyaçların netleştirilmesi.",
+          title: "Hedef Analizi",
+          description: "Sektör, hedef bölge ve iş modeli netleştirilir.",
         },
         {
           number: "02",
-          title: "Pazar, İş Ortağı & Tedarikçi Araştırması",
-          description:
-            "Karar vermeyi destekleyen yerel verilerin ve potansiyel temas listelerinin hazırlanması.",
+          title: "Pazar & Partner Araştırması",
+          description: "Yerel pazar verileri ve aday tedarikçi/ortak listeleri çıkarılır.",
         },
         {
           number: "03",
-          title: "Yetkili Uzmanlarla Buluşturma",
-          description:
-            "Noter, avukat ve mali müşavir randevularının ve gerekli hazırlıkların organize edilmesi.",
+          title: "Uzman Bağlantısı",
+          description: "Noter, avukat ve mali müşavir randevuları organize edilir.",
         },
         {
           number: "04",
-          title: "İdari Proje Koordinasyonu",
-          description:
-            "Operasyonel başlangıca kadar belirlenen kilometre taşlarının düzenli takibi.",
+          title: "Proje Takibi",
+          description: "Operasyonel başlangıca kadar kilometre taşları yönetilir.",
         },
       ],
     },
     inquiry: {
       heading: "Almanya Pazarına Girişinizi Görüşelim",
-      description:
-        "Sektörünüzü ve hedefinizi kısaca anlatın; ön görüşmede hangi koordinasyon adımlarının en yüksek faydayı sağlayacağını birlikte belirleyelim.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      description: "Sektörünüzü paylaşın; size özel koordinasyon planını çıkaralım.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "Sektör, iş modeli ve Almanya'daki hedef bölge",
-        "Projenin mevcut aşaması (fikir, mevcut şirket, genişleme)",
-        "Öncelikli ihtiyaçlar (araştırma, tedarikçi, kuruluş organizasyonu)",
+        "Sektör ve Almanya'daki hedef bölge",
+        "Mevcut aşama (fikir, şirket, genişleme)",
+        "Öncelikli ihtiyaçlar (araştırma, ortak, kuruluş)",
       ],
       primaryCtaLabel: "Business Setup Talebi",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "İlk görüşme talebinde gizli şirket sözleşmeleri veya kimlik belgeleri paylaşmayınız.",
+        "İlk aşamada gizli şirket sözleşmeleri veya kimlik belgeleri paylaşmayınız.",
     },
     legalBoundary: {
       heading: "Mesleki Yetki Sınırları",
       points: [
-        "KALKAN PARTNER organizasyonel proje koordinasyonu, pazar ve iş ortağı araştırması sunar.",
-        "Hukuki danışmanlık, şirket ana sözleşmesi hazırlığı, vergi danışmanlığı ve noter işlemleri yalnızca ilgili alanda yetkili avukatlar, mali müşavirler ve noterler tarafından yürütülür.",
+        "Hizmetimiz proje koordinasyonu ile pazar ve iş ortağı araştırmasını kapsar.",
+        "Hukuki ve vergisel danışmanlık ile noter işlemleri yalnızca yetkili uzmanlarca yürütülür.",
       ],
     },
     relatedSlugs: ["digital-ai", "restaurant-kitchen", "recruitment"],
@@ -727,126 +654,113 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "medical-tourism",
     icon: "heartPulse",
     seo: {
-      title: "Medical Tourism Coordination – Türkiye Sağlık Turizmi Koordinasyonu | KALKAN PARTNER",
+      title: "Medical Tourism Coordination | KALKAN PARTNER",
       description:
-        "Türkiye'deki yetkili hastane ve sağlık turizmi kuruluşlarıyla iletişim, tercüme, teklif ve seyahat koordinasyonu – tıbbi teşhis veya tedavi sunmadan.",
+        "Türkiye'deki yetkili hastane ve sağlık turizmi kuruluşlarıyla iletişim, tercüme ve seyahat koordinasyonu.",
       keywords: [
         "Türkiye sağlık turizmi koordinasyonu",
         "Almanya Türkiye hasta iletişim koordinasyonu",
         "Yetkili hastane bağlantı ve seyahat organizasyonu",
       ],
     },
-    eyebrow: "Departman 06 · Medical Tourism Coordination",
+    eyebrow: "Departman 06 · Medical Tourism",
     title: "Medical Tourism Coordination",
-    lead: "Uluslararası hastaların Türkiye'deki yetkili hastane ve sağlık turizmi kuruluşlarıyla şeffaf, düzenli ve dil bariyeri olmadan iletişim kurmasını koordine ediyoruz.",
-    audienceBadge: "Uluslararası hastalar & refakatçiler için",
+    lead: "Uluslararası hastalar için Türkiye'deki yetkili hastanelerle şeffaf iletişim, tercüme ve seyahat koordinasyonu.",
+    audienceBadge: "Uluslararası hastalar & refakatçiler",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Yurt dışından Türkiye'de sağlık hizmeti almayı değerlendiren hastalar için en büyük ihtiyaç; güvenilir ve yetkili kurumlara ulaşmak, süreci kendi dilinde net biçimde takip etmek ve seyahat lojistiğini sorunsuz planlamaktır.",
-        "KALKAN PARTNER hiçbir tıbbi müdahale veya değerlendirme yapmadan; yalnızca iletişim, tercüme, bilgi/teklif akışı ve seyahat organizasyonunu koordine eder.",
+        "Hiçbir tıbbi müdahale veya teşhis koymadan; Türkiye'deki yetkili sağlık kuruluşlarıyla iletişim kurmanızı, tercüman desteğini ve seyahat lojistiğinizi baştan sona düzenliyoruz.",
       ],
-      scopeTitle: "Somut Koordinasyon Adımları",
+      scopeTitle: "Koordinasyon Kapsamı",
       scopeItems: [
-        "Türkiye'deki yetkili hastaneler ve sağlık turizmi aracı kuruluşlarıyla iletişim bağlantısı",
-        "Hasta iletişim koordinasyonu ve organizasyonel soruların yönlendirilmesi",
-        "Tercüme ve sözlü çeviri (tercüman) koordinasyonu",
-        "Yetkili kuruluşlardan genel bilgi ve teklif taleplerinin organize edilmesi",
-        "Uçuş, transfer ve konaklama koordinasyonu",
-        "Süreç sonrası iletişim takibi ve geri bildirim/şikâyetlerin ilgili kuruluşa iletilmesi",
+        "Türkiye'deki yetkili hastanelerle iletişim bağlantısı",
+        "Hasta iletişimi ve organizasyon takibi",
+        "Tercüme ve sözlü tercüman koordinasyonu",
+        "Yetkili kurumlardan genel teklif/bilgi talebi",
+        "Uçuş, transfer ve konaklama organizasyonu",
+        "Süreç sonrası geri bildirim takibi",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "Abartılı vaatler yerine şeffaf, yetkili ve düzenli bir organizasyon arayan uluslararası hastalara.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Şeffaf ve yetkili sağlık organizasyonu arayan hastalar için.",
       groups: [
         {
-          title: "Almanya ve Avrupa'daki Hastalar",
-          description:
-            "Türkiye'deki yetkili sağlık kuruluşlarıyla doğrudan ve güvenli iletişim kurmak isteyen hastalar.",
+          title: "Almanya & Avrupa'daki Hastalar",
+          description: "Türkiye'deki yetkili kliniklerle dil bariyersiz iletişim kurmak isteyenler.",
         },
         {
-          title: "Refakatçiler ve Aileler",
-          description:
-            "Seyahat, konaklama ve tercüme süreçlerinin baştan sona düzenli planlanmasını isteyen yakınlar.",
+          title: "Refakatçiler & Aileler",
+          description: "Seyahat, konaklama ve tercüme düzenini tek elden çözmek isteyenler.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Sağlık turizminde en sık yaşanan sorunlar yetkisiz aracılar, dil kopukluğu ve plansız seyahat akışlarıdır.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "Yetkisiz aracılar ve dil karmaşasını önlüyoruz.",
       items: [
         {
-          problem: "Yetkili kurumları ayırt etmekte zorluk",
-          solution:
-            "Yalnızca Türkiye'deki sağlık turizmi yetkilendirme şartlarına sahip hastane ve aracı kuruluşlarla bağlantı kuruyoruz.",
+          problem: "Yetkili kurumu ayırt etme zorluğu",
+          solution: "Yalnızca sağlık turizmi yetkisine sahip hastanelerle bağlantı kuruyoruz.",
         },
         {
-          problem: "Dil bariyeri nedeniyle eksik veya yanlış anlaşılmalar",
-          solution:
-            "İletişim ve tercüman koordinasyonunu düzenli biçimde planlıyoruz.",
+          problem: "Dil kaynaklı iletişim kopukluğu",
+          solution: "Tüm süreci ana dilinizde düzenli tercüme desteğiyle yönetiyoruz.",
         },
         {
-          problem: "Seyahat ve randevu lojistiğinin dağınık olması",
-          solution:
-            "Ulaşım, konaklama ve kurum randevularını uyumlu bir takvimde koordine ediyoruz.",
+          problem: "Dağınık seyahat ve randevu akışı",
+          solution: "Ulaşım, otel ve kurum randevularını tek takvimde hizalıyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "Tıbbi değerlendirme ile organizasyonu kesin çizgilerle ayıran dört adım.",
+      heading: "4 Adımda İşleyiş",
+      intro: "Organizasyon ile tıbbi süreci kesin biçimde ayıran yapı.",
       steps: [
         {
           number: "01",
-          title: "Organizasyonel Ön Görüşme",
-          description:
-            "Genel bilgi ihtiyacının, tercih edilen dilin ve olası zaman aralığının belirlenmesi.",
+          title: "Ön Görüşme",
+          description: "Genel bilgi ihtiyacı ve tercih edilen dil belirlenir.",
         },
         {
           number: "02",
-          title: "Yetkili Kuruluşlarla Bağlantı",
-          description:
-            "Genel bilgi ve teklif talebinin Türkiye'deki yetkili hastane veya sağlık turizmi kuruluşuna iletilmesi.",
+          title: "Kurum Bağlantısı",
+          description: "Talebiniz Türkiye'deki yetkili kuruluşa iletilir.",
         },
         {
           number: "03",
-          title: "Doğrudan Tıbbi Değerlendirme",
-          description:
-            "Tüm tıbbi sorular, teşhis ve tedavi planlaması yalnızca hasta ile ilgili hekim/sağlık kuruluşu arasında yürütülür.",
+          title: "Hekim Değerlendirmesi",
+          description: "Tüm tıbbi sorular yalnızca hasta ile yetkili hekim arasında yürütülür.",
         },
         {
           number: "04",
-          title: "Seyahat, Tercüme & Takip Koordinasyonu",
-          description:
-            "Seyahat, konaklama ve dil desteğinin organize edilmesi; süreç sonrası iletişim takibi.",
+          title: "Seyahat & Takip",
+          description: "Transfer, konaklama, tercüme ve dönüş sonrası iletişim koordine edilir.",
         },
       ],
     },
     inquiry: {
-      heading: "Koordinasyon Görüşmesi Talep Edin",
-      description:
-        "Genel bilgi talebinizi ve tercih ettiğiniz dili paylaşın. Web sitemiz üzerinden tıbbi rapor veya sağlık verisi toplanmaz.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      heading: "Koordinasyon Talebi Gönderin",
+      description: "Genel talebinizi ve dil tercihinizi paylaşın; tıbbi belge göndermeyiniz.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "Genel ilgi alanı ve Türkiye'de tercih edilen şehir/bölge",
-        "Tercih edilen iletişim dili (DE / TR / EN)",
-        "Planlanan yaklaşık seyahat dönemi",
+        "Genel ilgi alanı ve tercih edilen şehir",
+        "Tercih edilen dil (DE / TR / EN)",
+        "Yaklaşık seyahat dönemi",
       ],
-      primaryCtaLabel: "Koordinasyon Talebi Gönder",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      primaryCtaLabel: "Koordinasyon Talebi",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "ÖNEMLİ: Standart iletişim formları üzerinden asla epikriz, tahlil, röntgen, tıbbi rapor veya pasaport göndermeyiniz.",
+        "ÖNEMLİ: Formlardan asla epikriz, tahlil, röntgen veya pasaport göndermeyiniz.",
     },
     legalBoundary: {
-      heading: "Tıbbi, Tanıtım Mevzuatı (HWG) & Hukuki Sınır Bilgilendirmesi",
+      heading: "Tıbbi, Tanıtım (HWG) & Hukuki Sınır",
       points: [
-        "KALKAN PARTNER teşhis koymaz, reçete yazmaz, tıbbi tedavi uygulamaz ve herhangi bir tıbbi sonuç garantisi vermez.",
-        "Alman Sağlık Hizmetleri Reklam Yasası (HWG) uyarınca doğrulanmamış iyileşme vaatleri, başarı oranları veya yanıltıcı öncesi-sonrası görselleri yayınlanmaz.",
-        "Tıbbi tedavi sözleşmesi yalnızca doğrudan hasta ile Türkiye'deki ilgili yetkili sağlık kuruluşu arasında kurulur.",
-        "Şeffaflık beyanı: KALKAN PARTNER bağımsız koordinatör olarak hareket eder; hizmet karşılığında müşteriden kararlaştırılan koordinasyon ücreti veya yetkili partner kuruluştan aracılık/hizmet komisyonu alabilir.",
+        "Teşhis koymaz, tedavi uygulamaz ve tıbbi sonuç garantisi vermeyiz.",
+        "Alman HWG uyarınca doğrulanmamış vaatler veya öncesi-sonrası görselleri yayınlanmaz.",
+        "Tedavi sözleşmesi yalnızca doğrudan hasta ile Türkiye'deki yetkili kuruluş arasında kurulur.",
+        "Şeffaflık: Koordinasyon ücreti müşteriden veya hizmet komisyonu yetkili partner kurumdan alınabilir.",
       ],
     },
     relatedSlugs: ["translation-communication", "relocation", "family-education"],
@@ -857,129 +771,115 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "business",
     icon: "cpu",
     seo: {
-      title: "Digital & AI Solutions – Web, SEO, Local SEO, GEO & Otomasyon | KALKAN PARTNER",
+      title: "Digital & AI Solutions – Web, SEO, GEO & Otomasyon | KALKAN PARTNER",
       description:
-        "Almanya ve uluslararası pazarlar için kurumsal web sitesi, SEO, Local SEO, GEO (yapay zekâ araması), chatbot ve iş süreci otomasyonu.",
+        "Kurumsal web sitesi, SEO, Local SEO, yapay zekâ araması (GEO), chatbot ve iş süreci otomasyonu.",
       keywords: [
         "Almanya kurumsal web tasarım ve SEO",
         "Local SEO ve GEO yapay zeka görünürlüğü",
         "KOBİ yapay zeka chatbot ve otomasyon",
       ],
     },
-    eyebrow: "Departman 07 · Digital & AI Solutions",
-    title: "Digital & AI Solutions – Ölçülebilir Dijital Büyüme",
-    lead: "Güven veren kurumsal web siteleri, Google ve yapay zekâ aramalarında (GEO) yüksek görünürlük ve işletmenize gerçekten zaman kazandıran pratik yapay zekâ otomasyonları.",
-    audienceBadge: "KOBİ'ler, hizmet şirketleri, gastronomi & markalar için",
+    eyebrow: "Departman 07 · Digital & AI",
+    title: "Digital & AI Solutions",
+    lead: "Müşteri kazandıran web siteleri, Google ve yapay zekâ görünürlüğü (GEO) ile pratik iş otomasyonları.",
+    audienceBadge: "KOBİ'ler, gastronomi & markalar",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Müşteriler artık bir firmayla iletişime geçmeden önce Google'da ve yapay zekâ asistanlarında araştırma yapıyor. Eski bir web sitesi veya dağınık dijital varlık, potansiyel müşterilerin daha ilk saniyede kaybedilmesine neden olur.",
-        "Digital & AI Solutions departmanımız; güçlü kurumsal tasarım, Almanca–Türkçe SEO & Local SEO, yapay zekâ arama optimizasyonu (GEO) ve iş süreçlerini hızlandıran otomasyon çözümlerini tek çatı altında sunar.",
+        "Dijital varlığınızı yalnızca görsel bir vitrin değil; aktif müşteri getiren ve tekrarlayan işleri otomatikleştiren hızlı, DSGVO uyumlu bir büyüme sistemine dönüştürüyoruz.",
       ],
-      scopeTitle: "Somut Hizmet Kapsamı",
+      scopeTitle: "Hizmet Kapsamı",
       scopeItems: [
-        "Çok dilli, hızlı ve mobil öncelikli kurumsal web sitesi tasarımı ve geliştirme",
-        "Almanya ve Türkiye hedef kitlelerine özel SEO stratejisi",
-        "Local SEO ve Google Business Profile uyumlu yerel görünürlük altyapısı",
-        "GEO (Generative Engine Optimization) ile yapay zekâ aramalarında görünürlük",
-        "Sosyal medya yönetimi, dijital marka kimliği ve içerik üretimi",
-        "Yapay zekâ kurulumu, ekip eğitimi, chatbot ve iş süreci otomasyonu",
+        "Çok dilli hızlı kurumsal web siteleri",
+        "DE / TR / EN SEO stratejisi",
+        "Local SEO & Google Business altyapısı",
+        "GEO (Yapay zekâ arama optimizasyonu)",
+        "Dijital marka kimliği & içerik düzeni",
+        "AI chatbotlar ve süreç otomasyonu",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "Dijital varlığını gerçek müşteri kazanım kanalına ve verimlilik aracına dönüştürmek isteyen işletmelere.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Dijitalden ölçülebilir müşteri ve hız kazanmak isteyen işletmelere.",
       groups: [
         {
-          title: "KOBİ'ler ve Hizmet İşletmeleri",
-          description:
-            "Bölgesinde ve sektöründe daha fazla nitelikli müşteri talebi almak isteyen şirketler.",
+          title: "KOBİ & Hizmet Firmaları",
+          description: "Bölgesinde Google'da ilk sıralarda görünmek isteyen işletmeler.",
         },
         {
-          title: "Restoran ve Yeni Açılış Markaları",
-          description:
-            "Açılış gününden itibaren profesyonel web sitesi, yerel Google görünürlüğü ve güçlü marka kimliği isteyen işletmeler.",
+          title: "Restoran & Yeni Açılışlar",
+          description: "Açılış gününden itibaren güçlü web ve harita görünürlüğü arayanlar.",
         },
         {
-          title: "Operasyonunu Hızlandırmak İsteyen Ekipler",
-          description:
-            "Tekrarlayan müşteri sorularını ve iş akışlarını yapay zekâ ve otomasyonla hafifletmek isteyen firmalar.",
+          title: "Büyüyen Ekipler",
+          description: "Müşteri sorularını ve rutin akışları AI ile hızlandırmak isteyenler.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Sadece görsel olarak yapılan ama müşteri getirmeyen dijital projeler boşa harcanan bütçedir.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "Müşteri getirmeyen eski web sitelerini yeniliyoruz.",
       items: [
         {
-          problem: "Web sitesinin müşteri talebine dönüşmemesi",
-          solution:
-            "Bilgi mimarisini, hız performansını ve talep akışlarını doğrudan müşteri kazanımına göre kurguluyoruz.",
+          problem: "Dönüşüm getirmeyen site",
+          solution: "Güven ve talep odaklı sade arayüz kuruyoruz.",
         },
         {
-          problem: "Google'da ve yapay zekâ yanıtlarında görünmez kalmak",
-          solution:
-            "Teknik SEO, yerel sinyaller (Local SEO) ve yapılandırılmış GEO içerikleriyle kalıcı görünürlük inşa ediyoruz.",
+          problem: "Google ve AI'da görünmezlik",
+          solution: "Teknik SEO, Local SEO ve GEO ile kalıcı görünürlük sağlıyoruz.",
         },
         {
-          problem: "Tekrarlayan dijital işlerde yüksek zaman kaybı",
-          solution:
-            "Karmaşık olmayan, ekibin gerçekten kullanabileceği chatbot ve otomasyon akışları kuruyoruz.",
+          problem: "Manuel iletişim yükü",
+          solution: "Ekibin kolayca kullanacağı pratik otomasyonlar kuruyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "Modüler, ölçeklenebilir ve gereksiz maliyet yaratmayan dört adım.",
+      heading: "4 Adımda İşleyiş",
+      intro: "Modüler, hızlı ve ölçeklenebilir.",
       steps: [
         {
           number: "01",
-          title: "Dijital Analiz & Hedef Belirleme",
-          description:
-            "Mevcut dijital durumun, hedef kitlenin, arama potansiyelinin ve otomasyon fırsatlarının analizi.",
+          title: "Dijital Analiz",
+          description: "Mevcut site, arama potansiyeli ve otomasyon fırsatları incelenir.",
         },
         {
           number: "02",
-          title: "Mimari, Tasarım & SEO Planı",
-          description:
-            "Sayfa yapısı, marka dili, anahtar kelime stratejisi ve teknik altyapının tasarlanması.",
+          title: "Tasarım & SEO Planı",
+          description: "Sayfa mimarisi, dil stratejisi ve marka dili hazırlanır.",
         },
         {
           number: "03",
-          title: "Geliştirme & Entegrasyon",
-          description:
-            "Web sitesi, içerik, chatbot veya otomasyonların yüksek performans ve DSGVO uyumuyla hayata geçirilmesi.",
+          title: "Geliştirme & AI",
+          description: "Site, içerik ve otomasyonlar DSGVO uyumuyla yayına alınır.",
         },
         {
           number: "04",
-          title: "Teslim, Eğitim & Sürekli Geliştirme",
-          description:
-            "Ekip eğitimi ve talep edilirse SEO, içerik ve yapay zekâ süreçlerinin düzenli geliştirilmesi.",
+          title: "Eğitim & Büyüme",
+          description: "Ekip teslimi sonrası sürekli optimizasyon desteği sunulur.",
         },
       ],
     },
     inquiry: {
-      heading: "Dijital veya Yapay Zekâ Projenizi Konuşalım",
-      description:
-        "Kurumsal web sitesi, SEO/Local SEO, GEO görünürlüğü veya yapay zekâ otomasyonu için projenize uygun net bir yol haritası çıkaralım.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      heading: "Dijital Projenizi Konuşalım",
+      description: "Web sitesi, SEO/GEO veya AI otomasyonu için net yol haritası çıkaralım.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "Varsa mevcut web siteniz ve hedef müşteri bölgeniz",
-        "Öncelikli ihtiyaç (web sitesi, SEO/Local SEO, GEO, chatbot/otomasyon)",
-        "Hedeflenen yayın veya başlangıç tarihi",
+        "Varsa mevcut web siteniz ve hedef bölge",
+        "Öncelikli ihtiyaç (Web, SEO/GEO, Chatbot)",
+        "Hedeflenen yayın tarihi",
       ],
       primaryCtaLabel: "Dijital Proje Talebi",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "İlk iletişim aşamasında sunucu şifreleri veya API anahtarları paylaşmayınız.",
+        "İlk aşamada sunucu şifreleri veya API anahtarları paylaşmayınız.",
     },
     legalBoundary: {
-      heading: "Veri Koruma & Teknik Sorumluluk",
+      heading: "Veri Koruma & Sorumluluk",
       points: [
-        "Tüm web, analitik ve yapay zekâ sistemleri DSGVO (veri koruma) ilkelerine uygun mimariyle tasarlanır.",
-        "Impressum, gizlilik politikası ve sektöre özel yasal metinlerin hukuki onayı ilgili avukat veya veri koruma uzmanına aittir.",
+        "Tüm dijital sistemler DSGVO veri minimizasyonu ilkelerine uygun kurulur.",
+        "Sektörel yasal metinlerin nihai onayı ilgili hukukçuya aittir.",
       ],
     },
     relatedSlugs: ["business-setup", "restaurant-kitchen", "translation-communication"],
@@ -990,9 +890,9 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "graduationCap",
     seo: {
-      title: "Family & Education – Almanya Okul, Kreş & Öğrenci Koordinasyonu | KALKAN PARTNER",
+      title: "Family & Education – Okul, Kreş & Öğrenci | KALKAN PARTNER",
       description:
-        "Almanya'da okul ve kreş araştırması, kurs bilgileri, öğrenci başvuru koordinasyonu ve aile yerleşim organizasyonu.",
+        "Almanya'da okul ve kreş araştırması, öğrenci başvuru koordinasyonu ve aile yerleşim desteği.",
       keywords: [
         "Almanya okul ve kreş araştırması",
         "Almanya öğrenci başvurusu koordinasyonu",
@@ -1000,119 +900,105 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Departman 08 · Family & Education",
-    title: "Family & Education – Aileler ve Öğrenciler İçin Rehberlik",
-    lead: "Almanya'da okul, kreş, dil/meslek kursu ve üniversite başvuru süreçlerinde düzenli araştırma, dosya organizasyonu ve aile yerleşim desteği.",
-    audienceBadge: "Aileler, öğrenciler & kursiyerler için",
+    title: "Family & Education",
+    lead: "Almanya'da okul, kreş, dil kursu ve üniversite başvurularında bölgesel araştırma ve düzenli dosya koordinasyonu.",
+    audienceBadge: "Aileler, öğrenciler & kursiyerler",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Almanya'da eğitim ve çocuk bakım sistemi eyaletlere ve belediyelere göre değişiklik gösterir. Başvuru takvimleri, okul türleri ve gerekli belgeler özellikle yeni gelen aileler ve öğrenciler için karmaşık olabilir.",
-        "Family & Education departmanımız; bölgesel araştırma, başvuru belgelerinin düzenlenmesi ve kurumlarla iletişimin koordine edilmesiyle ailelerin ve öğrencilerin önünü açar.",
+        "Eyaletlere göre değişen okul ve kreş kurallarında doğru seçenekleri araştırıyor, öğrenci başvuru belgelerini takvime uygun biçimde düzenliyoruz.",
       ],
-      scopeTitle: "Somut Koordinasyon Adımları",
+      scopeTitle: "Koordinasyon Kapsamı",
       scopeItems: [
-        "Hedef bölgede okul türleri ve uygun okulların araştırılması",
-        "Kreş (Kita) seçenekleri ve başvuru süreçlerinin araştırılması",
-        "Dil kursu, mesleki kurs ve eğitim programları hakkında derli toplu bilgi",
-        "Öğrenci başvuru dosyalarının ve takviminin organizasyonu",
-        "Aile yerleşim sürecine entegre organizasyon koordinasyonu",
-        "Öğrenci ve aileler için konaklama iletişimi desteği",
+        "Bölgesel okul türleri ve okul araştırması",
+        "Kreş (Kita) seçenekleri ve kayıt bilgisi",
+        "Dil ve meslek kursları araştırması",
+        "Öğrenci başvuru dosyası koordinasyonu",
+        "Aile yerleşim organizasyonu",
+        "Konaklama iletişimi desteği",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "Eğitim ve aile yerleşimi kararlarını güvenilir bilgi ve düzenli takvimle yönetmek isteyenlere.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Eğitim adımlarını zamanında ve eksiksiz planlamak isteyenlere.",
       groups: [
         {
           title: "Çocuklu Aileler",
-          description:
-            "Taşınacakları şehirde kreş, ilkokul veya ortaöğretim seçeneklerini zamanında planlamak isteyen ebeveynler.",
+          description: "Hedef şehirdeki kreş ve okul seçeneklerini önceden görmek isteyen ebeveynler.",
         },
         {
           title: "Uluslararası Öğrenciler",
-          description:
-            "Almanya'daki üniversite veya dil kursu başvuru adımlarını eksiksiz organize etmek isteyen adaylar.",
+          description: "Başvuru ve dil kursu adımlarını düzenli yönetmek isteyen adaylar.",
         },
         {
-          title: "Eğitim ve Mesleki Gelişim Arayanlar",
-          description:
-            "Doğru kurs ve eğitim kurumlarını karşılaştırmalı biçimde incelemek isteyen kursiyerler.",
+          title: "Kursiyerler",
+          description: "Uygun eğitim ve meslek kurslarını karşılaştırmak isteyenler.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Eğitim süreçlerinde kaçırılan tek bir başvuru tarihi tüm bir dönemin veya yılın kaybına neden olabilir.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "Kaçırılan kayıt tarihlerinin ve eksik evrakların önüne geçiyoruz.",
       items: [
         {
-          problem: "Eyalet ve belediyelere göre değişen okul/kreş başvuru kuralları",
-          solution:
-            "Hedef bölgenize özel seçenekleri, başvuru portallarını ve kritik tarihleri netleştiriyoruz.",
+          problem: "Eyalete göre değişen kayıt kuralları",
+          solution: "Bölgenizdeki portal ve son başvuru tarihlerini netleştiriyoruz.",
         },
         {
-          problem: "Öğrenci başvurularında eksik veya yanlış sıralanmış evraklar",
-          solution:
-            "Açık belge kontrol listeleriyle başvuru dosyanızın zamanında hazırlanmasını koordine ediyoruz.",
+          problem: "Eksik öğrenci başvuru dosyaları",
+          solution: "Açık kontrol listeleriyle evrakları zamanında hazırlıyoruz.",
         },
         {
-          problem: "Eğitim kurumlarıyla Almanca iletişim zorluğu",
-          solution:
-            "Resmî ve düzenli Almanca yazışma ile randevu iletişimine destek sağlıyoruz.",
+          problem: "Kurumlarla Almanca yazışma zorluğu",
+          solution: "Düzenli Almanca iletişim ve randevu desteği sağlıyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "Eğitim takvimine uyumlu, dört adımlı düzenli planlama.",
+      heading: "4 Adımda İşleyiş",
+      intro: "Eğitim takvimine uyumlu net planlama.",
       steps: [
         {
           number: "01",
-          title: "Eğitim Hedefi & Bölge Analizi",
-          description:
-            "Yaş, eğitim düzeyi, hedef şehir ve planlanan başlangıç döneminin belirlenmesi.",
+          title: "Hedef & Bölge",
+          description: "Yaş, eğitim düzeyi ve hedef şehir netleştirilir.",
         },
         {
           number: "02",
-          title: "Kurum & Takvim Araştırması",
-          description:
-            "Uygun okul, kreş, kurs veya başvuru yollarının tarihleriyle birlikte sunulması.",
+          title: "Kurum Araştırması",
+          description: "Uygun okul, kreş ve kurslar tarihleriyle listelenir.",
         },
         {
           number: "03",
-          title: "Dosya & İletişim Hazırlığı",
-          description:
-            "Başvuru veya kayıt için gereken belgelerin ve yazışmaların düzenlenmesi.",
+          title: "Dosya Hazırlığı",
+          description: "Başvuru evrakları ve yazışmalar düzenlenir.",
         },
         {
           number: "04",
           title: "Süreç Takibi",
-          description:
-            "Randevuların, geri dönüşlerin ve tamamlayıcı yerleşim adımlarının takibi.",
+          description: "Randevular ve tamamlayıcı aile adımları izlenir.",
         },
       ],
     },
     inquiry: {
       heading: "Eğitim & Aile Desteği Talep Edin",
-      description:
-        "Hedef şehrinizi ve eğitim ihtiyacınızı paylaşın; süreci nasıl organize edebileceğimizi birlikte değerlendirelim.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      description: "Hedef şehrinizi ve eğitim ihtiyacınızı paylaşın; birlikte planlayalım.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "Almanya'daki hedef şehir/eyalet ve planlanan dönem",
-        "İhtiyaç türü (kreş, okul, dil kursu, üniversite başvurusu)",
-        "Mevcut dil seviyesi ve genel eğitim durumu",
+        "Hedef şehir/eyalet ve planlanan dönem",
+        "İhtiyaç türü (kreş, okul, kurs, üniversite)",
+        "Mevcut dil düzeyi",
       ],
       primaryCtaLabel: "Family & Education Talebi",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "İlk iletişimde diploma aslı, doğum belgesi veya kimlik fotokopisi göndermeyiniz.",
+        "İlk iletişimde diploma aslı veya kimlik fotokopisi göndermeyiniz.",
     },
     legalBoundary: {
       heading: "Hizmet Sınırı",
       points: [
-        "KALKAN PARTNER organizasyonel araştırma ve başvuru süreci koordinasyonu sunar.",
-        "Kayıt, kontenjan, kabul ve denklik kararları yalnızca ilgili eğitim kurumları ve yetkili makamlarca verilir.",
+        "Organizasyonel araştırma ve başvuru koordinasyonu sunulur.",
+        "Kabul, kontenjan ve denklik kararları yalnızca ilgili kurumlara aittir.",
       ],
     },
     relatedSlugs: ["relocation", "behoerdenservice", "translation-communication"],
@@ -1125,12 +1011,12 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     featured: true,
     heroImage: {
       src: "/images/restaurant-kitchen.jpg",
-      alt: "Paslanmaz çelik hazırlık tezgahları, indüksiyon adası ve düzenli servis bankosuyla profesyonel ticari restoran mutfağı",
+      alt: "Paslanmaz çelik hazırlık tezgahları, indüksiyon adası ve servis bankosuyla profesyonel ticari restoran mutfağı",
     },
     seo: {
       title: "Restaurant & Kitchen Solutions Almanya | Restoran & Mutfak Danışmanlığı",
       description:
-        "Almanya'da restoran açılışı, mutfak yerleşimi ve iş akışı, ekipman seçimi, menü, reçete, gramaj, food cost, SOP ve açılış desteği.",
+        "Gerçek mutfak tecrübesiyle restoran açılışı, mutfak yerleşimi, ekipman seçimi, menü, reçete, gramaj, food cost, SOP ve açılış desteği.",
       keywords: [
         "Almanya restoran danışmanlığı",
         "Ticari mutfak yerleşimi ve iş akışı planlama",
@@ -1138,131 +1024,113 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Restoran açılış koordinasyonu ve SOP Almanya",
       ],
     },
-    eyebrow: "Departman 09 · Amiral Uzmanlık Alanımız",
+    eyebrow: "Departman 09 · Amiral Uzmanlık",
     title: "Restaurant & Kitchen Solutions",
-    lead: "Fikirden kârlı ve standart işleyen bir mutfağa: gerçek mutfak tecrübesine dayalı restoran açılış koordinasyonu, mutfak iş akışı, ekipman seçimi, menü–reçete–food cost ve SOP kurulumu.",
-    audienceBadge: "Restoran girişimcileri, yatırımcılar & mevcut işletmeler için",
+    lead: "Gerçek mutfak tecrübesiyle konseptten açılışa: ergonomik mutfak yerleşimi, doğru ekipman, standart reçete, food cost ve SOP kurulumu.",
+    audienceBadge: "Restoran girişimcileri & mevcut işletmeler",
     whatIs: {
-      heading: "Hizmet nedir?",
+      heading: "Neler Yapıyoruz?",
       paragraphs: [
-        "Restaurant & Kitchen Solutions, KALKAN PARTNER'in sahadaki gerçek mutfak tecrübesiyle ayrışan en güçlü uzmanlık alanıdır. Teorik sunumlar yerine, yoğun servis saatlerinde tıkır tıkır işleyen, maliyeti kontrol altında tutan pratik çözümler kuruyoruz.",
-        "Konsept geliştirmeden sıcak–soğuk mutfak, bulaşıkhane ve depo yerleşimine; ekipman ve tedarikçi seçiminden menü, reçete, gramaj, food cost hesabı, SOP dokümantasyonu ve salon servis akışına kadar tüm operasyonel mimariyi birlikte kurguluyoruz.",
+        "Teorik sunumlar yerine yoğun servis saatlerinde sahada çalışan sistemler kuruyoruz. Mutfak iş akışı, ekipman seçimi, reçete–gramaj standardı, food cost kontrolü ve açılış desteğini tek çatı altında sunuyoruz.",
       ],
-      scopeTitle: "Kapsamlı Operasyonel & Organizasyonel Hizmetler",
+      scopeTitle: "Operasyonel Hizmet Kapsamı",
       scopeItems: [
-        "Restoran konsept geliştirme ve operasyonel model kurulumu",
-        "Restoran açılış sürecinin baştan sona organizasyonel koordinasyonu",
-        "Mutfak yerleşim planlaması ve ergonomik iş akışı (workflow) organizasyonu",
-        "Sıcak mutfak, soğuk mutfak, servis bankosu (pass), bulaşıkhane ve depo alanlarının düzenlenmesi",
-        "İhtiyaca uygun endüstriyel ekipman araştırması, seçimi ve teklif karşılaştırması",
-        "Tedarikçi ve ekipman kurulum koordinasyonu",
-        "Menü geliştirme, reçete ve porsiyon gramaj standardizasyonu",
-        "Detaylı food cost (hammadde maliyeti) ve kârlılık hesaplamaları",
-        "Standart İşletme Prosedürleri (SOP) dokümantasyonu",
-        "Mutfak personel görev dağılımı ile salon ve servis iş akışı planlaması",
-        "Açılış öncesi deneme süreçleri ve açılış dönemi operasyon desteği",
+        "Konsept geliştirme & açılış koordinasyonu",
+        "Sıcak/soğuk mutfak, bulaşık & depo yerleşimi",
+        "Endüstriyel ekipman seçimi & tedarikçi takibi",
+        "Menü geliştirme, reçete & gramaj standardı",
+        "Detaylı food cost & kârlılık hesabı",
+        "SOP el kitapları & mutfak görev dağılımı",
+        "Salon–mutfak servis akışı planlaması",
+        "Açılış öncesi deneme & ilk gün saha desteği",
       ],
     },
     targetAudience: {
-      heading: "Kime hitap ediyor?",
-      intro:
-        "Yatırımını tesadüfe bırakmak istemeyen girişimcilere ve kârlılığını artırmak isteyen mevcut restoran işletmelerine.",
+      heading: "Kime Hitap Ediyor?",
+      intro: "Yatırımını korumak ve kârlı mutfak kurmak isteyenler için.",
       groups: [
         {
-          title: "Yeni Restoran Açan Girişimciler",
-          description:
-            "Yanlış ekipman alımı, verimsiz mutfak yerleşimi ve belirsiz maliyet hesabından açılış öncesinde korunmak isteyen yatırımcılar.",
+          title: "Yeni Restoran Girişimcileri",
+          description: "Yanlış ekipman ve verimsiz mutfak kurulumu riskini baştan önlemek isteyenler.",
         },
         {
-          title: "Mevcut Restoran & Kafe İşletmeleri",
-          description:
-            "Food cost oranı yüksek olan, standart lezzet tutturmakta zorlanan veya mutfak içi yoğunluğu düzene sokmak isteyen işletmeler.",
+          title: "Mevcut Restoranlar",
+          description: "Food cost oranını düşürmek ve her gün aynı lezzet standardını yakalamak isteyenler.",
         },
         {
-          title: "Şubeleşen & Çoklu Konsept Markaları",
-          description:
-            "Her şubede aynı kaliteyi verecek reçete, gramaj ve SOP sistemleri kurmak isteyen markalar.",
+          title: "Çoklu Şube Markaları",
+          description: "Tüm şubelerde tek standart reçete ve SOP sistemi kurmak isteyen yatırımcılar.",
         },
       ],
     },
     problemsSolved: {
-      heading: "Hangi sorunları çözüyor?",
-      intro:
-        "Gastronomideki en pahalı hatalar ya yanlış kurulan mutfakta ya da standartlaştırılmamış reçete ve maliyet yönetiminde ortaya çıkar.",
+      heading: "Çözdüğümüz Sorunlar",
+      intro: "En maliyetli gastronomi hatalarını açılıştan önce önlüyoruz.",
       items: [
         {
-          problem: "Gereksiz yatırım yapılan yanlış ekipmanlar ve sıkışık mutfak akışı",
-          solution:
-            "Sıcak, soğuk, bulaşık ve depo alanlarını menünüzün gerçek üretim akışına göre optimize ediyoruz.",
+          problem: "Sıkışık mutfak & yanlış ekipman yatırımı",
+          solution: "Üretim akışınıza uygun sıcak, soğuk, bulaşık ve depo yerleşimi kuruyoruz.",
         },
         {
-          problem: "Ustaya bağımlı lezzet ve kontrolsüz hammadde maliyeti (Food Cost)",
-          solution:
-            "Gramajlı standart reçeteler ve net food cost tablolarıyla hem lezzeti hem kâr marjını güvenceye alıyoruz.",
+          problem: "Kontrolsüz food cost & değişen lezzet",
+          solution: "Gramajlı standart reçete ve maliyet tablolarıyla kâr marjınızı koruyoruz.",
         },
         {
-          problem: "Açılış kaosları ve belirsiz ekip görev dağılımı",
-          solution:
-            "SOP dokümanları, net istasyon sorumlulukları ve mutfak–salon servis akışıyla kontrollü açılış sağlıyoruz.",
+          problem: "Açılış kaosu & belirsiz ekip rolleri",
+          solution: "Net SOP prosedürleri ve istasyon görev dağılımıyla kontrollü açılış sağlıyoruz.",
         },
       ],
     },
     process: {
-      heading: "Süreç nasıl işliyor?",
-      intro: "Konseptten ilk servis gününe kadar beş net aşamada ilerliyoruz.",
+      heading: "5 Adımda Açılış & Kurulum",
+      intro: "Fikirden ilk servis akşamına kadar.",
       steps: [
         {
           number: "01",
-          title: "Konsept, Mekân & Kapasite Analizi",
-          description:
-            "Hedef konsept, oturma kapasitesi, menü yönü ve mevcut mekân koşullarının değerlendirilmesi.",
+          title: "Konsept & Mekân",
+          description: "Konsept, kapasite ve mekân koşulları analiz edilir.",
         },
         {
           number: "02",
-          title: "Mutfak Akışı & Ekipman Planlaması",
-          description:
-            "Sıcak/soğuk/bulaşık/depo zonlaması, ihtiyaç bazlı ekipman listesi ve tedarikçi araştırması.",
+          title: "Mutfak & Ekipman",
+          description: "Bölümlendirme, cihaz listesi ve tedarikçi kıyaslaması yapılır.",
         },
         {
           number: "03",
-          title: "Menü, Reçete & Food Cost Yapısı",
-          description:
-            "Menü mühendisliği, standart reçete kartları, porsiyon gramajları ve maliyet hesaplamaları.",
+          title: "Menü & Food Cost",
+          description: "Standart reçeteler, gramajlar ve maliyetler çıkarılır.",
         },
         {
           number: "04",
-          title: "SOP, Ekip Yapısı & Kurulum Koordinasyonu",
-          description:
-            "Çalışma prosedürlerinin yazılması, mutfak/salon görev paylaşımı ve tedarikçi-kurulum takibi.",
+          title: "SOP & Kurulum",
+          description: "SOP kitapları, ekip rolleri ve montaj takibi tamamlanır.",
         },
         {
           number: "05",
-          title: "Ön Deneme & Açılış Desteği",
-          description:
-            "Açılış öncesi mutfak ve servis denemeleri, akış ince ayarları ve başlangıç dönemi saha desteği.",
+          title: "Deneme & Açılış",
+          description: "Ön servis testleri ve açılış saha desteği verilir.",
         },
       ],
     },
     inquiry: {
-      heading: "Restoran Projeniz İçin Görüşme Talep Edin",
-      description:
-        "Yeni bir restoran açıyorsanız veya mevcut mutfağınızı daha kârlı ve düzenli hale getirmek istiyorsanız projenizi birlikte değerlendirelim.",
-      prepChecklistTitle: "Ön Görüşme İçin Faydalı Bilgiler",
+      heading: "Restoran Projenizi Görüşelim",
+      description: "Yeni açılış veya mevcut mutfak iyileştirmesi için bize ulaşın.",
+      prepChecklistTitle: "Ön Görüşme İçin Gerekenler",
       prepChecklist: [
-        "Konsept türü (restoran, kafe, hızlı servis, üretim mutfağı vb.)",
-        "Şehir, yaklaşık alan / kapasite ve projenin mevcut aşaması",
-        "İhtiyaç duyulan kapsam (komple kurulum, mutfak yerleşimi, menü/food cost, SOP)",
+        "Konsept türü (restoran, kafe, üretim mutfağı)",
+        "Şehir, yaklaşık alan / kapasite ve aşama",
+        "İhtiyaç odağı (komple kurulum, yerleşim, menü/SOP)",
       ],
       primaryCtaLabel: "Restoran Projesi İçin Teklif Al",
-      secondaryCtaLabel: "Tüm Departmanları İncele",
+      secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
-        "Kira sözleşmeleri veya detaylı teknik çizimleri ilk ön görüşmeden sonra paylaşmanız yeterlidir.",
+        "Kira sözleşmesi veya teknik çizimleri ilk görüşmeden sonra paylaşmanız yeterlidir.",
     },
     legalBoundary: {
-      heading: "Teknik Proje & Hukuki Sınır Bilgilendirmesi",
+      heading: "Teknik Proje & Hukuki Sınır",
       points: [
-        "Hizmetlerimiz operasyonel restoran organizasyonu, mutfak iş akışı, konsept, maliyetlendirme ve açılış koordinasyonunu kapsar.",
-        "Ruhsat ve yönetmelik gereği yetki gerektiren mimari, statik, elektrik, gaz, yangın güvenliği ve havalandırma projeleri yalnızca ilgili alanda yetkili mühendisler, mimarlar ve uzman firmalar tarafından yürütülür.",
+        "Hizmetimiz operasyonel mutfak yerleşimi, konsept, reçete/food cost ve açılış koordinasyonunu kapsar.",
+        "Ruhsat gerektiren mimari, statik, elektrik, gaz, yangın ve havalandırma projeleri yetkili mühendisler tarafından yürütülür.",
       ],
     },
     relatedSlugs: ["business-setup", "recruitment", "digital-ai"],

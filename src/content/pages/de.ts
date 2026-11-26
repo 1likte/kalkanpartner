@@ -9,51 +9,46 @@ export const pagesDe: CorporatePagesContent = {
     },
     eyebrow: "Über uns",
     title: "Verlässliche Koordination über Grenzen hinweg",
-    lead: "KALKAN PARTNER – International Business & Service Solutions verbindet Menschen, Unternehmen, Institutionen und zugelassene Fachpartner zwischen Deutschland, der Türkei und internationalen Märkten.",
-    identityHeading: "Unternehmensidentität & Auftrag",
+    lead: "Wir verbinden Menschen, Unternehmen und zugelassene Fachpartner zwischen Deutschland, der Türkei und internationalen Märkten.",
+    identityHeading: "Wer wir sind",
     identityParagraphs: [
-      "Grenzüberschreitende Vorhaben erfordern mehr als gute Absichten: Sie brauchen eine ruhige, strukturierte Hand, die Kommunikation bündelt, Unterlagen ordnet und alle Beteiligten verlässlich zusammenführt.",
-      "Mit Sitz in Deutschland konzentrieren wir uns auf genau diese organisatorische und koordinierende Schnittstelle – sowohl für Unternehmen als auch für Privatkunden und Familien. Unser Schwerpunkt liegt auf praktischer Umsetzbarkeit statt abstrakter Theorie.",
+      "Mit Sitz in Deutschland steuern wir Kommunikation, Unterlagen und Abläufe für Unternehmen und Privatkunden – kompakt, strukturiert und praxisnah statt theoretisch.",
     ],
-    visionHeading: "Internationale Vision",
+    visionHeading: "Unsere Vision",
     visionText:
-      "Unser Anspruch ist es, für Unternehmen und Privatkunden im deutsch-türkischen und internationalen Umfeld die erste Adresse für transparente, rechtlich sauber abgegrenzte Projekt- und Servicekoordination zu sein – insbesondere auch durch unsere praxisstarke Gastronomie-Kompetenz.",
-    philosophyHeading: "Unsere Arbeitsphilosophie",
+      "Die erste Adresse für transparente Projekt- und Servicekoordination im deutsch-türkischen Umfeld – gestützt durch echte Gastronomie-Praxis.",
+    philosophyHeading: "Arbeitsphilosophie",
     philosophyItems: [
       {
-        title: "Transparenz von Anfang an",
-        description:
-          "Wir kommunizieren klar, welche Leistungen wir direkt koordinieren, welche Schritte realistisch sind und wo externe Fachzulassungen erforderlich sind.",
+        title: "Volle Transparenz",
+        description: "Wir zeigen von Anfang an klar, was wir koordinieren und wo Fachzulassungen nötig sind.",
       },
       {
-        title: "Strukturierte Koordination",
-        description:
-          "Jedes Anliegen erhält einen nachvollziehbaren Ablaufplan mit klaren Zuständigkeiten, vorbereiteten Unterlagen und verlässlicher Rückmeldung.",
+        title: "Klare Abläufe",
+        description: "Jedes Projekt erhält einen festen Fahrplan, geordnete Unterlagen und verlässliches Feedback.",
       },
       {
-        title: "Kundenorientierte Praxis",
-        description:
-          "Wir arbeiten lösungsorientiert und auf Augenhöhe – abgestimmt auf das konkrete Ziel eines Arbeitgebers, Gründers, Gastronomen oder einer Familie.",
+        title: "Praxisnahe Umsetzung",
+        description: "Konkrete Lösungen für Arbeitgeber, Gründer, Gastronomen und Familien.",
       },
       {
-        title: "Verantwortungsvoller Umgang mit Daten",
-        description:
-          "Vertraulichkeit und Datensparsamkeit stehen bei uns im Vordergrund. Sensible Dokumente werden niemals ungeschützt über einfache Webformulare erhoben.",
+        title: "Datensparsamkeit",
+        description: "Keine sensiblen Ausweis- oder Gesundheitsdaten über ungeschützte Webformulare.",
       },
     ],
-    partnerModelHeading: "Zusammenarbeit mit qualifizierten Fachpartnern",
+    partnerModelHeading: "Zusammenarbeit mit Fachpartnern",
     partnerModelText:
-      "KALKAN PARTNER übernimmt ausdrücklich keine regulierten Tätigkeiten ohne entsprechende Erlaubnis. Wo rechtliche, steuerliche, medizinische, architektonische oder beglaubigte Leistungen erforderlich sind, koordinieren wir den gezielten Kontakt zu unabhängigen, zugelassenen Spezialisten:",
+      "KALKAN PARTNER übernimmt keine regulierten Tätigkeiten ohne Erlaubnis, sondern verbindet Sie direkt mit unabhängigen, zugelassenen Spezialisten:",
     partnerTypes: [
-      "Zugelassene Rechtsanwälte, Notare und Steuerberater",
-      "Öffentlich bestellte und ermächtigte Fachübersetzer",
-      "Autorisierte Krankenhäuser und Gesundheitstourismus-Einrichtungen in der Türkei",
-      "Qualifizierte Architekten, Ingenieure und Fachplaner für Gastronomieprojekte",
-      "Spezialisierte Lieferanten, Ausrüster und Dienstleister",
+      "Rechtsanwälte, Notare & Steuerberater",
+      "Öffentlich ermächtigte Fachübersetzer",
+      "Autorisierte Kliniken in der Türkei",
+      "Architekten & Fachplaner für Gastronomie",
+      "Spezialisierte Ausrüster & Lieferanten",
     ],
-    ctaTitle: "Lernen Sie unsere Arbeitsweise im Erstgespräch kennen",
+    ctaTitle: "Sprechen wir über Ihr Vorhaben",
     ctaSubtitle:
-      "Schildern Sie uns Ihr Anliegen unverbindlich – wir geben Ihnen eine ehrliche und strukturierte Einschätzung.",
+      "Schildern Sie uns Ihr Ziel – wir melden uns mit einer klaren Einschätzung.",
     ctaButton: "Anfrage senden",
   },
 
@@ -64,66 +59,66 @@ export const pagesDe: CorporatePagesContent = {
         "Wie KALKAN PARTNER Deutschland, die Türkei und internationale Märkte über ein klar strukturiertes Fachpartner- und Koordinationsnetzwerk verbindet.",
     },
     eyebrow: "Internationales Netzwerk",
-    title: "Ein strukturiertes Netzwerk zwischen Deutschland, der Türkei und internationalen Märkten",
-    lead: "Starke Ergebnisse entstehen dort, wo lokale Marktkenntnis, Sprachsicherheit und unabhängige Fachkompetenz nahtlos ineinandergreifen.",
+    title: "Starkes Netzwerk zwischen Deutschland, der Türkei und globalen Märkten",
+    lead: "Lokale Marktkenntnis, Sprachsicherheit und unabhängige Fachkompetenz in einem klaren Koordinationsrahmen.",
     regions: [
       {
         name: "Deutschland",
-        tag: "Unternehmenssitz & operativer Kernmarkt",
-        focus: "Arbeitgeber, Gastronomie, Markteintritt, Relocation & Administration",
+        tag: "Sitz & Kernmarkt",
+        focus: "Arbeitgeber, Gastronomie, Markteintritt & Relocation",
         points: [
-          "Direkte Begleitung von Unternehmen und Gastronomiebetrieben",
-          "Koordination von Terminen, Lieferanten und Dienstleistern vor Ort",
-          "Strukturierte Schnittstelle zu deutschen Behördenabläufen und Fachberatern",
+          "Direkte Begleitung für Unternehmen & Gastronomie",
+          "Koordination von Lieferanten & Terminen",
+          "Schnittstelle zu Behörden und Fachberatern",
         ],
       },
       {
         name: "Türkei",
-        tag: "Strategischer Partner- & Talentmarkt",
-        focus: "Fachkräfte-Sourcing, Lieferanten, Handel & autorisierte Gesundheitspartner",
+        tag: "Strategischer Partnermarkt",
+        focus: "Fachkräfte, Lieferanten & autorisierte Kliniken",
         points: [
-          "Zweisprachige Vororganisation von Kandidaten und Geschäftskontakten",
-          "Lieferanten- und Partnerrecherche für deutsch-türkische Projekte",
-          "Transparente Koordination mit autorisierten Kliniken im Gesundheitstourismus",
+          "Zweisprachige Vorprüfung von Kandidaten",
+          "Lieferanten- und Herstellerrecherche",
+          "Koordination mit autorisierten Kliniken",
         ],
       },
       {
         name: "International",
-        tag: "Grenzüberschreitende Projekte",
-        focus: "Mehrsprachige Projektbegleitung & digitale Skalierung",
+        tag: "Grenzüberschreitend",
+        focus: "Mehrsprachige Projekte & digitale Skalierung",
         points: [
-          "Strukturierte Kommunikation auf Deutsch, Türkisch und Englisch",
-          "Begleitung internationaler Gründer beim Markteintritt in Deutschland",
-          "Aufbau moderner, international sichtbarer Web-, SEO- und KI-Strukturen",
+          "Geschäftskommunikation in DE · TR · EN",
+          "Markteintritt für internationale Gründer",
+          "Web, SEO, Local SEO & KI-Workflows",
         ],
       },
     ],
-    partnerCategoriesHeading: "Unabhängige Fachpartner & klare Rollenverteilung",
+    partnerCategoriesHeading: "Klare Rollenverteilung",
     partnerCategoriesIntro:
-      "Vertrauen entsteht durch saubere Zuständigkeiten. Wir koordinieren das Zusammenspiel – während regulierte Fachleistungen stets durch die dafür befugten Berufsträger erbracht werden.",
+      "Wir koordinieren Organisation und Abläufe – regulierte Fachleistungen erbringen ausschließlich zugelassene Berufsträger.",
     partnerCategories: [
       {
         title: "Recht, Notariat & Steuern",
-        role: "Termin- und Unterlagenvorbereitung durch KALKAN PARTNER",
-        boundary: "Rechts-, Vertrags- und Steuerberatung ausschließlich durch zugelassene Berufsträger.",
+        role: "Termin- & Unterlagenvorbereitung",
+        boundary: "Rechts- und Steuerberatung nur durch zugelassene Berufsträger.",
       },
       {
         title: "Beglaubigte Übersetzung",
-        role: "Allgemeine Korrespondenz und Übersetzungskoordination",
+        role: "Korrespondenz- & Ablaufkoordination",
         boundary: "Amtliche Beglaubigungen ausschließlich durch ermächtigte Übersetzer.",
       },
       {
         title: "Gesundheitseinrichtungen (TR)",
-        role: "Patientenkommunikation, Sprach- und Reisekoordination",
-        boundary: "Diagnose, Behandlung und medizinische Verantwortung ausschließlich bei autorisierten Kliniken & Ärzten.",
+        role: "Kommunikations-, Sprach- & Reiseplanung",
+        boundary: "Diagnose und Behandlung ausschließlich bei autorisierten Kliniken & Ärzten.",
       },
       {
         title: "Gastronomie-Technik & Bau",
-        role: "Operatives Küchenlayout, Workflow, Geräteauswahl, Menü & SOPs",
-        boundary: "Genehmigungspflichtige Architektur-, Elektro-, Gas-, Brandschutz- und Lüftungsplanung durch Fachplaner.",
+        role: "Küchenlayout, Geräte, Menü & SOPs",
+        boundary: "Genehmigungspflichtige Architektur-, Elektro- und Lüftungsplanung durch Fachplaner.",
       },
     ],
-    ctaTitle: "Benötigen Sie einen verlässlichen Koordinator zwischen Deutschland und der Türkei?",
+    ctaTitle: "Sie suchen einen verlässlichen Koordinator zwischen Deutschland und der Türkei?",
     ctaButton: "Kontakt aufnehmen",
   },
 
@@ -293,8 +288,8 @@ export const pagesDe: CorporatePagesContent = {
         "Praxisnahe Fachbeiträge zu Gastronomieplanung, internationaler Fachkräftekoordination sowie Markteintritt und Relocation in Deutschland.",
     },
     eyebrow: "Insights & Praxiswissen",
-    title: "Orientierung für internationale Projekte in Deutschland",
-    lead: "Kompakte, praxisnahe Leitfäden aus unseren Kernbereichen – ohne allgemeine Phrasen, mit klarem Fokus auf Organisation und Umsetzbarkeit.",
+    title: "Kompaktes Praxiswissen für Ihre Projekte",
+    lead: "Kurze Leitfäden aus Gastronomie, Fachkräftegewinnung und Markteintritt in Deutschland – direkt auf den Punkt.",
     readArticleLabel: "Beitrag lesen",
     backToInsightsLabel: "Alle Beiträge ansehen",
     relatedServiceLabel: "Passender Fachbereich",
@@ -302,108 +297,107 @@ export const pagesDe: CorporatePagesContent = {
       {
         slug: "restaurant-eroeffnen-kuechenlayout-food-cost-sop",
         category: "Restaurant & Kitchen Solutions",
-        readTime: "4 Min. Lesezeit",
+        readTime: "3 Min. Lesezeit",
         title:
-          "Restaurant eröffnen in Deutschland: Warum Küchenlayout, Food Cost und SOPs über die Wirtschaftlichkeit entscheiden",
+          "Restaurant eröffnen: Küchenlayout, Food Cost & SOPs",
         excerpt:
-          "Viele Gastronomieprojekte investieren stark ins Interieur – und verlieren im Alltag durch unergonomische Küchenwege, fehlende Rezepturstandards und unkontrollierten Wareneinsatz.",
+          "Unergonomische Küchenwege und fehlende Rezepturstandards kosten täglich Marge – selbst bei bestem Gastraum-Design.",
         seoDescription:
           "Praxisleitfaden zur Restauranteröffnung in Deutschland: Küchenworkflow, Geräteauswahl, Grammaturen, Food Cost und SOP-Strukturen.",
         relatedServiceSlug: "restaurant-kitchen",
         sections: [
           {
-            heading: "1. Die Küche bestimmt die Geschwindigkeit des gesamten Betriebs",
+            heading: "1. Die Küche bestimmt das Tempo",
             paragraphs: [
-              "Ein ansprechender Gastraum bringt Gäste ins Restaurant – aber die Küche entscheidet darüber, ob Bestellungen pünktlich, heiß und in gleichbleibender Qualität den Pass verlassen.",
-              "Bereits vor dem Kauf der ersten Geräte müssen warme Küche, kalte Küche, Spülbereich, Lager und die Übergabe an den Service logisch aufeinander abgestimmt sein. Kreuzende Wege kosten im Spitzenbetrieb wertvolle Minuten und erhöhen die Fehlerquote.",
+              "Vor dem Gerätekauf müssen warme Küche, kalte Küche, Spülbereich, Lager und Pass ohne kreuzende Wege abgestimmt sein.",
             ],
           },
           {
-            heading: "2. Food Cost und Grammaturen sichern die Marge",
+            heading: "2. Grammaturen sichern die Marge",
             paragraphs: [
-              "Ohne dokumentierte Rezepturen und exakte Portionsgrößen schwankt nicht nur der Geschmack, sondern auch der Wareneinsatz von Schicht zu Schicht.",
+              "Ohne feste Rezepturen schwanken sowohl Geschmack als auch monatlicher Wareneinsatz.",
             ],
             bullets: [
-              "Jedes Gericht benötigt eine verbindliche Rezepturkarte mit Grammaturen",
-              "Einkaufspreise und Verschnittfaktoren müssen regelmäßig gegen den Verkaufspreis geprüft werden",
-              "Die Speisekarte sollte so aufgebaut sein, dass sich Zutaten sinnvoll über mehrere Gerichte teilen",
+              "Verbindliche Rezepturkarte mit Grammaturen je Gericht",
+              "Regelmäßige Prüfung von Einkaufspreisen & Verschnitt",
+              "Effiziente Zutaten-Nutzung über die gesamte Karte",
             ],
           },
           {
-            heading: "3. SOPs entlasten das Team ab Tag eins",
+            heading: "3. SOPs entlasten ab Tag eins",
             paragraphs: [
-              "Standard Operating Procedures (SOPs) definieren Vorbereitung, Übergaben, Hygieneabläufe und Postenverantwortlichkeiten. So bleibt der Betrieb auch bei Personalwechseln stabil und reproduzierbar.",
+              "Klare Abläufe für Vorbereitung, Hygiene und Posten halten die Qualität selbst bei Personalwechseln stabil.",
             ],
           },
         ],
         takeaway:
-          "Wer Küchenworkflow, Geräteauswahl, Food Cost und SOPs vor der Eröffnung sauber plant, spart laufende Kosten und schützt die Qualität ab dem ersten Serviceabend.",
+          "Wer Workflow, Food Cost und SOPs vor dem Start plant, vermeidet teure Fehlinvestitionen.",
       },
       {
         slug: "internationale-fachkraefte-strukturierte-koordination",
         category: "Recruitment & Relocation",
-        readTime: "3 Min. Lesezeit",
+        readTime: "2 Min. Lesezeit",
         title:
-          "Internationale Fachkräfte zwischen der Türkei und Deutschland: Warum Struktur der entscheidende Erfolgsfaktor ist",
+          "Internationale Fachkräfte: Struktur statt Zufall",
         excerpt:
-          "Wenn Arbeitgeber in Deutschland und Kandidaten aus dem Ausland zusammenfinden sollen, entscheidet die Qualität der organisatorischen Begleitung über Tempo und Verlässlichkeit.",
+          "Saubere Kandidatendossiers, direkte Verträge und realistische Zeitpläne entscheiden über Tempo und Erfolg bei Einstellungen.",
         seoDescription:
           "Wie strukturierte Kandidatenkoordination, transparente Kommunikation und geplantes Onboarding internationale Einstellungen erleichtern.",
         relatedServiceSlug: "recruitment",
         sections: [
           {
-            heading: "Klare Profile statt unübersichtlicher Bewerbungsmappen",
+            heading: "Vergleichbare Dossiers sparen Zeit",
             paragraphs: [
-              "Arbeitgeber benötigen schnell vergleichbare Informationen zu Berufserfahrung, Sprachkenntnissen und Verfügbarkeit. Eine strukturierte Vororganisation der Unterlagen verhindert Missverständnisse bereits vor dem ersten Gespräch.",
+              "Arbeitgeber brauchen Erfahrung, Sprachniveau und Verfügbarkeit auf einen Blick vor dem ersten Gespräch.",
             ],
           },
           {
-            heading: "Direkte Verträge und saubere Erwartungen",
+            heading: "Direkte Verträge & klare Erwartungen",
             paragraphs: [
-              "Seriöse internationale Personalgewinnung setzt auf direkte Arbeitsverträge zwischen Arbeitgeber und Arbeitnehmer sowie auf realistische Zeitpläne ohne unhaltbare Visa-Versprechen.",
+              "Seriöse Koordination basiert auf direkten Arbeitsverträgen und realistischen Zeitplänen ohne falsche Visa-Versprechen.",
             ],
             bullets: [
-              "Realistische Abstimmung von Aufgaben, Arbeitszeit und Einarbeitung",
-              "Zweisprachige Gesprächsbegleitung für klare Rückfragen auf beiden Seiten",
-              "Frühzeitige Verzahnung mit Relocation- und Behördenorganisation",
+              "Klare Abstimmung von Aufgaben & Arbeitszeiten",
+              "Zweisprachige Gesprächsbegleitung (DE–TR)",
+              "Verzahnung mit Relocation & Behördenstart",
             ],
           },
         ],
         takeaway:
-          "Internationale Einstellungen gelingen nachhaltig, wenn Recruitment, sprachliche Klarheit und Ankunftsorganisation als zusammenhängender Prozess gedacht werden.",
+          "Wenn Recruitment und Ankunftsorganisation ineinandergreifen, gelingt die Einarbeitung deutlich schneller.",
       },
       {
         slug: "markteintritt-deutschland-typische-huerden-vermeiden",
         category: "Business Setup",
-        readTime: "3 Min. Lesezeit",
+        readTime: "2 Min. Lesezeit",
         title:
-          "Markteintritt in Deutschland: Welche organisatorischen Hürden internationale Gründer frühzeitig einplanen sollten",
+          "Markteintritt Deutschland: Frühzeitig richtig planen",
         excerpt:
-          "Ein sauber vorbereiteter Markteintritt trennt klare Projektkoordination von regulierter Rechts- und Steuerberatung – und spart dadurch Monate an Abstimmungszeit.",
+          "Wer Unterlagen vor Notar- und Steuerberaterterminen strukturiert, spart beim Unternehmensstart Monate an Abstimmungszeit.",
         seoDescription:
           "Praktischer Überblick zu Marktrecherche, Lieferantenkontakten und der koordinierten Zusammenarbeit mit Notaren, Anwälten und Steuerberatern in Deutschland.",
         relatedServiceSlug: "business-setup",
         sections: [
           {
-            heading: "Vorbereitung entscheidet über die Effizienz von Fachberater-Terminen",
+            heading: "Vorbereitung beschleunigt Fachberater",
             paragraphs: [
-              "Notare, Rechtsanwälte und Steuerberater arbeiten am effizientesten, wenn Geschäftsmodell, Beteiligungsstruktur und benötigte Basisunterlagen bereits geordnet vorliegen.",
+              "Notare, Anwälte und Steuerberater arbeiten effizienter, wenn Geschäftsmodell und Basisunterlagen geordnet vorliegen.",
             ],
           },
           {
-            heading: "Lokale Recherche vor festen Verpflichtungen",
+            heading: "Lokale Recherche vor Verträgen",
             paragraphs: [
-              "Bevor langfristige Verträge unterzeichnet werden, schaffen strukturierte Markt-, Partner- und Lieferantenrecherchen die nötige Entscheidungssicherheit.",
+              "Gezielte Markt-, Partner- und Lieferantenprüfung schafft Sicherheit vor langfristigen Bindungen.",
             ],
             bullets: [
-              "Klare Abgrenzung zwischen Projektkoordination und Berufsträger-Beratung",
-              "Verlässliche zweisprachige Dokumentation aller Meilensteine",
-              "Frühzeitige Planung von digitaler Sichtbarkeit (Website, SEO & Local SEO)",
+              "Klare Trennung zwischen Koordination und Rechts-/Steuerberatung",
+              "Zweisprachige Dokumentation aller Meilensteine",
+              "Frühe Planung von Website, SEO & Local SEO",
             ],
           },
         ],
         takeaway:
-          "Strukturierte Vorbereitung vor Ort verkürzt den Weg vom ersten Konzept bis zum operativen Markteintritt in Deutschland erheblich.",
+          "Gute lokale Vorbereitung verkürzt den Weg vom Konzept bis zum laufenden Betrieb in Deutschland erheblich.",
       },
     ],
   },

@@ -9,51 +9,46 @@ export const pagesEn: CorporatePagesContent = {
     },
     eyebrow: "About Us",
     title: "Reliable cross-border coordination built on clarity",
-    lead: "KALKAN PARTNER – International Business & Service Solutions connects people, companies, institutions, and licensed specialist partners across Germany, Türkiye, and international markets.",
-    identityHeading: "Corporate Identity & Mission",
+    lead: "We connect people, businesses, and licensed specialist partners across Germany, Türkiye, and international markets.",
+    identityHeading: "Who We Are",
     identityParagraphs: [
-      "Cross-border initiatives require more than ambition: they demand structured organization, clear multilingual communication, well-prepared documentation, and reliable alignment across every stakeholder.",
-      "Based in Germany, we focus squarely on this organizational and coordinating bridge for both corporate clients and private individuals. We prioritize practical execution over generic consulting theory.",
+      "Based in Germany, we handle multilingual communication, documentation, and workflow coordination for companies and private clients with practical focus rather than theory.",
     ],
-    visionHeading: "International Vision",
+    visionHeading: "Our Vision",
     visionText:
-      "To serve as a trusted point of coordination across the German–Turkish and international business corridor – combining transparent process management with deep operational hospitality expertise.",
-    philosophyHeading: "Our Service Philosophy",
+      "To be the trusted hub for transparent process coordination in the German–Turkish corridor – backed by hands-on hospitality expertise.",
+    philosophyHeading: "How We Work",
     philosophyItems: [
       {
-        title: "Transparency From Day One",
-        description:
-          "We state clearly what we coordinate directly, what timelines are realistic, and where licensed external specialists are required.",
+        title: "Full Transparency",
+        description: "Clear scope on what we coordinate directly and where licensed specialists step in.",
       },
       {
-        title: "Disciplined Process Management",
-        description:
-          "Every engagement follows a clear roadmap with defined responsibilities, structured checklists, and dependable updates.",
+        title: "Structured Execution",
+        description: "Every project follows a clear roadmap, organized files, and dependable updates.",
       },
       {
-        title: "Client-Focused Practicality",
-        description:
-          "Whether supporting an employer, founder, restaurateur, or relocating family, every workflow is tailored to concrete outcomes.",
+        title: "Practical Results",
+        description: "Tailored execution for employers, founders, restaurateurs, and families.",
       },
       {
-        title: "Data Minimization & Confidentiality",
-        description:
-          "We handle client information responsibly and never request passports or medical records through ordinary web forms.",
+        title: "Data Minimization",
+        description: "Passports and medical files are never collected through standard web forms.",
       },
     ],
-    partnerModelHeading: "Working With Qualified Specialist Partners",
+    partnerModelHeading: "Qualified Specialist Partners",
     partnerModelText:
-      "KALKAN PARTNER does not perform regulated professional activities without required licenses. Wherever legal, tax, medical, architectural, or sworn translation services are required, we coordinate seamlessly with independent, duly authorized specialists:",
+      "KALKAN PARTNER never performs regulated activities without required licenses. We coordinate directly with independent, authorized specialists:",
     partnerTypes: [
-      "Licensed attorneys, notaries, and tax advisers (Steuerberater)",
-      "Sworn and officially authorized translators",
-      "Authorized hospitals and licensed medical tourism organizations in Türkiye",
-      "Qualified architects, engineers, and technical planners for hospitality venues",
-      "Vetted commercial equipment suppliers and specialist service providers",
+      "Licensed attorneys, notaries & tax advisers",
+      "Sworn & officially authorized translators",
+      "Authorized hospitals in Türkiye",
+      "Hospitality architects & engineering planners",
+      "Vetted commercial suppliers & partners",
     ],
-    ctaTitle: "Discuss your project in a structured initial consultation",
+    ctaTitle: "Let's discuss your project",
     ctaSubtitle:
-      "Share your objective with us – we will provide an honest, well-organized assessment of next steps.",
+      "Share your goal briefly – we will reply with a clear assessment.",
     ctaButton: "Contact Us",
   },
 
@@ -64,63 +59,63 @@ export const pagesEn: CorporatePagesContent = {
         "How KALKAN PARTNER bridges Germany, Türkiye, and international markets through a structured coordination and specialist partner ecosystem.",
     },
     eyebrow: "International Network",
-    title: "A structured bridge across Germany, Türkiye, and international markets",
-    lead: "Strong cross-border execution happens when local market knowledge, trilingual communication, and licensed specialist expertise work in concert.",
+    title: "A structured bridge across Germany, Türkiye, and global markets",
+    lead: "Local market knowledge, trilingual communication, and licensed specialist expertise in one coordinated workflow.",
     regions: [
       {
         name: "Germany",
-        tag: "Headquarters & Core Operating Market",
-        focus: "Employers, hospitality, market entry, relocation & administration",
+        tag: "HQ & Core Market",
+        focus: "Employers, hospitality, market entry & relocation",
         points: [
-          "Direct coordination for businesses, employers, and hospitality founders",
-          "Scheduling with local suppliers, service providers, and advisors",
-          "Structured preparation for German administrative workflows",
+          "Direct support for businesses & restaurants",
+          "Local supplier & appointment scheduling",
+          "Structured bridge to institutions & advisors",
         ],
       },
       {
         name: "Türkiye",
-        tag: "Strategic Partner & Talent Market",
-        focus: "Candidate sourcing, suppliers, trade & authorized healthcare partners",
+        tag: "Strategic Partner Market",
+        focus: "Talent sourcing, suppliers & authorized clinics",
         points: [
-          "Bilingual pre-organization of candidates and commercial contacts",
-          "Supplier and manufacturer research for German–Turkish ventures",
-          "Transparent communication with authorized healthcare providers",
+          "Bilingual candidate & partner screening",
+          "Supplier & manufacturer research",
+          "Coordination with authorized hospitals",
         ],
       },
       {
         name: "International",
-        tag: "Cross-Border Initiatives",
-        focus: "Multilingual project coordination & digital scalability",
+        tag: "Cross-Border Projects",
+        focus: "Multilingual execution & digital scaling",
         points: [
-          "Consistent business communication in German, Turkish, and English",
-          "Market-entry coordination for international entrepreneurs",
-          "Multilingual web, SEO, Local SEO, GEO, and AI implementations",
+          "Communication in DE · TR · EN",
+          "German market-entry coordination",
+          "Web, SEO, Local SEO & AI systems",
         ],
       },
     ],
-    partnerCategoriesHeading: "Independent Specialists & Clear Division of Roles",
+    partnerCategoriesHeading: "Clear Division of Roles",
     partnerCategoriesIntro:
-      "Trust relies on clear boundaries. We coordinate workflows while regulated services remain strictly with licensed professionals.",
+      "We coordinate organization and timelines – while regulated professional services remain strictly with licensed specialists.",
     partnerCategories: [
       {
         title: "Legal, Notarial & Tax",
-        role: "Appointment and document preparation by KALKAN PARTNER",
-        boundary: "Legal, contractual, and tax advice exclusively by licensed professionals.",
+        role: "Appointment & document preparation",
+        boundary: "Legal and tax advice exclusively by licensed professionals.",
       },
       {
         title: "Certified Translation",
-        role: "Business correspondence and translation workflow coordination",
-        boundary: "Official certifications exclusively by duly sworn translators.",
+        role: "Correspondence & translation workflow",
+        boundary: "Official certifications exclusively by sworn translators.",
       },
       {
         title: "Healthcare Providers (TR)",
-        role: "Patient communication, interpreter, and travel coordination",
-        boundary: "Diagnosis, treatment, and medical responsibility solely with authorized hospitals & physicians.",
+        role: "Patient communication, language & travel",
+        boundary: "Diagnosis and treatment solely with authorized hospitals & physicians.",
       },
       {
         title: "Hospitality Engineering",
-        role: "Operational kitchen layout, workflow, equipment, menu & SOPs",
-        boundary: "Regulated architectural, structural, electrical, gas, fire, and ventilation plans by licensed engineers.",
+        role: "Kitchen layout, equipment, menu & SOPs",
+        boundary: "Regulated architectural, electrical, gas, and ventilation plans by licensed engineers.",
       },
     ],
     ctaTitle: "Looking for a reliable coordinator between Germany and Türkiye?",
@@ -293,8 +288,8 @@ export const pagesEn: CorporatePagesContent = {
         "Practical insights on commercial kitchen planning, international candidate coordination, and German market entry.",
     },
     eyebrow: "Insights & Guides",
-    title: "Practical perspectives on cross-border execution",
-    lead: "Concise, experience-driven guides across hospitality operations, international recruitment, and market entry in Germany.",
+    title: "Concise field notes for cross-border projects",
+    lead: "Actionable guides across hospitality operations, hiring, and German market entry – straight to the point.",
     readArticleLabel: "Read Article",
     backToInsightsLabel: "Back to All Insights",
     relatedServiceLabel: "Related Department",
@@ -302,108 +297,107 @@ export const pagesEn: CorporatePagesContent = {
       {
         slug: "restaurant-eroeffnen-kuechenlayout-food-cost-sop",
         category: "Restaurant & Kitchen Solutions",
-        readTime: "4 min read",
+        readTime: "3 min read",
         title:
-          "Opening a Restaurant in Germany: Why Kitchen Workflow, Food Cost, and SOPs Decide Profitability",
+          "Opening a Restaurant: Kitchen Workflow, Food Cost & SOPs",
         excerpt:
-          "Many hospitality ventures invest heavily in dining-room aesthetics while losing margin daily through bottlenecked kitchen layouts and unstandardized recipes.",
+          "Bottlenecked kitchen layouts and unstandardized recipes erode margins daily – no matter how strong the dining room looks.",
         seoDescription:
           "Practical guide to opening a restaurant in Germany: commercial kitchen workflow, equipment selection, portion weights, food cost, and SOPs.",
         relatedServiceSlug: "restaurant-kitchen",
         sections: [
           {
-            heading: "1. Kitchen geometry dictates service speed",
+            heading: "1. Kitchen geometry drives speed",
             paragraphs: [
-              "Interior design attracts first-time guests, but ergonomic station layout determines whether dishes leave the pass hot, consistent, and on time during peak service.",
-              "Before purchasing equipment, hot line, cold prep, dishwashing, storage, and pass handoffs must be mapped without crossing paths.",
+              "Before buying equipment, hot line, cold prep, dishwashing, storage, and pass handoffs must align without crossing paths.",
             ],
           },
           {
-            heading: "2. Portion weights and food cost protect margins",
+            heading: "2. Portion weights protect margin",
             paragraphs: [
-              "Without documented recipe cards and gram-accurate portioning, both flavor consistency and gross margin fluctuate from shift to shift.",
+              "Without fixed recipe cards, both dish consistency and monthly food cost drift out of control.",
             ],
             bullets: [
-              "Maintain standardized recipe cards with exact portion weights for every dish",
-              "Benchmark supplier prices and trim waste regularly against menu pricing",
-              "Cross-utilize core ingredients smartly across the menu",
+              "Standardized recipe card with gram weights for every dish",
+              "Regular benchmarking of purchase prices & waste",
+              "Smart ingredient cross-utilization across the menu",
             ],
           },
           {
-            heading: "3. SOPs stabilize the team from day one",
+            heading: "3. SOPs stabilize day one",
             paragraphs: [
-              "Standard Operating Procedures define prep lists, station handovers, hygiene routines, and service communication – keeping quality stable even as teams grow.",
+              "Clear prep lists, hygiene checks, and station rules keep quality consistent even as teams scale.",
             ],
           },
         ],
         takeaway:
-          "Planning kitchen workflow, equipment specs, food cost, and SOPs before launch prevents capital mistakes and protects margins from opening night.",
+          "Planning workflow, food cost, and SOPs before launch prevents costly errors from opening night.",
       },
       {
         slug: "internationale-fachkraefte-strukturierte-koordination",
         category: "Recruitment & Relocation",
-        readTime: "3 min read",
+        readTime: "2 min read",
         title:
-          "International Candidate Coordination Between Türkiye and Germany: Why Structure Wins",
+          "Cross-Border Hiring: Why Structure Wins",
         excerpt:
-          "When German employers and international candidates connect, structured document preparation and bilingual coordination determine speed and reliability.",
+          "Clean candidate files, direct contracts, and realistic timelines determine how smoothly international hiring works.",
         seoDescription:
           "How structured candidate files, transparent communication, and coordinated onboarding streamline cross-border hiring.",
         relatedServiceSlug: "recruitment",
         sections: [
           {
-            heading: "Comparable candidate files save decision time",
+            heading: "Comparable candidate files",
             paragraphs: [
-              "Employers need clear, comparable information on experience, language proficiency, and availability prior to scheduling interviews.",
+              "Employers need experience, language level, and availability at a glance before booking interviews.",
             ],
           },
           {
-            heading: "Direct employment contracts and realistic timelines",
+            heading: "Direct contracts & realistic timelines",
             paragraphs: [
-              "Sustainable recruitment relies on direct contracts between employer and employee alongside realistic timelines without exaggerated visa promises.",
+              "Sustainable recruitment relies on direct employment contracts and honest timelines without false visa promises.",
             ],
             bullets: [
-              "Clear alignment on duties, working conditions, and onboarding",
-              "Bilingual interview coordination to prevent misunderstandings",
-              "Early alignment with Relocation and administrative preparation",
+              "Clear alignment on duties & working hours",
+              "Bilingual interview support (DE–TR)",
+              "Connected Relocation & arrival planning",
             ],
           },
         ],
         takeaway:
-          "Cross-border hiring succeeds when recruitment, clear communication, and arrival planning operate as one connected workflow.",
+          "Hiring moves faster when candidate prep, communication, and arrival logistics run as one flow.",
       },
       {
         slug: "markteintritt-deutschland-typische-huerden-vermeiden",
         category: "Business Setup",
-        readTime: "3 min read",
+        readTime: "2 min read",
         title:
-          "Entering the German Market: Organizational Steps International Founders Should Plan Early",
+          "Entering Germany: Early Steps Founders Should Plan",
         excerpt:
-          "Founders who combine structured project coordination with well-prepared legal and tax appointments save months during German market entry.",
+          "Preparing files before meeting notaries and tax advisers saves months during German market entry.",
         seoDescription:
           "Practical overview of market research, supplier outreach, and coordinated meetings with notaries, lawyers, and tax advisers in Germany.",
         relatedServiceSlug: "business-setup",
         sections: [
           {
-            heading: "Preparation maximizes advisor efficiency",
+            heading: "Preparation speeds up advisors",
             paragraphs: [
-              "Notaries, attorneys, and tax advisers work far faster when business models, shareholder details, and commercial objectives are structured beforehand.",
+              "Notaries, attorneys, and tax advisers work faster when business models and core files are ready upfront.",
             ],
           },
           {
-            heading: "Validate suppliers and partners before long-term commitments",
+            heading: "Local checks before signing",
             paragraphs: [
-              "Targeted local market, partner, and supplier research reduces commercial risk prior to signing binding obligations.",
+              "Targeted market, partner, and supplier checks reduce risk prior to long-term commitments.",
             ],
             bullets: [
-              "Clear separation between project coordination and regulated legal/tax advice",
-              "Multilingual tracking of milestones and action items",
-              "Early preparation of corporate web presence, SEO, and Local SEO",
+              "Clear split between coordination and regulated advice",
+              "Multilingual tracking of milestones",
+              "Early corporate web, SEO & Local SEO setup",
             ],
           },
         ],
         takeaway:
-          "Structured local coordination shortens the path from initial concept to operational launch in Germany.",
+          "Structured local preparation cuts the time from concept to active launch in Germany.",
       },
     ],
   },

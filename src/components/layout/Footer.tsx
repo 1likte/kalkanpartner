@@ -3,6 +3,7 @@ import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/content/types";
 import type { SiteSettings } from "@/lib/cms";
 import { BrandLogo } from "@/components/brand/BrandLogo";
+import { SocialIcons } from "@/components/brand/SocialIcons";
 
 interface FooterProps {
   locale: Locale;
@@ -23,6 +24,7 @@ export function Footer({ locale, dict, site }: FooterProps) {
             <p className="text-sm leading-relaxed text-white/90 max-w-sm">
               {dict.footer.tagline}
             </p>
+            <SocialIcons links={site} variant="footer" />
             <div className="rounded-lg border border-gold/30 bg-white/8 p-4">
               <p className="text-xs leading-relaxed text-white/90">
                 {dict.footer.coordinationNotice}

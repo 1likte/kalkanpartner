@@ -8,52 +8,47 @@ export const pagesTr: CorporatePagesContent = {
         "Almanya merkezli KALKAN PARTNER'in kurumsal kimliği, uluslararası vizyonu, şeffaf hizmet felsefesi ve yetkili iş ortağı ağı.",
     },
     eyebrow: "Hakkımızda",
-    title: "Sınırlar ötesinde güvenilir ve şeffaf koordinasyon",
-    lead: "KALKAN PARTNER – International Business & Service Solutions; Almanya, Türkiye ve uluslararası pazarlar arasında insanları, şirketleri, kurumları ve yetkili uzman iş ortaklarını bir araya getirir.",
-    identityHeading: "Kurumsal Kimlik ve Misyon",
+    title: "Sınırlar ötesinde net ve güvenilir koordinasyon",
+    lead: "Almanya, Türkiye ve uluslararası pazarlar arasında insanları, şirketleri ve yetkili uzmanları tek çatı altında buluşturuyoruz.",
+    identityHeading: "Biz Kimiz?",
     identityParagraphs: [
-      "Sınır ötesi projeler iyi niyetten fazlasını gerektirir: İletişimi toparlayan, belgeleri düzenli tutan ve doğru paydaşları doğru sırayla buluşturan disiplinli bir koordinasyon yapısına ihtiyaç vardır.",
-      "Almanya merkezli yapımızla hem şirketler hem de bireysel müşteriler ve aileler için tam olarak bu organizasyon ve süreç koordinasyonu köprüsünü kuruyoruz. Soyut teoriler yerine sahada çalışan, pratik çözümlere odaklanıyoruz.",
+      "Almanya merkezli yapımızla hem şirketler hem de bireysel müşteriler için tüm iletişim, evrak hazırlığı ve süreç koordinasyonunu pratik biçimde yönetiyoruz.",
     ],
-    visionHeading: "Uluslararası Vizyon",
+    visionHeading: "Vizyonumuz",
     visionText:
-      "Almanya–Türkiye ve uluslararası eksende; şeffaf, hukuki sınırları net ve sonuç odaklı süreç koordinasyonunda — özellikle de gerçek mutfak tecrübemize dayanan gastronomi çözümlerimizle — güvenilir başvuru noktası olmak.",
-    philosophyHeading: "Hizmet Felsefemiz",
+      "Almanya–Türkiye ekseninde — özellikle sahaya dayalı gastronomi uzmanlığımızla — şeffaf ve sonuç odaklı süreç yönetiminin ilk adresi olmak.",
+    philosophyHeading: "Çalışma İlkelerimiz",
     philosophyItems: [
       {
-        title: "Baştan Sona Şeffaflık",
-        description:
-          "Hangi adımları doğrudan koordine ettiğimizi, nelerin gerçekçi olduğunu ve nerelerde yetkili uzman gerektiğini ilk görüşmede açıkça paylaşıyoruz.",
+        title: "Tam Şeffaflık",
+        description: "Neyi koordine ettiğimizi ve nerede uzman gerektiğini en baştan açıklarız.",
       },
       {
-        title: "Disiplinli Koordinasyon",
-        description:
-          "Her talep net bir iş planı, düzenli belge takibi ve anlaşılır geri bildirimlerle yönetilir.",
+        title: "Disiplinli Takip",
+        description: "Her süreç net takvim, düzenli evrak ve anlaşılır geri bildirimle yürür.",
       },
       {
-        title: "Müşteri Odaklı Pratik Yaklaşım",
-        description:
-          "İşveren, girişimci, restorancı veya taşınan bir aile fark etmeksizin her süreci doğrudan müşterinin gerçek hedefine göre kurguluyoruz.",
+        title: "Pratik Odak",
+        description: "Teori değil, sahada çalışan somut çözümler üretiriz.",
       },
       {
-        title: "Veri Güvenliği ve Gizlilik",
-        description:
-          "Veri minimizasyonu ilkesiyle çalışıyor; pasaport veya tıbbi rapor gibi hassas belgeleri kesinlikle standart web formları üzerinden toplamıyoruz.",
+        title: "Veri Güvenliği",
+        description: "Pasaport veya tıbbi rapor gibi hassas belgeleri web formundan toplamayız.",
       },
     ],
-    partnerModelHeading: "Yetkili İş Ortaklarıyla Çalışma Modeli",
+    partnerModelHeading: "Yetkili İş Ortaklarıyla Çalışma",
     partnerModelText:
-      "KALKAN PARTNER, gerekli mesleki yetki veya resmî izin gerektiren faaliyetleri kendi adına üstlenmez. Hukuki, vergisel, tıbbi, mimari veya yeminli tercümanlık gereken her adımda bağımsız ve yetkili uzmanlarla koordinasyon sağlar:",
+      "KALKAN PARTNER resmî izin gerektiren faaliyetleri kendi adına yapmaz; gereken her adımda bağımsız ve yetkili uzmanlarla köprü kurar:",
     partnerTypes: [
-      "Yetkili avukatlar, noterler ve mali müşavirler (Steuerberater)",
-      "Resmî onaylı ve yeminli tercümanlar",
-      "Türkiye'deki yetkili hastaneler ve sağlık turizmi kuruluşları",
-      "Restoran projelerinde yetkili mimarlar, mühendisler ve teknik proje uzmanları",
-      "Sektörel tedarikçiler, ekipman sağlayıcıları ve hizmet ortakları",
+      "Avukatlar, noterler ve mali müşavirler",
+      "Resmî onaylı yeminli tercümanlar",
+      "Türkiye'deki yetkili hastaneler",
+      "Gastronomi mimarları ve mühendisler",
+      "Ekipman tedarikçileri ve çözüm ortakları",
     ],
-    ctaTitle: "Çalışma modelimizi ön görüşmede tanıyın",
+    ctaTitle: "Projenizi ön görüşmede konuşalım",
     ctaSubtitle:
-      "Projenizi veya ihtiyacınızı kısaca paylaşın; dürüst ve yapılandırılmış bir değerlendirmeyle dönüş yapalım.",
+      "İhtiyacınızı kısaca iletin; net bir yol haritasıyla dönüş yapalım.",
     ctaButton: "Talep Gönderin",
   },
 
@@ -64,66 +59,66 @@ export const pagesTr: CorporatePagesContent = {
         "KALKAN PARTNER'in Almanya, Türkiye ve uluslararası pazarları nasıl yapılandırılmış bir uzman iş ortağı ağıyla birleştirdiğini inceleyin.",
     },
     eyebrow: "Uluslararası Ağ",
-    title: "Almanya, Türkiye ve uluslararası pazarlar arasında düzenli iş birliği ağı",
-    lead: "Güçlü sonuçlar; yerel pazar bilgisinin, çift dilli iletişimin ve bağımsız yetkili uzmanlığın uyumlu biçimde koordine edilmesiyle ortaya çıkar.",
+    title: "Almanya, Türkiye ve küresel pazarlar arasında iş ağı",
+    lead: "Yerel pazar bilgisi, çift dilli iletişim ve bağımsız yetkili uzmanlık tek koordinasyonda birleşir.",
     regions: [
       {
         name: "Almanya",
-        tag: "Merkez & Ana Operasyon Pazarı",
-        focus: "İşverenler, gastronomi, pazara giriş, taşınma & idari süreçler",
+        tag: "Merkez & Ana Pazar",
+        focus: "İşverenler, gastronomi, pazara giriş & taşınma",
         points: [
-          "Almanya'daki şirketler ve restoran yatırımcıları için doğrudan süreç koordinasyonu",
-          "Yerel tedarikçi, hizmet sağlayıcı ve randevu organizasyonu",
-          "Alman kurum süreçleri ve yetkili uzmanlarla düzenli iletişim köprüsü",
+          "Şirket ve restoranlar için doğrudan koordinasyon",
+          "Yerel tedarikçi ve randevu planlaması",
+          "Alman kurum ve uzman süreçlerine köprü",
         ],
       },
       {
         name: "Türkiye",
-        tag: "Stratejik İş Ortağı & Yetenek Pazarı",
-        focus: "Aday araştırması, tedarikçiler, ticaret & yetkili sağlık kuruluşları",
+        tag: "Stratejik İş Ortağı",
+        focus: "Aday araştırması, tedarikçiler & yetkili klinikler",
         points: [
-          "Aday ve iş ortağı görüşmelerinde çift dilli ön organizasyon",
-          "Almanya–Türkiye projeleri için tedarikçi ve üretici araştırması",
-          "Türkiye'deki yetkili hastane ve sağlık turizmi kuruluşlarıyla şeffaf iletişim",
+          "Aday ve iş ortağı ön görüşmeleri",
+          "Üretici ve tedarikçi araştırması",
+          "Yetkili sağlık kuruluşlarıyla koordinasyon",
         ],
       },
       {
         name: "Uluslararası",
         tag: "Sınır Ötesi Projeler",
-        focus: "Çok dilli süreç yönetimi & dijital ölçeklenme",
+        focus: "Çok dilli süreçler & dijital ölçeklenme",
         points: [
-          "Almanca, Türkçe ve İngilizce ekseninde düzenli iş iletişimi",
-          "Uluslararası girişimcilerin Almanya pazarına giriş organizasyonu",
-          "Çok dilli web, SEO, Local SEO, GEO ve yapay zekâ çözümleri",
+          "DE · TR · EN iş iletişimi",
+          "Almanya pazarına giriş organizasyonu",
+          "Çok dilli web, SEO & yapay zekâ",
         ],
       },
     ],
-    partnerCategoriesHeading: "Bağımsız Yetkili Uzmanlar ve Net Görev Paylaşımı",
+    partnerCategoriesHeading: "Net Görev Paylaşımı",
     partnerCategoriesIntro:
-      "Güven, sınırların net olmasından doğar. Biz organizasyonu ve koordinasyonu yönetiriz; mesleki yetki gerektiren hizmetler her zaman ilgili yetkili uzmanlarca sunulur.",
+      "Biz organizasyonu ve koordinasyonu yönetiriz; mesleki yetki gerektiren hizmetler her zaman bağımsız yetkili uzmanlarca sunulur.",
     partnerCategories: [
       {
         title: "Hukuk, Noter & Vergi",
-        role: "KALKAN PARTNER tarafından randevu ve evrak hazırlığı",
-        boundary: "Hukuki danışmanlık, sözleşme ve vergi danışmanlığı yalnızca yetkili uzmanlarca verilir.",
+        role: "Randevu ve evrak hazırlığı",
+        boundary: "Hukuki ve vergisel danışmanlık yalnızca yetkili uzmanlarca verilir.",
       },
       {
         title: "Yeminli Tercüme",
-        role: "Genel iş yazışmaları ve çeviri süreci koordinasyonu",
-        boundary: "Resmî/yeminli çeviriler yalnızca yetkili ve yeminli tercümanlarca düzenlenir.",
+        role: "Yazışma ve çeviri koordinasyonu",
+        boundary: "Resmî tasdikli çeviriler yalnızca yeminli tercümanlarca düzenlenir.",
       },
       {
         title: "Sağlık Kuruluşları (TR)",
-        role: "Hasta iletişimi, tercüme ve seyahat koordinasyonu",
-        boundary: "Teşhis, tedavi ve tıbbi sorumluluk tamamen yetkili hastane ve hekimlere aittir.",
+        role: "İletişim, tercüme ve seyahat planı",
+        boundary: "Teşhis ve tedavi yalnızca yetkili hastane ve hekimlere aittir.",
       },
       {
         title: "Gastronomi Teknik & İnşaat",
-        role: "Operasyonel mutfak yerleşimi, iş akışı, ekipman, menü & SOP",
-        boundary: "Ruhsat gerektiren mimari, statik, elektrik, gaz, yangın ve havalandırma projeleri yetkili mühendislerce yürütülür.",
+        role: "Mutfak yerleşimi, ekipman, menü & SOP",
+        boundary: "Ruhsatlı mimari, statik, elektrik ve havalandırma projeleri mühendislerce yürütülür.",
       },
     ],
-    ctaTitle: "Almanya ile Türkiye arasında güvenilir bir koordinasyon ortağı mı arıyorsunuz?",
+    ctaTitle: "Almanya ve Türkiye arasında güvenilir bir ortak mı arıyorsunuz?",
     ctaButton: "İletişime Geçin",
   },
 
@@ -293,8 +288,8 @@ export const pagesTr: CorporatePagesContent = {
         "Almanya'da restoran açılışı, uluslararası aday koordinasyonu, pazara giriş ve relocation süreçlerine dair pratik rehberler.",
     },
     eyebrow: "Insights & Rehberler",
-    title: "Almanya ve uluslararası süreçler için pratik rehberler",
-    lead: "Genel geçer cümleler yerine doğrudan sahadaki organizasyon ve operasyon deneyimine dayanan kısa, uygulanabilir içerikler.",
+    title: "Saha tecrübesinden kısa rehberler",
+    lead: "Gastronomi, işe alım ve Almanya pazarına giriş için gereksiz detaylardan arındırılmış uygulanabilir notlar.",
     readArticleLabel: "Yazıyı Oku",
     backToInsightsLabel: "Tüm Rehberlere Dön",
     relatedServiceLabel: "İlgili Hizmet Departmanı",
@@ -302,108 +297,107 @@ export const pagesTr: CorporatePagesContent = {
       {
         slug: "restaurant-eroeffnen-kuechenlayout-food-cost-sop",
         category: "Restaurant & Kitchen Solutions",
-        readTime: "4 dk okuma",
+        readTime: "3 dk okuma",
         title:
-          "Almanya'da Restoran Açmak: Mutfak Yerleşimi, Food Cost ve SOP Neden Kârlılığı Belirler?",
+          "Almanya'da Restoran Açmak: Mutfak, Food Cost ve SOP",
         excerpt:
-          "Birçok restoran yatırımı salona yüksek bütçe ayırırken; plansız mutfak akışı, standartlaşmamış reçeteler ve kontrolsüz hammadde maliyeti nedeniyle kârlılığını kaybeder.",
+          "Plansız mutfak akışı ve standartlaşmamış reçeteler, şık bir salona rağmen restoranın kârlılığını ilk aydan eritir.",
         seoDescription:
           "Almanya'da restoran açılışı için pratik rehber: mutfak iş akışı, ekipman seçimi, porsiyon gramajı, food cost ve SOP dokümantasyonu.",
         relatedServiceSlug: "restaurant-kitchen",
         sections: [
           {
-            heading: "1. İşletmenin hızını salon değil mutfak belirler",
+            heading: "1. Hızı salon değil mutfak belirler",
             paragraphs: [
-              "Şık bir salon misafiri içeri çeker; ancak yoğun saatlerde siparişlerin zamanında, sıcak ve her seferinde aynı standartta çıkmasını sağlayan şey ergonomik bir mutfak yerleşimidir.",
-              "Ekipman satın almadan önce sıcak mutfak, soğuk mutfak, bulaşıkhane, depo ve servis bankosu (pass) arasındaki akışın kesişmeyecek biçimde planlanması gerekir.",
+              "Ekipman almadan önce sıcak, soğuk, bulaşık, depo ve servis (pass) akışını kesişmeyecek şekilde planlamak yoğun saatlerde hız ve kalite sağlar.",
             ],
           },
           {
-            heading: "2. Gramaj ve Food Cost kontrolü kâr marjını korur",
+            heading: "2. Gramaj ve Food Cost kârı korur",
             paragraphs: [
-              "Yazılı reçetesi ve net gramajı olmayan mutfaklarda hem lezzet ustaya bağımlı kalır hem de aylık hammadde maliyeti öngörülemez hale gelir.",
+              "Yazılı reçete olmadan lezzet de aylık hammadde maliyeti de kontrolden çıkar.",
             ],
             bullets: [
-              "Her ürün için gramajlı standart reçete kartı oluşturulmalıdır",
-              "Alış fiyatları ve fire oranları satış fiyatlarıyla düzenli karşılaştırılmalıdır",
-              "Menü, ortak malzeme kullanımını optimize edecek şekilde tasarlanmalıdır",
+              "Her tabak için gramajlı standart reçete kartı",
+              "Alış fiyatları ve fire oranlarının düzenli kontrolü",
+              "Ortak malzemeyi verimli kullanan menü tasarımı",
             ],
           },
           {
-            heading: "3. SOP dokümantasyonu açılış gününden itibaren düzen sağlar",
+            heading: "3. SOP ilk günden düzen getirir",
             paragraphs: [
-              "Standart İşletme Prosedürleri (SOP); hazırlık, istasyon sorumluluğu, hijyen ve servis geçişlerini netleştirir. Böylece ekip değişse bile operasyon kalitesi korunur.",
+              "Hazırlık, istasyon görevleri ve hijyen standartları yazılı olduğunda ekip değişse bile kalite aynı kalır.",
             ],
           },
         ],
         takeaway:
-          "Açılış öncesinde mutfak akışını, ekipman listesini, food cost hesabını ve SOP yapısını doğru kuran işletmeler hem yatırım hatasından korunur hem de ilk günden kârlı çalışır.",
+          "Mutfak akışı, food cost ve SOP yapısını açılış öncesi kuran işletmeler yatırım hatasından korunur.",
       },
       {
         slug: "internationale-fachkraefte-strukturierte-koordination",
         category: "Recruitment & Relocation",
-        readTime: "3 dk okuma",
+        readTime: "2 dk okuma",
         title:
-          "Türkiye'den Almanya'ya Nitelikli Aday Koordinasyonu: Dağınık Süreçler Yerine Net Plan",
+          "Türkiye'den Almanya'ya Aday Koordinasyonu",
         excerpt:
-          "Almanya'daki işverenlerle yurt dışındaki adayları buluştururken sürecin hızını ve başarısını belirleyen en kritik unsur düzenli belge ve iletişim koordinasyonudur.",
+          "İşveren ve adayı hızla buluşturan en önemli faktör düzenli aday dosyası, doğrudan sözleşme ve gerçekçi takvimdir.",
         seoDescription:
           "Uluslararası aday koordinasyonu, şeffaf iletişim ve planlı işe başlangıç sürecinin Alman işverenler ve adaylar için önemi.",
         relatedServiceSlug: "recruitment",
         sections: [
           {
-            heading: "Karşılaştırılabilir ve düzenli aday dosyaları",
+            heading: "Karşılaştırılabilir aday dosyaları",
             paragraphs: [
-              "Alman işverenler karar verirken deneyim, dil düzeyi ve uygunluk tarihini tek bakışta görmek ister. Ön aşamada düzenli hazırlanan CV ve belgeler görüşme kalitesini doğrudan yükseltir.",
+              "Alman işverenler deneyim, dil düzeyi ve uygunluk tarihini tek bakışta görmek ister. Hazır dosyalar görüşmeleri hızlandırır.",
             ],
           },
           {
-            heading: "Doğrudan iş sözleşmesi ve gerçekçi beklentiler",
+            heading: "Doğrudan sözleşme ve gerçekçi takvim",
             paragraphs: [
-              "Sağlıklı bir süreç, doğrudan işveren–çalışan sözleşmesine ve abartılı vize vaatleri olmadan gerçekçi bir takvime dayanır.",
+              "Süreç doğrudan işveren–çalışan sözleşmesine ve abartısız, gerçekçi bir zaman planına dayanır.",
             ],
             bullets: [
-              "Görev tanımı, çalışma koşulları ve başlangıç beklentilerinin netleştirilmesi",
-              "Almanca–Türkçe çift dilli görüşme koordinasyonu",
-              "İşe alım ile Relocation ve idari hazırlıkların eş zamanlı planlanması",
+              "Görev ve çalışma koşullarının baştan netleştirilmesi",
+              "DE–TR çift dilli görüşme desteği",
+              "İşe alımla eş zamanlı Relocation hazırlığı",
             ],
           },
         ],
         takeaway:
-          "Recruitment, çift dilli iletişim ve taşınma organizasyonu tek bir bütün olarak yönetildiğinde uluslararası işe alımlar çok daha verimli sonuç verir.",
+          "İşe alım ve taşınma tek elden planlandığında uyum süreci çok daha hızlı ilerler.",
       },
       {
         slug: "markteintritt-deutschland-typische-huerden-vermeiden",
         category: "Business Setup",
-        readTime: "3 dk okuma",
+        readTime: "2 dk okuma",
         title:
-          "Almanya Pazarına Giriş: Girişimcilerin Baştan Planlaması Gereken Organizasyon Adımları",
+          "Almanya Pazarına Giriş İçin Organizasyon Adımları",
         excerpt:
-          "Proje koordinasyonunu noter, avukat ve mali müşavir süreçleriyle doğru hizalayan girişimciler Almanya pazarına çok daha hızlı ve kontrollü adım atar.",
+          "Noter, avukat ve mali müşavir görüşmelerine hazır dosyayla giren girişimciler pazara aylarca erken adım atar.",
         seoDescription:
           "Almanya'da şirket kuruluş süreci organizasyonu, pazar/tedarikçi araştırması ve yetkili uzmanlarla verimli çalışma rehberi.",
         relatedServiceSlug: "business-setup",
         sections: [
           {
-            heading: "İyi hazırlık, uzman görüşmelerini hızlandırır",
+            heading: "İyi hazırlık uzman görüşmelerini hızlandırır",
             paragraphs: [
-              "Noter, avukat ve mali müşavir görüşmelerinden en yüksek verimi almak için iş modeli, hedefler ve temel belgelerin önceden düzenli biçimde hazırlanmış olması büyük zaman kazandırır.",
+              "İş modeli ve temel belgeler önden hazırlandığında noter ve mali müşavir süreçleri çok daha verimli ilerler.",
             ],
           },
           {
-            heading: "Bağlayıcı sözleşmeler öncesi yerel araştırma",
+            heading: "Bağlayıcı adımlar öncesi yerel araştırma",
             paragraphs: [
-              "Uzun vadeli taahhütlere girmeden önce yapılan pazar, iş ortağı ve tedarikçi araştırmaları karar riskini belirgin biçimde azaltır.",
+              "Sözleşme imzalamadan önce pazar, partner ve tedarikçi araştırması yapmak ticari riski azaltır.",
             ],
             bullets: [
-              "Proje koordinasyonu ile mesleki danışmanlık sınırlarının net ayrılması",
-              "Tüm adımların çift dilli ve yazılı takip edilmesi",
-              "Kuruluşla eş zamanlı kurumsal web, SEO ve Local SEO hazırlığı",
+              "Koordinasyon ile hukuki/vergi danışmanlığının net ayrımı",
+              "Çift dilli ve yazılı süreç takibi",
+              "Kuruluşla eş zamanlı web ve SEO hazırlığı",
             ],
           },
         ],
         takeaway:
-          "Almanya'da düzenli yerel koordinasyon, fikir aşamasından operasyonel faaliyete geçiş süresini ve maliyetini önemli ölçüde azaltır.",
+          "Yerel ön hazırlık, fikirden aktif operasyona geçiş süresini ciddi oranda kısaltır.",
       },
     ],
   },

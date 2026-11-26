@@ -25,6 +25,11 @@ export interface SiteSettings {
   phoneHref: string;
   whatsappUrl: string;
   telegramUrl: string;
+  instagramUrl: string;
+  linkedinUrl: string;
+  facebookUrl: string;
+  youtubeUrl: string;
+  tiktokUrl: string;
   mstvResponsible: string;
   commercialRegister: string;
   vatId: string;
@@ -100,6 +105,11 @@ export function getDefaultSiteSettings(): SiteSettings {
     phoneHref: siteConfig.legal.phoneHref,
     whatsappUrl: siteConfig.legal.whatsappUrl,
     telegramUrl: siteConfig.legal.telegramUrl,
+    instagramUrl: siteConfig.legal.instagramUrl,
+    linkedinUrl: siteConfig.legal.linkedinUrl,
+    facebookUrl: siteConfig.legal.facebookUrl,
+    youtubeUrl: siteConfig.legal.youtubeUrl,
+    tiktokUrl: siteConfig.legal.tiktokUrl,
     mstvResponsible: siteConfig.legal.mstvResponsible,
     commercialRegister: siteConfig.legal.commercialRegister,
     vatId: siteConfig.legal.vatId,

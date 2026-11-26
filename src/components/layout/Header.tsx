@@ -3,30 +3,40 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, ArrowUpRight, MessageCircle, Send } from "lucide-react";
+import {
+  Menu,
+  X,
+  ArrowUpRight,
+  MessageCircle,
+  Send,
+  Phone,
+  Mail,
+} from "lucide-react";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/content/types";
+import type { SiteSettings } from "@/lib/cms";
 import { BrandLogo } from "@/components/brand/BrandLogo";
+import { SocialIcons } from "@/components/brand/SocialIcons";
 import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
 
 interface HeaderProps {
   locale: Locale;
   dict: Dictionary;
-  whatsappUrl: string;
-  telegramUrl: string;
+  site: SiteSettings;
 }
 
-export function Header({
-  locale,
-  dict,
-  whatsappUrl,
-  telegramUrl,
-}: HeaderProps) {
+export function Header({ locale, dict, site }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 
   const aboutLabel =
     locale === "tr" ? "Hakkımızda" : locale === "en" ? "About" : "Über uns";
+  const socialLabel =
+    locale === "tr"
+      ? "Sosyal Medya"
+      : locale === "en"
+        ? "Social Media"
+        : "Social Media";
 
   const navItems = [
     { label: dict.nav.services, href: `/${locale}/services` },
@@ -67,11 +77,50 @@ export function Header({
     return pathname === href || pathname.startsWith(`${href}/`);
   };
 
+  const socialLinks = {
+    instagramUrl: site.instagramUrl,
+    linkedinUrl: site.linkedinUrl,
+    facebookUrl: site.facebookUrl,
+    youtubeUrl: site.youtubeUrl,
+    tiktokUrl: site.tiktokUrl,
+    whatsappUrl: site.whatsappUrl,
+    telegramUrl: site.telegramUrl,
+  };
+
   return (
     <>
       <header className="sticky top-0 z-40 border-b border-border-subtle/80 bg-surface/95 backdrop-blur-md">
+        {/* Desktop Top Utility Bar: Contact + Admin-Managed Social Icons */}
+        <div className="hidden lg:block bg-navy-deep text-white/90 border-b border-gold/20">
+          <div className="mx-auto flex h-10 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 text-xs">
+            <div className="flex items-center gap-5">
+              <a
+                href={`tel:${site.phoneHref}`}
+                className="inline-flex items-center gap-1.5 text-white/90 hover:text-gold-light transition-colors"
+              >
+                <Phone className="h-3.5 w-3.5 text-gold" aria-hidden="true" />
+                <span>{site.phone}</span>
+              </a>
+              <a
+                href={`mailto:${site.email}`}
+                className="inline-flex items-center gap-1.5 text-white/90 hover:text-gold-light transition-colors"
+              >
+                <Mail className="h-3.5 w-3.5 text-gold" aria-hidden="true" />
+                <span>{site.email}</span>
+              </a>
+            </div>
+
+            <div className="flex items-center gap-2.5">
+              <span className="text-[10.5px] font-semibold uppercase tracking-[0.16em] text-gold-light/85">
+                {socialLabel}
+              </span>
+              <SocialIcons links={socialLinks} variant="header-bar" />
+            </div>
+          </div>
+        </div>
+
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:px-8">
-          {/* Clean Logo without elongated subtitle */}
+          {/* Clean Logo */}
           <Link
             href={`/${locale}`}
             className="shrink-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-md"
@@ -181,6 +230,14 @@ export function Header({
             </button>
           </div>
 
+          {/* Mobile Drawer Social Media Strip - Directly Above Navigation Buttons */}
+          <div className="shrink-0 border-b border-border-subtle bg-ivory/80 px-5 py-3.5 space-y-2">
+            <p className="text-[10.5px] font-semibold uppercase tracking-[0.16em] text-gold-dark">
+              {socialLabel}
+            </p>
+            <SocialIcons links={socialLinks} variant="drawer" />
+          </div>
+
           {/* Drawer Links */}
           <nav className="flex-1 overflow-y-auto px-5 py-5 space-y-2">
             {navItems.map((item) => {
@@ -219,7 +276,7 @@ export function Header({
 
             <div className="grid grid-cols-2 gap-2.5">
               <a
-                href={whatsappUrl}
+                href={site.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-1.5 rounded-lg bg-[#25D366] px-3 py-2 text-xs font-semibold text-navy-deep transition-all hover:brightness-105"
@@ -228,7 +285,7 @@ export function Header({
                 <span>WhatsApp</span>
               </a>
               <a
-                href={telegramUrl}
+                href={site.telegramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-1.5 rounded-lg bg-[#229ED9] px-3 py-2 text-xs font-semibold text-white transition-all hover:brightness-110"

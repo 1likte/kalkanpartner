@@ -124,8 +124,7 @@ export default async function LocaleRootLayout({
         <Header
           locale={typedLocale}
           dict={dict}
-          whatsappUrl={site.whatsappUrl}
-          telegramUrl={site.telegramUrl}
+          site={site}
         />
         <main className="flex-1">{children}</main>
         <Footer locale={typedLocale} dict={dict} site={site} />
