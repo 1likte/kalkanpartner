@@ -31,7 +31,8 @@ export function Header({ locale, dict, site }: HeaderProps) {
 
   const aboutLabel =
     locale === "tr" ? "Hakkımızda" : locale === "en" ? "About" : "Über uns";
-  const insightsLabel = locale === "tr" ? "Rehberler" : "Insights";
+  const insightsLabel =
+    locale === "tr" ? "Rehberler" : locale === "de" ? "Ratgeber" : "Insights";
   const faqLabel = locale === "tr" ? "SSS" : "FAQ";
   const socialLabel =
     locale === "tr"

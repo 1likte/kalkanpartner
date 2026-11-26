@@ -205,7 +205,7 @@ export const pagesTr: CorporatePagesContent = {
       description:
         "KALKAN PARTNER'in iş modeli, dokuz hizmet departmanı, hukuki sınırları ve iletişim süreçleri hakkında sık sorulan sorular.",
     },
-    eyebrow: "SSS / FAQ",
+    eyebrow: "SSS",
     title: "Sık Sorulan Sorular",
     lead: "İş modelimiz, dokuz uzmanlık departmanımız ve Almanya–Türkiye hukuki sınırlarımız hakkında en çok merak edilen konular.",
     categories: [

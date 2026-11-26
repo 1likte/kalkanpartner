@@ -283,11 +283,11 @@ export const pagesDe: CorporatePagesContent = {
 
   insights: {
     seo: {
-      title: "Insights & Praxiswissen | KALKAN PARTNER",
+      title: "Ratgeber & Praxiswissen | KALKAN PARTNER",
       description:
         "Praxisnahe Fachbeiträge zu Gastronomieplanung, internationaler Fachkräftekoordination sowie Markteintritt und Relocation in Deutschland.",
     },
-    eyebrow: "Insights & Praxiswissen",
+    eyebrow: "Ratgeber & Praxiswissen",
     title: "Kompaktes Praxiswissen für Ihre Projekte",
     lead: "Kurze Leitfäden aus Gastronomie, Fachkräftegewinnung und Markteintritt in Deutschland – direkt auf den Punkt.",
     readArticleLabel: "Beitrag lesen",

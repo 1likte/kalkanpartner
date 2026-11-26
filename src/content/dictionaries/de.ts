@@ -400,7 +400,7 @@ export const de: Dictionary = {
       { label: "Über Kalkan Partner", href: "/about" },
       { label: "Wie wir arbeiten", href: "/how-we-work" },
       { label: "Internationales Netzwerk", href: "/international-network" },
-      { label: "Insights", href: "/insights" },
+      { label: "Ratgeber", href: "/insights" },
       { label: "FAQ", href: "/faq" },
       { label: "Kontakt", href: "/contact" },
     ],
