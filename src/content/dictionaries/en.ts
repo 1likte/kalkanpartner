@@ -4,7 +4,7 @@ export const en: Dictionary = {
   meta: {
     title: "KALKAN PARTNER | International Business & Service Solutions",
     description:
-      "Your Partner for a World of Opportunities. Structured international business, project, and service coordination between Germany, Türkiye, and global markets – from Recruitment and Relocation to Restaurant & Kitchen Solutions.",
+      "Your Partner for a World of Opportunities. Structured international business, project, and service coordination between Germany, Türkiye, and global markets.",
     keywords: [
       "Business services Germany",
       "International business coordination Germany Türkiye",
@@ -27,11 +27,11 @@ export const en: Dictionary = {
   },
   hero: {
     eyebrow: "Germany · Türkiye · International",
-    headline: "Structured international coordination for businesses and private clients.",
+    headline: "International coordination for businesses and private clients.",
     slogan: "Your Partner for a World of Opportunities.",
     description:
-      "KALKAN PARTNER connects people, companies, institutions, and authorized specialist partners across borders. We handle organization, communication, document structuring, and process coordination – with clear boundaries, transparency, and practical execution.",
-    primaryCta: "Explore Our Services",
+      "We connect people, companies, and licensed specialists between Germany and Türkiye – with structured, multilingual, dependable execution.",
+    primaryCta: "Explore Services",
     secondaryCta: "Contact Us",
     pillars: [
       {
@@ -39,26 +39,25 @@ export const en: Dictionary = {
         value: "Germany",
       },
       {
-        label: "Core Markets",
+        label: "Markets",
         value: "DE · TR · International",
       },
       {
-        label: "Practice Areas",
-        value: "9 Service Departments",
+        label: "Scope",
+        value: "9 Departments",
       },
       {
-        label: "Operating Model",
+        label: "Model",
         value: "Coordination & Partner Network",
       },
     ],
     complianceBadge:
-      "Clear scope definition: Organization & process coordination in cooperation with licensed specialist partners.",
+      "Clear scope: Organization & process coordination with licensed specialist partners.",
   },
   departmentsSection: {
     eyebrow: "Our Nine Service Departments",
     title: "Specialized coordination built around real operational needs",
-    subtitle:
-      "Each department follows a structured workflow with a direct inquiry path for employers, founders, families, and international clients.",
+    subtitle: "Clear workflow, dedicated contact, and direct inquiry routing.",
     featuredBadge: "Core Differentiator",
     departments: [
       {
@@ -66,218 +65,216 @@ export const en: Dictionary = {
         inquiryTopic: "recruitment",
         icon: "users",
         title: "Recruitment",
-        audience: "For employers in Germany & international candidates",
+        audience: "Employers & Candidates",
         summary:
-          "Candidate sourcing from Türkiye and international markets, CV and document organization, interview scheduling, and structured onboarding coordination.",
+          "Candidate sourcing from Türkiye and global markets – structured from CV preparation to onboarding.",
         highlights: [
-          "Candidate sourcing & CV structuring",
-          "Employer–candidate interview coordination",
-          "Structured onboarding process support",
+          "Candidate Sourcing",
+          "Interview Scheduling",
+          "Onboarding Support",
         ],
         ctaLabel: "Request Staffing Support",
         legalNote:
-          "Employment contracts are concluded directly between employer and employee. No temporary agency work (Arbeitnehmerüberlassung); no visa or job guarantees.",
+          "Direct employment contracts only; no temporary agency work or visa guarantees.",
       },
       {
         slug: "relocation",
         inquiryTopic: "general",
         icon: "home",
         title: "Relocation",
-        audience: "For professionals, individuals & families",
+        audience: "Professionals & Families",
         summary:
-          "Practical relocation planning for moving to Germany – including housing communication and viewing appointments, school/kindergarten research, and utility setup.",
+          "Smooth arrival in Germany: move planning, housing viewing communication, school research, and utilities.",
         highlights: [
-          "Relocation & arrival planning",
-          "Housing search communication & scheduling",
-          "School, kindergarten & utility coordination",
+          "Arrival Planning",
+          "Housing Scheduling",
+          "Utilities & Childcare",
         ],
         ctaLabel: "Request Relocation Call",
         legalNote:
-          "Organizational and communication support only; we do not act as a licensed real-estate broker under § 34c GewO.",
+          "Organizational support only; no real-estate brokerage under § 34c GewO.",
       },
       {
         slug: "behoerdenservice",
         inquiryTopic: "general",
         icon: "landmark",
         title: "Behördenservice",
-        audience: "For individuals & businesses in Germany",
+        audience: "Individuals & Businesses",
         summary:
-          "Structured appointment scheduling, document preparation, submission coordination, and administrative follow-ups under valid authorization where accepted.",
+          "Structured appointment scheduling, complete document folders, and factual administrative communication.",
         highlights: [
-          "Appointment & deadline coordination",
-          "Document completeness preparation",
-          "Permissible file-status inquiries",
+          "Appointment Tracking",
+          "Document Checklists",
+          "Status Inquiries",
         ],
-        ctaLabel: "Request Admin Coordination",
+        ctaLabel: "Request Admin Support",
         legalNote:
-          "No legal advice, legal representation, or immigration-law assessment is provided (German RDG).",
+          "No legal advice or immigration-law assessment under German RDG.",
       },
       {
         slug: "translation-communication",
         inquiryTopic: "general",
         icon: "languages",
         title: "Translation & Communication",
-        audience: "For corporate & private communication (DE · TR · EN)",
+        audience: "DE · TR · EN",
         summary:
-          "Professional German–Turkish–English business correspondence, general translation coordination, and coordination with sworn translators when required.",
+          "Executive correspondence, document translation coordination, and sworn translator scheduling when required.",
         highlights: [
-          "German–Turkish–English business correspondence",
-          "CV & corporate document coordination",
-          "Certified translator coordination where required",
+          "Business Correspondence",
+          "Document Structuring",
+          "Sworn Translators",
         ],
         ctaLabel: "Request Language Support",
         legalNote:
-          "Officially certified translations are prepared exclusively by duly sworn and authorized translators.",
+          "Certified translations are prepared exclusively by duly sworn translators.",
       },
       {
         slug: "business-setup",
         inquiryTopic: "business",
         icon: "briefcase",
         title: "Business Setup",
-        audience: "For international entrepreneurs & companies",
+        audience: "Founders & Companies",
         summary:
-          "Structured preparation for entering the German market – market and supplier research, partner connections, and appointment coordination with notaries, lawyers, and tax advisers.",
+          "Market and supplier research, partner connections, and scheduled meetings with notaries, lawyers, and tax advisers.",
         highlights: [
-          "Market, partner & supplier research",
-          "Company formation process coordination",
-          "Scheduling with notaries, lawyers & tax advisers",
+          "Market & Partner Research",
+          "Formation Coordination",
+          "Advisor Scheduling",
         ],
         ctaLabel: "Discuss Market Entry",
         legalNote:
-          "Legal, tax, and regulated professional advice is provided exclusively by licensed professionals.",
+          "Legal and tax advice is provided exclusively by licensed professionals.",
       },
       {
         slug: "medical-tourism",
         inquiryTopic: "medical-tourism",
         icon: "heartPulse",
         title: "Medical Tourism Coordination",
-        audience: "For international patients",
+        audience: "International Patients",
         summary:
-          "Connecting international patients with authorized hospitals and licensed medical tourism facilitators in Türkiye – including communication, translation, and travel coordination.",
+          "Connecting patients with authorized hospitals in Türkiye – including interpreter and travel coordination.",
         highlights: [
-          "Information & quotation requests to authorized providers",
-          "Patient communication & interpreter coordination",
-          "Travel, accommodation & follow-up communication",
+          "Authorized Hospitals",
+          "Interpreter Support",
+          "Travel & Stay",
         ],
         ctaLabel: "Request Coordination",
         legalNote:
-          "We do not diagnose, prescribe, perform treatment, or guarantee medical outcomes.",
+          "No diagnosis, treatment, or clinical guarantees; authorized providers only.",
       },
       {
         slug: "digital-ai",
         inquiryTopic: "business",
         icon: "cpu",
         title: "Digital & AI Solutions",
-        audience: "For SMEs, hospitality & growing brands",
+        audience: "SMEs & Brands",
         summary:
-          "Corporate website design and development, SEO, Local SEO, GEO visibility for AI search, digital brand identity, AI chatbots, and business process automation.",
+          "Corporate websites, SEO, Local SEO, AI search visibility (GEO), chatbots, and practical workflow automation.",
         highlights: [
-          "Corporate websites, SEO, Local SEO & GEO",
-          "AI implementation, chatbots & automation",
-          "Digital brand identity & content structure",
+          "Websites & SEO / GEO",
+          "AI Chatbots",
+          "Process Automation",
         ],
         ctaLabel: "Discuss Digital Project",
-        legalNote:
-          "Implemented with privacy-conscious, GDPR-aligned technical architectures.",
+        legalNote: "Privacy-conscious, GDPR-aligned technical architectures.",
       },
       {
         slug: "family-education",
         inquiryTopic: "general",
         icon: "graduationCap",
         title: "Family & Education",
-        audience: "For families, pupils & international students",
+        audience: "Families & Students",
         summary:
-          "Structured school, kindergarten, and course research, student application coordination, and family settlement communication support in Germany.",
+          "School, kindergarten, and course research, student application coordination, and family settlement support.",
         highlights: [
-          "School, kindergarten & course research",
-          "Student application document coordination",
-          "Accommodation communication & family support",
+          "Schools & Childcare",
+          "Student Applications",
+          "Housing Support",
         ],
         ctaLabel: "Request Education Support",
         legalNote:
-          "Organizational support only; admission and placement decisions rest solely with the respective institutions.",
+          "Organizational support; admission decisions rest solely with institutions.",
       },
       {
         slug: "restaurant-kitchen",
         inquiryTopic: "restaurant",
         icon: "utensilsCrossed",
         title: "Restaurant & Kitchen Solutions",
-        audience: "For hospitality founders & existing restaurants",
+        audience: "Hospitality & Founders",
         summary:
-          "Hands-on culinary and operational guidance: restaurant concept, kitchen layout and workflow, equipment selection, menu, recipes, portioning, food cost, SOPs, and opening support.",
+          "Hands-on culinary expertise: concept, kitchen layout, equipment selection, menu, food cost, SOPs, and launch support.",
         highlights: [
-          "Kitchen layout, workflow & equipment selection",
-          "Menu, recipes, portion weights & food cost",
-          "SOP manuals, staff roles & opening support",
+          "Kitchen & Equipment",
+          "Recipes & Food Cost",
+          "SOPs & Launch",
         ],
         ctaLabel: "Request Hospitality Proposal",
         legalNote:
-          "Architectural, structural, electrical, gas, fire-safety, and ventilation engineering plans are handled by qualified professionals.",
+          "Architectural, electrical, gas, and ventilation plans by licensed engineers.",
         featured: true,
       },
     ],
   },
   whySection: {
     eyebrow: "Why KALKAN PARTNER",
-    title: "Reliability built on structure, clarity, and cross-border practice",
+    title: "Reliability built on structure and cross-border practice",
     subtitle:
-      "International projects rarely stall due to lack of ambition – they stall because of fragmented communication, language barriers, and unclear workflows.",
+      "Clear workflows and multilingual coordination eliminate friction and save valuable time.",
     items: [
       {
         number: "01",
-        title: "One Dedicated Point of Coordination",
+        title: "One Dedicated Point of Contact",
         description:
-          "Instead of scattered contacts, we consolidate communication, documentation, and timelines into one transparent process.",
+          "Communication, documents, and milestones consolidated in one transparent workflow.",
       },
       {
         number: "02",
         title: "Germany–Türkiye Fluency",
         description:
-          "We understand the business expectations, communication culture, and practical administrative realities of both markets.",
+          "Deep familiarity with the business expectations and practical realities of both markets.",
       },
       {
         number: "03",
         title: "Clear Legal Boundaries",
         description:
-          "We state openly what we coordinate – and engage independent, duly licensed specialists wherever regulated expertise is required.",
+          "Regulated legal, tax, medical, or engineering services are routed strictly to licensed specialists.",
       },
       {
         number: "04",
         title: "Practical Execution",
         description:
-          "No generic slide decks, but actionable steps, realistic timelines, and disciplined follow-through.",
+          "Actionable steps and realistic timelines instead of abstract consulting decks.",
       },
     ],
   },
   howWeWork: {
     eyebrow: "Methodology",
     title: "How we work – four structured steps",
-    subtitle:
-      "Every engagement starts with a clear assessment of your goals before structuring milestones and specialist connections.",
+    subtitle: "Clear assessment before structuring milestones and partners.",
     steps: [
       {
         step: "01",
         title: "Understand",
         description:
-          "We clarify your objective, current status, required documents, and target timeline in a direct initial consultation.",
+          "Clarifying your objective, required documents, and target timeline upfront.",
       },
       {
         step: "02",
         title: "Plan",
         description:
-          "We define a realistic roadmap, clear responsibilities, and identify early on which licensed partners are required.",
+          "Defining a realistic roadmap and identifying required licensed partners early.",
       },
       {
         step: "03",
         title: "Connect",
         description:
-          "We connect you purposefully with suitable employers, suppliers, service providers, or authorized specialists.",
+          "Purposeful introductions to matching employers, suppliers, or specialists.",
       },
       {
         step: "04",
         title: "Coordinate",
         description:
-          "We track appointments, document flows, follow-ups, and project milestones reliably through to completion.",
+          "Reliable tracking of appointments, documents, and milestones through completion.",
       },
     ],
   },
@@ -285,114 +282,112 @@ export const en: Dictionary = {
     eyebrow: "International Positioning",
     title: "Bridging Germany, Türkiye, and international markets",
     subtitle:
-      "Headquartered in Germany, we coordinate cross-border business and service workflows for companies and private clients.",
+      "Headquartered in Germany, we coordinate cross-border workflows from one center.",
     corridors: [
       {
         region: "Germany",
         role: "Headquarters & Core Market",
         description:
-          "Corporate project coordination, employer connections, hospitality openings, relocation support, and structured administrative preparation.",
+          "Corporate coordination, employer introductions, hospitality openings, and relocation.",
       },
       {
         region: "Türkiye",
         role: "Partner & Talent Market",
         description:
-          "Candidate sourcing, supplier and manufacturer connections, bilingual commercial communication, and coordination with authorized healthcare providers.",
+          "Candidate sourcing, supplier research, commercial communication, and authorized clinics.",
       },
       {
         region: "International",
         role: "Cross-Border Projects",
         description:
-          "Multilingual project coordination, international business connections, digital scaling, and structured partner introductions.",
+          "Multilingual project management, partner matching, and digital scaling.",
       },
     ],
     partnerNote:
-      "Wherever legal, tax, medical, or regulated technical approvals are required, we collaborate strictly with independent, appropriately licensed professionals.",
+      "Wherever legal, tax, medical, or technical approvals are required, we work strictly with independent licensed specialists.",
   },
   restaurantSpotlight: {
     eyebrow: "Flagship Practice · Hospitality",
-    title: "Restaurant & Kitchen Solutions – from concept to smooth service",
-    subtitle:
-      "Practical commercial kitchen and hospitality planning rooted in real culinary operations.",
+    title: "Restaurant & Kitchen Solutions – from concept to service",
+    subtitle: "Practical commercial kitchen planning rooted in real operations.",
     description:
-      "A profitable restaurant is built long before opening night – inside an ergonomically planned, cost-controlled, standardized kitchen. We support founders and operators across every operational stage.",
+      "A profitable restaurant begins inside an ergonomically planned, cost-controlled kitchen. We support founders and operators from concept to opening.",
     capabilities: [
       {
         title: "Kitchen Layout & Workflow",
         detail:
-          "Functional zoning across hot kitchen, cold prep, dishwashing, storage, and dining-room pass workflows.",
+          "Ergonomic zoning across hot line, cold prep, dishwashing, storage, and pass.",
       },
       {
         title: "Equipment & Suppliers",
         detail:
-          "Needs-based commercial equipment selection, supplier comparison, and installation coordination.",
+          "Needs-based equipment specs, quotation comparison, and installation tracking.",
       },
       {
         title: "Menu, Recipes & Food Cost",
         detail:
-          "Standardized recipe cards, exact portion weights, food cost calculation, and margin structure.",
+          "Gram-accurate recipe cards, portion standards, and gross-margin costing.",
       },
       {
         title: "SOPs & Opening Support",
         detail:
-          "Clear Standard Operating Procedures, kitchen station roles, and hands-on pre-opening support.",
+          "Clear Standard Operating Procedures, station roles, and launch-week support.",
       },
     ],
     ctaLabel: "Discuss Your Restaurant Project",
     legalDisclaimer:
-      "Note: Regulated architectural, structural, electrical, gas, fire-safety, and ventilation engineering plans are executed exclusively by appropriately licensed engineers and planners.",
+      "Note: Regulated architectural, structural, electrical, gas, fire-safety, and ventilation plans are executed exclusively by licensed engineers.",
     imageAlt:
       "Commercial stainless steel restaurant kitchen with induction island and organized pass counter",
   },
   contactCta: {
     eyebrow: "Direct Inquiry",
     title: "Select your dedicated inquiry pathway",
-    subtitle:
-      "To route your request directly to the right department, we organize inquiries into five clear pathways.",
+    subtitle: "Five clear pathways so your inquiry reaches the right team immediately.",
     pathsTitle: "Customer Inquiry Pathways",
     paths: [
       {
         topic: "recruitment",
         label: "Recruitment & Staffing",
         audience: "Employers & Candidates",
-        description: "Submit staffing needs in Germany or request international candidate coordination.",
+        description: "Submit staffing needs or request international candidate coordination.",
       },
       {
         topic: "restaurant",
         label: "Restaurant & Kitchen Solutions",
         audience: "Hospitality & Founders",
-        description: "New opening, kitchen workflow, menu costing, or SOP implementation.",
+        description: "New opening, kitchen workflow, menu costing, or SOPs.",
       },
       {
         topic: "business",
         label: "Business Setup & Digital / AI",
         audience: "Companies",
-        description: "German market entry, partner research, corporate website, SEO, or AI automation.",
+        description: "German market entry, partner search, website, SEO, or AI.",
       },
       {
         topic: "medical-tourism",
         label: "Medical Tourism Coordination",
         audience: "International Patients",
-        description: "Information, interpreter, and travel coordination with authorized providers in Türkiye.",
+        description: "Clinic communication, interpreter, and travel coordination in Türkiye.",
       },
       {
         topic: "general",
         label: "Relocation, Admin & Family",
         audience: "Individuals & Families",
-        description: "Relocation planning, administrative support, translation coordination, or education research.",
+        description: "Relocation, administrative support, translation, or education.",
       },
     ],
     noticeTitle: "Direct Department Routing",
     noticeBody:
-      "Each pathway pre-selects the relevant department on our contact form. Live email delivery is configurable via environment variables.",
+      "Each pathway pre-selects the relevant department on our encrypted contact form.",
     sensitiveDataNote:
-      "Privacy principle: Never submit passports, ID copies, or medical records through standard website forms.",
+      "Privacy principle: Never submit passports, IDs, or medical records through website forms.",
   },
   footer: {
     tagline:
       "International Business & Service Solutions – Structured coordination between Germany, Türkiye, and international markets.",
     coordinationNotice:
-      "KALKAN PARTNER provides organizational and coordinating services. Legal, tax, medical, architectural, or licensed activities are performed exclusively by duly authorized partners.",
+      "KALKAN PARTNER provides organizational and coordinating services. Regulated activities are performed exclusively by duly authorized partners.",
     columns: {
       servicesTitle: "Departments",
       companyTitle: "Company",

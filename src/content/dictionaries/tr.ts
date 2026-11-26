@@ -4,7 +4,7 @@ export const tr: Dictionary = {
   meta: {
     title: "KALKAN PARTNER | International Business & Service Solutions",
     description:
-      "Uluslararası çözümler için güvenilir ortağınız. Almanya, Türkiye ve uluslararası pazarlar arasında yapılandırılmış iş, organizasyon ve süreç koordinasyonu – Recruitment'tan Relocation'a, Restaurant & Kitchen Solutions'a kadar.",
+      "Uluslararası çözümler için güvenilir ortağınız. Almanya, Türkiye ve uluslararası pazarlar arasında yapılandırılmış iş, organizasyon ve süreç koordinasyonu.",
     keywords: [
       "Almanya iş ve hizmet koordinasyonu",
       "Almanya Türkiye personel koordinasyonu",
@@ -28,11 +28,11 @@ export const tr: Dictionary = {
   },
   hero: {
     eyebrow: "Almanya · Türkiye · Uluslararası",
-    headline: "Şirketler ve bireysel müşteriler için yapılandırılmış uluslararası koordinasyon.",
+    headline: "Şirketler ve bireyler için net uluslararası koordinasyon.",
     slogan: "Uluslararası Fırsatlar İçin Güvenilir Ortağınız.",
     description:
-      "KALKAN PARTNER; insanları, şirketleri, kurumları ve yetkili uzman iş ortaklarını sınırlar ötesinde buluşturur. Organizasyon, iletişim, belge hazırlığı ve süreç koordinasyonunu net sınırlarla, şeffaf ve çözüm odaklı biçimde yürütür.",
-    primaryCta: "Hizmetlerimizi İnceleyin",
+      "Almanya ve Türkiye arasında insanları, şirketleri ve yetkili uzmanları buluşturuyoruz; tüm organizasyon ve süreçleri şeffaf biçimde koordine ediyoruz.",
+    primaryCta: "Hizmetleri İnceleyin",
     secondaryCta: "İletişime Geçin",
     pillars: [
       {
@@ -40,26 +40,25 @@ export const tr: Dictionary = {
         value: "Almanya",
       },
       {
-        label: "Ana Pazarlar",
+        label: "Pazarlar",
         value: "DE · TR · Uluslararası",
       },
       {
-        label: "Uzmanlık Alanı",
+        label: "Kapsam",
         value: "9 Hizmet Departmanı",
       },
       {
-        label: "Çalışma Modeli",
+        label: "Model",
         value: "Koordinasyon & Uzman Ağı",
       },
     ],
     complianceBadge:
-      "Açık hizmet sınırı: Yetkili uzman iş ortaklarıyla birlikte yürütülen organizasyon ve süreç koordinasyonu.",
+      "Açık hizmet sınırı: Yetkili iş ortaklarıyla yürütülen organizasyon ve koordinasyon.",
   },
   departmentsSection: {
     eyebrow: "Dokuz Hizmet Departmanımız",
     title: "Gerçek ihtiyaçlara yönelik uzmanlaşmış koordinasyon",
-    subtitle:
-      "Her departman net bir iş akışına sahiptir ve şirketler, girişimciler, aileler ile uluslararası müşteriler için doğrudan talep yolu sunar.",
+    subtitle: "Net süreç, tek muhatap ve her departmana özel doğrudan talep akışı.",
     featuredBadge: "Öne Çıkan Uzmanlık",
     departments: [
       {
@@ -67,218 +66,216 @@ export const tr: Dictionary = {
         inquiryTopic: "recruitment",
         icon: "users",
         title: "Recruitment",
-        audience: "Almanya'daki işverenler & uluslararası adaylar",
+        audience: "İşverenler & Adaylar",
         summary:
-          "Türkiye ve diğer ülkelerden aday araştırması, CV ve belge organizasyonu, işveren–aday görüşme planlaması ve işe giriş sürecinin koordinasyonu.",
+          "Türkiye ve yurt dışından nitelikli aday araştırması, CV düzeni, mülakat planlaması ve işe giriş koordinasyonu.",
         highlights: [
-          "Aday araştırması ve CV/belge düzeni",
-          "İşveren–aday görüşme organizasyonu",
-          "İşe başlangıç ve uyum koordinasyonu",
+          "Aday Araştırması",
+          "Görüşme Planlaması",
+          "İşe Giriş Desteği",
         ],
         ctaLabel: "Personel Talebi Oluştur",
         legalNote:
-          "İş sözleşmeleri doğrudan işveren ile çalışan arasında yapılır. Personel kiralama (Arbeitnehmerüberlassung) yapılmaz; vize veya iş garantisi verilmez.",
+          "Doğrudan iş sözleşmesi; personel kiralama (AÜG) ve vize garantisi yoktur.",
       },
       {
         slug: "relocation",
         inquiryTopic: "general",
         icon: "home",
         title: "Relocation",
-        audience: "Uzmanlar, bireyler & aileler",
+        audience: "Uzmanlar & Aileler",
         summary:
-          "Almanya'ya taşınma sürecinde pratik organizasyon desteği: taşınma planı, ev arama sürecinde iletişim ve randevu koordinasyonu, elektrik ve internet abonelikleri.",
+          "Almanya'ya taşınmada pratik organizasyon: taşınma planı, ev arama randevuları, okul ve abonelikler.",
         highlights: [
-          "Taşınma ve ilk yerleşim planlaması",
-          "Ev arama sürecinde iletişim ve randevu takibi",
-          "Okul, kreş ve abonelik organizasyonu",
+          "Taşınma Planı",
+          "Ev Arama İletişimi",
+          "Abonelik & Kreş",
         ],
         ctaLabel: "Taşınma Görüşmesi İste",
         legalNote:
-          "Yalnızca organizasyon ve iletişim desteğidir; § 34c GewO kapsamında izin gerektiren emlak aracılığı sunulmaz.",
+          "Yalnızca organizasyon desteğidir; § 34c GewO emlak aracılığı sunulmaz.",
       },
       {
         slug: "behoerdenservice",
         inquiryTopic: "general",
         icon: "landmark",
         title: "Behördenservice",
-        audience: "Almanya'daki bireyler & işletmeler",
+        audience: "Bireyler & İşletmeler",
         summary:
-          "Randevu planlaması, belge hazırlığı ve eksiksizlik kontrolü, dosya takibi ve geçerli vekâlet çerçevesinde idari iletişim koordinasyonu.",
+          "Düzenli randevu organizasyonu, eksiksiz evrak hazırlığı ve izin verilen kapsamda idari iletişim.",
         highlights: [
-          "Randevu ve süre takibi organizasyonu",
-          "Belgelerin eksiksiz hazırlanması",
-          "Uygun kapsamda dosya durumu sorgulaması",
+          "Randevu Takibi",
+          "Belge Kontrolü",
+          "Dosya Takibi",
         ],
         ctaLabel: "İdari Destek Talep Et",
         legalNote:
-          "Alman RDG mevzuatı kapsamında hukuki danışmanlık, hukuki temsil veya göç hukuku değerlendirmesi yapılmaz.",
+          "Alman RDG kapsamında hukuki danışmanlık veya hukuki temsil yapılmaz.",
       },
       {
         slug: "translation-communication",
         inquiryTopic: "general",
         icon: "languages",
         title: "Translation & Communication",
-        audience: "Kurumsal & bireysel iletişim (DE · TR · EN)",
+        audience: "DE · TR · EN",
         summary:
-          "Almanca–Türkçe–İngilizce iş yazışmaları, genel belge çeviri organizasyonu ve resmî gerekliliklerde yeminli tercüman koordinasyonu.",
+          "İş yazışmaları, genel belge çeviri organizasyonu ve resmî işlemlerde yeminli tercüman koordinasyonu.",
         highlights: [
-          "Almanca–Türkçe–İngilizce iş yazışmaları",
-          "CV ve kurumsal belge koordinasyonu",
-          "Gerektiğinde yeminli tercüman bağlantısı",
+          "İş Yazışmaları",
+          "Belge Düzeni",
+          "Yeminli Tercüman",
         ],
         ctaLabel: "Çeviri & İletişim Talebi",
         legalNote:
-          "Resmî onaylı/yeminli çeviriler yalnızca yetkili ve yeminli tercümanlar tarafından gerçekleştirilir.",
+          "Resmî onaylı çeviriler yalnızca yetkili yeminli tercümanlarca yapılır.",
       },
       {
         slug: "business-setup",
         inquiryTopic: "business",
         icon: "briefcase",
         title: "Business Setup",
-        audience: "Uluslararası girişimciler & şirketler",
+        audience: "Girişimciler & Şirketler",
         summary:
-          "Almanya pazarına giriş sürecinin organizasyonu: pazar ve tedarikçi araştırması, iş ortağı bağlantıları ile noter, avukat ve mali müşavir randevu koordinasyonu.",
+          "Almanya'da pazar ve tedarikçi araştırması, iş ortağı bağlantıları ile noter, avukat ve mali müşavir randevuları.",
         highlights: [
-          "Pazar, iş ortağı ve tedarikçi araştırması",
-          "Şirket kuruluş süreci organizasyonu",
-          "Noter, avukat ve mali müşavir randevuları",
+          "Pazar Araştırması",
+          "Kuruluş Organizasyonu",
+          "Uzman Randevuları",
         ],
         ctaLabel: "Pazara Girişi Görüşün",
         legalNote:
-          "Hukuki, vergisel ve yetki gerektiren mesleki danışmanlık yalnızca ilgili yetkili uzmanlarca verilir.",
+          "Hukuki ve vergisel danışmanlık yalnızca ilgili yetkili uzmanlarca verilir.",
       },
       {
         slug: "medical-tourism",
         inquiryTopic: "medical-tourism",
         icon: "heartPulse",
         title: "Medical Tourism Coordination",
-        audience: "Uluslararası hastalar",
+        audience: "Uluslararası Hastalar",
         summary:
-          "Türkiye'deki yetkili hastane ve sağlık turizmi kuruluşlarıyla bağlantı; hasta iletişimi, tercüme, teklif takibi ve seyahat koordinasyonu.",
+          "Türkiye'deki yetkili hastanelerle bağlantı; hasta iletişimi, tercüman ve seyahat koordinasyonu.",
         highlights: [
-          "Yetkili kuruluşlardan bilgi ve teklif koordinasyonu",
-          "Hasta iletişimi ve tercüman organizasyonu",
-          "Seyahat, konaklama ve süreç takibi",
+          "Yetkili Hastaneler",
+          "Tercüman Desteği",
+          "Seyahat & Konaklama",
         ],
         ctaLabel: "Koordinasyon Talebi",
         legalNote:
-          "Teşhis, tedavi veya tıbbi sonuç garantisi sunulmaz; yalnızca yetkili sağlık kuruluşlarıyla koordinasyon sağlanır.",
+          "Teşhis, tedavi veya sonuç garantisi sunulmaz; yalnızca yetkili kurumlar.",
       },
       {
         slug: "digital-ai",
         inquiryTopic: "business",
         icon: "cpu",
         title: "Digital & AI Solutions",
-        audience: "KOBİ'ler, girişimler & hizmet şirketleri",
+        audience: "KOBİ'ler & Markalar",
         summary:
-          "Kurumsal web tasarım, SEO, Local SEO, yapay zekâ aramalarına yönelik GEO görünürlüğü, dijital marka kimliği, chatbot ve iş süreci otomasyonu.",
+          "Modern kurumsal web sitesi, SEO, Local SEO, yapay zekâ görünürlüğü (GEO), chatbot ve iş otomasyonu.",
         highlights: [
-          "Kurumsal web sitesi, SEO, Local SEO & GEO",
-          "Yapay zekâ kurulumu, chatbot & otomasyon",
-          "Dijital marka kimliği ve içerik mimarisi",
+          "Web & SEO / GEO",
+          "AI Chatbotlar",
+          "Süreç Otomasyonu",
         ],
         ctaLabel: "Dijital Proje Talebi",
-        legalNote:
-          "Tüm dijital çözümler DSGVO (veri koruma) ilkelerine uygun mimariyle yapılandırılır.",
+        legalNote: "DSGVO veri koruma ilkelerine uygun teknik mimari.",
       },
       {
         slug: "family-education",
         inquiryTopic: "general",
         icon: "graduationCap",
         title: "Family & Education",
-        audience: "Aileler, öğrenciler & kursiyerler",
+        audience: "Aileler & Öğrenciler",
         summary:
-          "Almanya'da okul, kreş ve kurs araştırması, öğrenci başvuru süreçlerinin organizasyonu ve aile yerleşimine yönelik iletişim desteği.",
+          "Almanya'da okul, kreş ve kurs araştırması, öğrenci başvuru koordinasyonu ve aile yerleşim desteği.",
         highlights: [
-          "Okul, kreş ve eğitim kurumu araştırması",
-          "Öğrenci başvuru dosyası koordinasyonu",
-          "Konaklama iletişimi ve aile yerleşim desteği",
+          "Okul & Kreş",
+          "Öğrenci Başvurusu",
+          "Konaklama İletişimi",
         ],
         ctaLabel: "Eğitim Desteği Talep Et",
         legalNote:
-          "Organizasyonel süreç desteğidir; kabul kararları yalnızca ilgili eğitim kurumlarına aittir.",
+          "Organizasyonel destek; kabul kararları yalnızca eğitim kurumlarına aittir.",
       },
       {
         slug: "restaurant-kitchen",
         inquiryTopic: "restaurant",
         icon: "utensilsCrossed",
         title: "Restaurant & Kitchen Solutions",
-        audience: "Restoran girişimcileri & mevcut işletmeler",
+        audience: "Gastronomi & Girişimciler",
         summary:
-          "Gerçek mutfak tecrübesine dayalı bütüncül kurulum desteği: konsept, mutfak yerleşimi ve akışı, ekipman seçimi, menü, reçete, gramaj, food cost, SOP ve açılış desteği.",
+          "Gerçek mutfak tecrübesiyle konsept, mutfak yerleşimi, ekipman seçimi, menü, food cost, SOP ve açılış desteği.",
         highlights: [
-          "Mutfak yerleşimi, iş akışı ve ekipman seçimi",
-          "Menü, reçete, gramaj ve food cost hesabı",
-          "SOP dokümantasyonu, ekip yapısı ve açılış desteği",
+          "Mutfak & Ekipman",
+          "Reçete & Food Cost",
+          "SOP & Açılış",
         ],
-        ctaLabel: "Restoran Projesi İçin Teklif Al",
+        ctaLabel: "Restoran Projesi Teklifi",
         legalNote:
-          "Mimari, statik, elektrik, gaz, yangın güvenliği ve havalandırma projeleri yetkili mühendis ve uzmanlarca yürütülür.",
+          "Mimari, elektrik, gaz ve havalandırma projeleri yetkili mühendislerce yürütülür.",
         featured: true,
       },
     ],
   },
   whySection: {
     eyebrow: "Neden KALKAN PARTNER",
-    title: "Yapılandırılmış süreç, şeffaflık ve sahaya dayalı uluslararası deneyim",
+    title: "Yapılandırılmış süreç ve sahaya dayalı deneyim",
     subtitle:
-      "Sınır ötesi projeler genellikle fikir eksikliğinden değil; dağınık iletişimden, dil bariyerlerinden ve belirsiz iş akışlarından tıkanır.",
+      "Net iş akışları ve çift dilli tek muhatap sayesinde zaman kaybını ve iletişim kopukluğunu önlüyoruz.",
     items: [
       {
         number: "01",
         title: "Tek ve Net Muhatap",
         description:
-          "Dağınık temas noktaları yerine tüm iletişim, belge ve randevu akışını tek bir şeffaf koordinasyon yapısında topluyoruz.",
+          "Tüm iletişim, belge ve randevu akışını tek bir şeffaf merkezde topluyoruz.",
       },
       {
         number: "02",
         title: "Almanya–Türkiye Hakimiyeti",
         description:
-          "Her iki pazarın iş kültürünü, beklentilerini ve pratik organizasyon dinamiklerini yakından biliyoruz.",
+          "İki pazarın iş kültürünü, beklentilerini ve pratik işleyişini yakından biliyoruz.",
       },
       {
         number: "03",
         title: "Açık Hukuki Sınırlar",
         description:
-          "Hangi adımları koordine ettiğimizi açıkça belirtiyor; izin veya mesleki yetki gerektiren alanlarda yetkili iş ortaklarını devreye alıyoruz.",
+          "Mesleki yetki gerektiren her adımı doğrudan ilgili yetkili uzmanlara yönlendiriyoruz.",
       },
       {
         number: "04",
         title: "Uygulanabilir Çözümler",
         description:
-          "Soyut vaatler yerine takip edilebilir adımlar, gerçekçi zaman planları ve ölçülü değerlendirmeler sunuyoruz.",
+          "Soyut vaatler yerine takip edilebilir adımlar ve gerçekçi takvimler sunuyoruz.",
       },
     ],
   },
   howWeWork: {
     eyebrow: "Çalışma Yöntemimiz",
     title: "Dört net adımda süreç yönetimi",
-    subtitle:
-      "Her talep, doğru planlama ve uygun iş ortaklarını devreye alabilmek için yapılandırılmış bir ihtiyaç analiziyle başlar.",
+    subtitle: "Her proje, doğru planlama için net bir ihtiyaç analiziyle başlar.",
     steps: [
       {
         step: "01",
         title: "Anla",
         description:
-          "Hedefinizi, mevcut durumunuzu, gerekli belgeleri ve zaman çerçevenizi birebir görüşmede netleştiriyoruz.",
+          "Hedefinizi, belgelerinizi ve zaman çerçevenizi ön görüşmede netleştiriyoruz.",
       },
       {
         step: "02",
         title: "Planla",
         description:
-          "Gerçekçi bir yol haritası, net görev paylaşımı ve ihtiyaç duyulacak yetkili uzmanları en baştan belirliyoruz.",
+          "Adım adım yol haritasını ve gereken yetkili uzmanları baştan belirliyoruz.",
       },
       {
         step: "03",
         title: "Bağla",
         description:
-          "Sizi uygun işverenler, tedarikçiler, hizmet sağlayıcılar veya yetkili uzman iş ortaklarıyla doğrudan buluşturuyoruz.",
+          "Sizi uygun işverenler, tedarikçiler veya yetkili iş ortaklarıyla buluşturuyoruz.",
       },
       {
         step: "04",
         title: "Koordine Et",
         description:
-          "Randevuları, belge akışını, geri bildirimleri ve kritik kilometre taşlarını süreç tamamlanana kadar düzenli takip ediyoruz.",
+          "Randevuları, belge akışını ve kilometre taşlarını süreç bitene kadar takip ediyoruz.",
       },
     ],
   },
@@ -286,114 +283,112 @@ export const tr: Dictionary = {
     eyebrow: "Uluslararası Konumlandırma",
     title: "Almanya, Türkiye ve uluslararası pazarlar arasında güvenilir köprü",
     subtitle:
-      "Almanya merkezli yapımızla hem kurumsal hem bireysel müşteriler için sınır ötesi süreçleri düzenliyoruz.",
+      "Almanya merkezli yapımızla sınır ötesi süreçleri tek elden koordine ediyoruz.",
     corridors: [
       {
         region: "Almanya",
         role: "Merkez & Hedef Pazar",
         description:
-          "İşletme koordinasyonu, işveren bağlantıları, restoran projeleri, taşınma organizasyonu ve idari süreç desteği.",
+          "İşletme koordinasyonu, işveren bağlantıları, restoran projeleri ve taşınma desteği.",
       },
       {
         region: "Türkiye",
         role: "İş Ortağı & Yetenek Pazarı",
         description:
-          "Aday araştırması, tedarikçi ve üretici bağlantıları, çift dilli ticari iletişim ve yetkili sağlık kuruluşlarıyla koordinasyon.",
+          "Aday araştırması, tedarikçi bağlantıları, ticari iletişim ve yetkili hastaneler.",
       },
       {
         region: "Uluslararası",
         role: "Sınır Ötesi Projeler",
         description:
-          "Çok dilli süreç yönetimi, uluslararası iş bağlantıları, dijital büyüme ve güvenilir iş ortağı eşleştirmesi.",
+          "Çok dilli süreç yönetimi, iş ağı eşleştirmesi ve dijital ölçeklenme.",
       },
     ],
     partnerNote:
-      "Hukuki, vergisel, tıbbi veya teknik yetki gerektiren tüm adımlarda bağımsız ve ilgili alanda yetkilendirilmiş profesyonellerle iş birliği yapılır.",
+      "Hukuki, vergisel, tıbbi veya teknik yetki gerektiren tüm adımlarda bağımsız yetkili profesyonellerle çalışılır.",
   },
   restaurantSpotlight: {
-    eyebrow: "Özel Uzmanlık · Gastronomi",
+    eyebrow: "Amiral Uzmanlık · Gastronomi",
     title: "Restaurant & Kitchen Solutions – Fikirden İşleyen Mutfağa",
-    subtitle:
-      "Gerçek mutfak operasyon tecrübesine dayanan pratik restoran ve mutfak organizasyonu.",
+    subtitle: "Gerçek mutfak operasyon tecrübesine dayalı pratik kurulum desteği.",
     description:
-      "Kârlı ve sürdürülebilir bir restoran yalnızca salonda değil; doğru planlanmış, maliyeti hesaplanmış ve standartlaştırılmış bir mutfakta kurulur. Girişimcilere ve işletmelere açılıştan operasyona kadar sahada uygulanabilir destek sunuyoruz.",
+      "Kârlı bir restoran doğru planlanmış, maliyeti hesaplanmış ve standartlaştırılmış bir mutfakta kurulur. Konseptten açılışa kadar sahada uygulanabilir çözüm sunuyoruz.",
     capabilities: [
       {
         title: "Mutfak Yerleşimi & İş Akışı",
         detail:
-          "Sıcak ve soğuk mutfak, bulaşıkhane, depo düzeni ve salon servis akışının ergonomik planlanması.",
+          "Sıcak/soğuk mutfak, bulaşıkhane, depo ve salon servis akışının ergonomik düzeni.",
       },
       {
         title: "Ekipman & Tedarikçi Seçimi",
         detail:
-          "İhtiyaca uygun endüstriyel ekipman araştırması, teklif karşılaştırması, tedarikçi ve kurulum koordinasyonu.",
+          "İhtiyaca uygun endüstriyel ekipman seçimi, teklif kıyaslama ve kurulum takibi.",
       },
       {
         title: "Menü, Reçete & Food Cost",
         detail:
-          "Standart reçeteler, porsiyon gramajları, hammadde maliyet (food cost) ve kârlılık hesaplamaları.",
+          "Gramajlı standart reçeteler, hammadde maliyeti ve kârlılık hesaplamaları.",
       },
       {
         title: "SOP & Açılış Desteği",
         detail:
-          "Standart işletme prosedürleri (SOP), mutfak personel görev dağılımı ve açılış dönemine özel operasyon desteği.",
+          "İşletme prosedürleri (SOP), ekip görev dağılımı ve açılış dönemi saha desteği.",
       },
     ],
     ctaLabel: "Restoran Projenizi Görüşelim",
     legalDisclaimer:
-      "Bilgilendirme: Ruhsat ve yönetmelik gerektiren mimari, statik, elektrik, gaz, yangın güvenliği ve havalandırma projeleri yalnızca yetkili mühendis ve uzmanlar tarafından hazırlanır.",
+      "Bilgilendirme: Ruhsat gerektiren mimari, statik, elektrik, gaz, yangın ve havalandırma projeleri yalnızca yetkili mühendisler tarafından hazırlanır.",
     imageAlt:
       "Paslanmaz çelik hazırlık tezgahları, indüksiyon adası ve düzenli servis bankosuyla profesyonel ticari restoran mutfağı",
   },
   contactCta: {
     eyebrow: "Doğrudan Talep Girişi",
     title: "İhtiyacınıza uygun talep yolunu seçin",
-    subtitle:
-      "Talebinizin doğru departmana en hızlı şekilde ulaşması için beş ayrı müşteri edinme akışı hazırladık.",
+    subtitle: "Talebinizi doğru departmana anında ulaştıran beş net yol.",
     pathsTitle: "Departmana Göre Doğrudan Talep Akışları",
     paths: [
       {
         topic: "recruitment",
         label: "Recruitment & Personel",
         audience: "İşverenler & Adaylar",
-        description: "Personel ihtiyacınızı iletin veya uluslararası aday koordinasyonu talep edin.",
+        description: "Personel talebi veya uluslararası aday koordinasyonu.",
       },
       {
         topic: "restaurant",
         label: "Restaurant & Kitchen Solutions",
         audience: "Gastronomi & Girişimciler",
-        description: "Restoran açılışı, mutfak yerleşimi, menü maliyetlendirme veya SOP kurulumu.",
+        description: "Restoran açılışı, mutfak yerleşimi, food cost veya SOP.",
       },
       {
         topic: "business",
         label: "Business Setup & Digital / AI",
         audience: "Şirketler",
-        description: "Almanya pazarına giriş, iş ortağı araştırması, web sitesi, SEO veya yapay zekâ otomasyonu.",
+        description: "Almanya pazarına giriş, partner araştırması, web, SEO veya AI.",
       },
       {
         topic: "medical-tourism",
         label: "Medical Tourism Coordination",
         audience: "Uluslararası Hastalar",
-        description: "Türkiye'deki yetkili sağlık kuruluşlarıyla iletişim ve seyahat koordinasyonu.",
+        description: "Türkiye'deki yetkili kliniklerle iletişim ve seyahat planı.",
       },
       {
         topic: "general",
         label: "Relocation, Behörden & Aile",
-        audience: "Bireysel Müşteriler & Aileler",
-        description: "Taşınma organizasyonu, randevu desteği, çeviri koordinasyonu veya eğitim araştırması.",
+        audience: "Bireysel & Aileler",
+        description: "Taşınma, randevu desteği, çeviri veya eğitim araştırması.",
       },
     ],
     noticeTitle: "İlgili Departmana Doğrudan Yönlendirme",
     noticeBody:
-      "Seçtiğiniz her talep yolu iletişim formunda ilgili hizmet departmanını otomatik olarak seçer. Bilgileriniz şifreli bağlantıyla iletilir ve yalnızca talebinizin değerlendirilmesi amacıyla işlenir.",
+      "Seçtiğiniz talep yolu iletişim formunda ilgili departmanı otomatik seçer; verileriniz şifreli bağlantıyla iletilir.",
     sensitiveDataNote:
-      "Gizlilik ilkesi: Standart web formları üzerinden hiçbir zaman pasaport, kimlik veya tıbbi rapor yüklemesi talep edilmez.",
+      "Gizlilik ilkesi: Web formlarından asla pasaport, kimlik veya tıbbi rapor talep edilmez.",
   },
   footer: {
     tagline:
       "International Business & Service Solutions – Almanya, Türkiye ve uluslararası pazarlar arasında güvenilir süreç koordinasyonu.",
     coordinationNotice:
-      "KALKAN PARTNER organizasyon ve koordinasyon hizmetleri sunar. Hukuki, vergisel, tıbbi, mimari veya izin gerektiren faaliyetler yalnızca ilgili alanda yetkili iş ortakları tarafından yürütülür.",
+      "KALKAN PARTNER organizasyon ve koordinasyon hizmetleri sunar. Yetki gerektiren faaliyetler yalnızca ilgili alanda yetkili iş ortaklarınca yürütülür.",
     columns: {
       servicesTitle: "Hizmet Departmanları",
       companyTitle: "Kurumsal",

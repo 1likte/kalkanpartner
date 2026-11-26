@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { ACTIVE_LOCALES, isValidLocale, LOCALE_META } from "@/i18n/config";
 import { siteConfig } from "@/config/site";
+import { getDepartmentImage } from "@/config/department-images";
 import {
   getServiceBySlug,
   getServicesOverview,
@@ -72,6 +73,8 @@ export default async function ServiceDetailPage({
 
   const service = getServiceBySlug(locale, slug);
   const overview = getServicesOverview(locale);
+  const heroPhotoSrc = service.heroImage?.src || getDepartmentImage(slug);
+  const heroPhotoAlt = service.heroImage?.alt || service.title;
   const relatedServices = service.relatedSlugs.map((relSlug) =>
     getServiceBySlug(locale, relSlug)
   );
@@ -120,12 +123,8 @@ export default async function ServiceDetailPage({
             <span className="text-gold-light">{service.title}</span>
           </nav>
 
-          <div
-            className={`mt-8 grid grid-cols-1 gap-10 ${
-              service.heroImage ? "lg:grid-cols-12 lg:items-center" : ""
-            }`}
-          >
-            <div className={service.heroImage ? "lg:col-span-7" : "max-w-3xl"}>
+          <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-center">
+            <div className="lg:col-span-7">
               <div className="inline-flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-lg border border-gold/40 bg-white/10 text-gold-light">
                   <DepartmentIcon icon={service.icon} />
@@ -143,7 +142,7 @@ export default async function ServiceDetailPage({
                 {service.audienceBadge}
               </p>
 
-              <p className="mt-5 text-base leading-relaxed text-white/85 sm:text-lg">
+              <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-lg">
                 {service.lead}
               </p>
 
@@ -165,22 +164,20 @@ export default async function ServiceDetailPage({
               </div>
             </div>
 
-            {service.heroImage && (
-              <div className="lg:col-span-5">
-                <div className="relative overflow-hidden rounded-2xl border border-gold/35 shadow-2xl">
-                  <div className="relative aspect-[4/3] w-full">
-                    <Image
-                      src={service.heroImage.src}
-                      alt={service.heroImage.alt}
-                      fill
-                      priority
-                      sizes="(max-width: 1024px) 100vw, 42vw"
-                      className="object-cover"
-                    />
-                  </div>
+            <div className="lg:col-span-5">
+              <div className="relative overflow-hidden rounded-2xl border border-gold/40 shadow-2xl">
+                <div className="relative aspect-[16/10] w-full">
+                  <Image
+                    src={heroPhotoSrc}
+                    alt={heroPhotoAlt}
+                    fill
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 42vw"
+                    className="object-cover"
+                  />
                 </div>
               </div>
-            )}
+            </div>
           </div>
         </div>
       </section>
