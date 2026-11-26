@@ -230,7 +230,7 @@ export const pagesEn: CorporatePagesContent = {
         ],
       },
       {
-        title: "Recruitment, Relocation & Behördenservice",
+        title: "Recruitment, Relocation & Public Authority Support",
         items: [
           {
             question: "Are employment contracts signed with KALKAN PARTNER?",
@@ -243,7 +243,7 @@ export const pagesEn: CorporatePagesContent = {
               "No. We provide organizational relocation planning, communication support, viewing appointment coordination, and school/utility setup – without regulated brokerage under § 34c GewO.",
           },
           {
-            question: "Does Behördenservice include immigration law advice?",
+            question: "Does Public Authority Support include immigration law advice?",
             answer:
               "No. It covers appointment scheduling, document organization, submission coordination, and permissible status inquiries. Legal assessments are referred to licensed attorneys.",
           },
@@ -445,7 +445,7 @@ export const pagesEn: CorporatePagesContent = {
         topic: "general",
         label: "General Inquiries",
         audience: "Individuals & Families",
-        description: "Relocation, Behördenservice, translation coordination, or Family & Education.",
+        description: "Relocation, Public Authority Support, translation coordination, or Family & Education.",
         defaultDepartment: "relocation",
       },
     ],
@@ -457,7 +457,7 @@ export const pagesEn: CorporatePagesContent = {
       departments: [
         { value: "recruitment", label: "Recruitment" },
         { value: "relocation", label: "Relocation" },
-        { value: "behoerdenservice", label: "Behördenservice" },
+        { value: "behoerdenservice", label: "Public Authority Support" },
         { value: "translation-communication", label: "Translation & Communication" },
         { value: "business-setup", label: "Business Setup" },
         { value: "medical-tourism", label: "Medical Tourism Coordination" },

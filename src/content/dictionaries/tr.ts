@@ -65,7 +65,7 @@ export const tr: Dictionary = {
         slug: "recruitment",
         inquiryTopic: "recruitment",
         icon: "users",
-        title: "Recruitment",
+        title: "İşe Alım & Personel",
         audience: "İşverenler & Adaylar",
         summary:
           "Türkiye ve yurt dışından nitelikli aday araştırması, CV düzeni, mülakat planlaması ve işe giriş koordinasyonu.",
@@ -82,7 +82,7 @@ export const tr: Dictionary = {
         slug: "relocation",
         inquiryTopic: "general",
         icon: "home",
-        title: "Relocation",
+        title: "Taşınma & Yerleşim",
         audience: "Uzmanlar & Aileler",
         summary:
           "Almanya'ya taşınmada pratik organizasyon: taşınma planı, ev arama randevuları, okul ve abonelikler.",
@@ -99,7 +99,7 @@ export const tr: Dictionary = {
         slug: "behoerdenservice",
         inquiryTopic: "general",
         icon: "landmark",
-        title: "Behördenservice",
+        title: "Resmî İşlemler & Randevu",
         audience: "Bireyler & İşletmeler",
         summary:
           "Düzenli randevu organizasyonu, eksiksiz evrak hazırlığı ve izin verilen kapsamda idari iletişim.",
@@ -116,7 +116,7 @@ export const tr: Dictionary = {
         slug: "translation-communication",
         inquiryTopic: "general",
         icon: "languages",
-        title: "Translation & Communication",
+        title: "Çeviri & İletişim",
         audience: "DE · TR · EN",
         summary:
           "İş yazışmaları, genel belge çeviri organizasyonu ve resmî işlemlerde yeminli tercüman koordinasyonu.",
@@ -133,7 +133,7 @@ export const tr: Dictionary = {
         slug: "business-setup",
         inquiryTopic: "business",
         icon: "briefcase",
-        title: "Business Setup",
+        title: "Şirket Kurulumu & Pazar Girişi",
         audience: "Girişimciler & Şirketler",
         summary:
           "Almanya'da pazar ve tedarikçi araştırması, iş ortağı bağlantıları ile noter, avukat ve mali müşavir randevuları.",
@@ -150,7 +150,7 @@ export const tr: Dictionary = {
         slug: "medical-tourism",
         inquiryTopic: "medical-tourism",
         icon: "heartPulse",
-        title: "Medical Tourism Coordination",
+        title: "Sağlık Turizmi Koordinasyonu",
         audience: "Uluslararası Hastalar",
         summary:
           "Türkiye'deki yetkili hastanelerle bağlantı; hasta iletişimi, tercüman ve seyahat koordinasyonu.",
@@ -167,7 +167,7 @@ export const tr: Dictionary = {
         slug: "digital-ai",
         inquiryTopic: "business",
         icon: "cpu",
-        title: "Digital & AI Solutions",
+        title: "Dijital & Yapay Zekâ Çözümleri",
         audience: "KOBİ'ler & Markalar",
         summary:
           "Modern kurumsal web sitesi, SEO, Local SEO, yapay zekâ görünürlüğü (GEO), chatbot ve iş otomasyonu.",
@@ -183,7 +183,7 @@ export const tr: Dictionary = {
         slug: "family-education",
         inquiryTopic: "general",
         icon: "graduationCap",
-        title: "Family & Education",
+        title: "Aile & Eğitim",
         audience: "Aileler & Öğrenciler",
         summary:
           "Almanya'da okul, kreş ve kurs araştırması, öğrenci başvuru koordinasyonu ve aile yerleşim desteği.",
@@ -200,7 +200,7 @@ export const tr: Dictionary = {
         slug: "restaurant-kitchen",
         inquiryTopic: "restaurant",
         icon: "utensilsCrossed",
-        title: "Restaurant & Kitchen Solutions",
+        title: "Restoran & Mutfak Çözümleri",
         audience: "Gastronomi & Girişimciler",
         summary:
           "Gerçek mutfak tecrübesiyle konsept, mutfak yerleşimi, ekipman seçimi, menü, food cost, SOP ve açılış desteği.",
@@ -309,7 +309,7 @@ export const tr: Dictionary = {
   },
   restaurantSpotlight: {
     eyebrow: "Amiral Uzmanlık · Gastronomi",
-    title: "Restaurant & Kitchen Solutions – Fikirden İşleyen Mutfağa",
+    title: "Restoran & Mutfak Çözümleri – Fikirden İşleyen Mutfağa",
     subtitle: "Gerçek mutfak operasyon tecrübesine dayalı pratik kurulum desteği.",
     description:
       "Kârlı bir restoran doğru planlanmış, maliyeti hesaplanmış ve standartlaştırılmış bir mutfakta kurulur. Konseptten açılışa kadar sahada uygulanabilir çözüm sunuyoruz.",
@@ -349,31 +349,31 @@ export const tr: Dictionary = {
     paths: [
       {
         topic: "recruitment",
-        label: "Recruitment & Personel",
+        label: "İşe Alım & Personel",
         audience: "İşverenler & Adaylar",
         description: "Personel talebi veya uluslararası aday koordinasyonu.",
       },
       {
         topic: "restaurant",
-        label: "Restaurant & Kitchen Solutions",
+        label: "Restoran & Mutfak Çözümleri",
         audience: "Gastronomi & Girişimciler",
         description: "Restoran açılışı, mutfak yerleşimi, food cost veya SOP.",
       },
       {
         topic: "business",
-        label: "Business Setup & Digital / AI",
+        label: "Şirket Kurulumu & Dijital / Yapay Zekâ",
         audience: "Şirketler",
-        description: "Almanya pazarına giriş, partner araştırması, web, SEO veya AI.",
+        description: "Almanya pazarına giriş, partner araştırması, web, SEO veya yapay zekâ.",
       },
       {
         topic: "medical-tourism",
-        label: "Medical Tourism Coordination",
+        label: "Sağlık Turizmi Koordinasyonu",
         audience: "Uluslararası Hastalar",
         description: "Türkiye'deki yetkili kliniklerle iletişim ve seyahat planı.",
       },
       {
         topic: "general",
-        label: "Relocation, Behörden & Aile",
+        label: "Taşınma, Resmî İşlemler & Aile",
         audience: "Bireysel & Aileler",
         description: "Taşınma, randevu desteği, çeviri veya eğitim araştırması.",
       },
@@ -386,7 +386,7 @@ export const tr: Dictionary = {
   },
   footer: {
     tagline:
-      "International Business & Service Solutions – Almanya, Türkiye ve uluslararası pazarlar arasında güvenilir süreç koordinasyonu.",
+      "Uluslararası İş ve Hizmet Çözümleri – Almanya, Türkiye ve uluslararası pazarlar arasında güvenilir süreç koordinasyonu.",
     coordinationNotice:
       "KALKAN PARTNER organizasyon ve koordinasyon hizmetleri sunar. Yetki gerektiren faaliyetler yalnızca ilgili alanda yetkili iş ortaklarınca yürütülür.",
     columns: {
@@ -398,8 +398,8 @@ export const tr: Dictionary = {
       { label: "Hakkımızda", href: "/about" },
       { label: "Nasıl Çalışıyoruz", href: "/how-we-work" },
       { label: "Uluslararası Ağ", href: "/international-network" },
-      { label: "Insights & Rehberler", href: "/insights" },
-      { label: "SSS (FAQ)", href: "/faq" },
+      { label: "Rehberler", href: "/insights" },
+      { label: "SSS", href: "/faq" },
       { label: "İletişim", href: "/contact" },
     ],
     legalLinks: [

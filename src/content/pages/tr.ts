@@ -230,27 +230,27 @@ export const pagesTr: CorporatePagesContent = {
         ],
       },
       {
-        title: "Recruitment, Relocation ve Behördenservice",
+        title: "İşe Alım, Taşınma & Resmî İşlemler",
         items: [
           {
-            question: "Recruitment sürecinde iş sözleşmesi KALKAN PARTNER ile mi imzalanır?",
+            question: "İşe alım sürecinde iş sözleşmesi KALKAN PARTNER ile mi imzalanır?",
             answer:
               "Hayır. İş sözleşmesi her zaman doğrudan Almanya'daki işveren ile çalışan arasında imzalanır. Personel kiralama yapılmaz; vize veya kesin iş garantisi verilmez.",
           },
           {
-            question: "Relocation hizmetinde emlak komisyonculuğu yapılıyor mu?",
+            question: "Taşınma & Yerleşim hizmetinde emlak komisyonculuğu yapılıyor mu?",
             answer:
               "Hayır. İzin gerektiren emlak aracılığı (§ 34c GewO) sunulmaz. Taşınma planlaması, ev arama sürecinde iletişim ve randevu organizasyonu ile okul, kreş ve abonelik koordinasyonu sağlanır.",
           },
           {
-            question: "Behördenservice hukuki itiraz veya göç hukuku danışmanlığı içerir mi?",
+            question: "Resmî İşlemler & Randevu hizmeti hukuki itiraz veya göç hukuku danışmanlığı içerir mi?",
             answer:
               "Hayır. Yalnızca randevu planlaması, belge düzeni, teslim koordinasyonu ve uygun kapsamda dosya takibi sunulur. Hukuki değerlendirme gerektiren durumlarda yetkili avukatlara yönlendirme yapılır.",
           },
         ],
       },
       {
-        title: "Restaurant & Kitchen Solutions",
+        title: "Restoran & Mutfak Çözümleri",
         items: [
           {
             question: "Sadece yeni açılan restoranlarla mı çalışıyorsunuz?",
@@ -283,11 +283,11 @@ export const pagesTr: CorporatePagesContent = {
 
   insights: {
     seo: {
-      title: "Insights & Rehberler | KALKAN PARTNER",
+      title: "Rehberler | KALKAN PARTNER",
       description:
-        "Almanya'da restoran açılışı, uluslararası aday koordinasyonu, pazara giriş ve relocation süreçlerine dair pratik rehberler.",
+        "Almanya'da restoran açılışı, uluslararası aday koordinasyonu, pazara giriş ve taşınma süreçlerine dair pratik rehberler.",
     },
-    eyebrow: "Insights & Rehberler",
+    eyebrow: "Rehberler",
     title: "Saha tecrübesinden kısa rehberler",
     lead: "Gastronomi, işe alım ve Almanya pazarına giriş için gereksiz detaylardan arındırılmış uygulanabilir notlar.",
     readArticleLabel: "Yazıyı Oku",
@@ -296,7 +296,7 @@ export const pagesTr: CorporatePagesContent = {
     articles: [
       {
         slug: "restaurant-eroeffnen-kuechenlayout-food-cost-sop",
-        category: "Restaurant & Kitchen Solutions",
+        category: "Restoran & Mutfak Çözümleri",
         readTime: "3 dk okuma",
         title:
           "Almanya'da Restoran Açmak: Mutfak, Food Cost ve SOP",
@@ -335,7 +335,7 @@ export const pagesTr: CorporatePagesContent = {
       },
       {
         slug: "internationale-fachkraefte-strukturierte-koordination",
-        category: "Recruitment & Relocation",
+        category: "İşe Alım & Taşınma",
         readTime: "2 dk okuma",
         title:
           "Türkiye'den Almanya'ya Aday Koordinasyonu",
@@ -359,7 +359,7 @@ export const pagesTr: CorporatePagesContent = {
             bullets: [
               "Görev ve çalışma koşullarının baştan netleştirilmesi",
               "DE–TR çift dilli görüşme desteği",
-              "İşe alımla eş zamanlı Relocation hazırlığı",
+              "İşe alımla eş zamanlı Taşınma & Yerleşim hazırlığı",
             ],
           },
         ],
@@ -368,7 +368,7 @@ export const pagesTr: CorporatePagesContent = {
       },
       {
         slug: "markteintritt-deutschland-typische-huerden-vermeiden",
-        category: "Business Setup",
+        category: "Şirket Kurulumu & Pazar Girişi",
         readTime: "2 dk okuma",
         title:
           "Almanya Pazarına Giriş İçin Organizasyon Adımları",
@@ -406,7 +406,7 @@ export const pagesTr: CorporatePagesContent = {
     seo: {
       title: "İletişim & Talep Formu | KALKAN PARTNER",
       description:
-        "Beş ayrı talep akışıyla KALKAN PARTNER'e ulaşın: Recruitment, Restaurant & Kitchen Solutions, Business Services, Medical Tourism Coordination veya Genel Talepler.",
+        "Beş ayrı talep akışıyla KALKAN PARTNER'e ulaşın: İşe Alım & Personel, Restoran & Mutfak Çözümleri, Şirket Kurulumu & Dijital / Yapay Zekâ, Sağlık Turizmi Koordinasyonu veya Genel Talepler.",
     },
     eyebrow: "İletişim & Talep",
     title: "Doğru departmana doğrudan talep gönderin",
@@ -415,28 +415,28 @@ export const pagesTr: CorporatePagesContent = {
     paths: [
       {
         topic: "recruitment",
-        label: "Recruitment",
+        label: "İşe Alım & Personel",
         audience: "İşverenler & Adaylar",
         description: "Almanya için personel talebi veya uluslararası aday koordinasyonu.",
         defaultDepartment: "recruitment",
       },
       {
         topic: "restaurant",
-        label: "Restaurant & Kitchen Solutions",
+        label: "Restoran & Mutfak Çözümleri",
         audience: "Gastronomi & Girişimciler",
         description: "Restoran açılışı, mutfak yerleşimi, ekipman, menü, food cost & SOP.",
         defaultDepartment: "restaurant-kitchen",
       },
       {
         topic: "business",
-        label: "Business Services & Digital/AI",
+        label: "Şirket Kurulumu & Dijital / Yapay Zekâ",
         audience: "Şirketler",
-        description: "Almanya pazarına giriş, iş ortağı araştırması, web sitesi, SEO & AI.",
+        description: "Almanya pazarına giriş, iş ortağı araştırması, web sitesi, SEO & yapay zekâ.",
         defaultDepartment: "business-setup",
       },
       {
         topic: "medical-tourism",
-        label: "Medical Tourism Coordination",
+        label: "Sağlık Turizmi Koordinasyonu",
         audience: "Uluslararası Hastalar",
         description: "Türkiye'deki yetkili sağlık kuruluşlarıyla iletişim ve seyahat koordinasyonu.",
         defaultDepartment: "medical-tourism",
@@ -445,7 +445,7 @@ export const pagesTr: CorporatePagesContent = {
         topic: "general",
         label: "Genel Talepler",
         audience: "Bireysel Müşteriler & Aileler",
-        description: "Relocation, Behördenservice, çeviri koordinasyonu veya Family & Education.",
+        description: "Taşınma & Yerleşim, Resmî İşlemler & Randevu, Çeviri & İletişim veya Aile & Eğitim.",
         defaultDepartment: "relocation",
       },
     ],
@@ -455,15 +455,15 @@ export const pagesTr: CorporatePagesContent = {
       businessLabel: "Kurumsal / Şirket",
       departmentLabel: "İlgili Hizmet Departmanı",
       departments: [
-        { value: "recruitment", label: "Recruitment" },
-        { value: "relocation", label: "Relocation" },
-        { value: "behoerdenservice", label: "Behördenservice" },
-        { value: "translation-communication", label: "Translation & Communication" },
-        { value: "business-setup", label: "Business Setup" },
-        { value: "medical-tourism", label: "Medical Tourism Coordination" },
-        { value: "digital-ai", label: "Digital & AI Solutions" },
-        { value: "family-education", label: "Family & Education" },
-        { value: "restaurant-kitchen", label: "Restaurant & Kitchen Solutions" },
+        { value: "recruitment", label: "İşe Alım & Personel" },
+        { value: "relocation", label: "Taşınma & Yerleşim" },
+        { value: "behoerdenservice", label: "Resmî İşlemler & Randevu" },
+        { value: "translation-communication", label: "Çeviri & İletişim" },
+        { value: "business-setup", label: "Şirket Kurulumu & Pazar Girişi" },
+        { value: "medical-tourism", label: "Sağlık Turizmi Koordinasyonu" },
+        { value: "digital-ai", label: "Dijital & Yapay Zekâ Çözümleri" },
+        { value: "family-education", label: "Aile & Eğitim" },
+        { value: "restaurant-kitchen", label: "Restoran & Mutfak Çözümleri" },
       ],
       countryLabel: "Ülke",
       countryPlaceholder: "ör. Almanya, Türkiye, Avusturya",

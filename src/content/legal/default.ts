@@ -92,17 +92,17 @@ export const legalContentDefault: Record<Locale, LocaleLegalDictionary> = {
           ],
         },
         {
-          heading: "4. Besondere Kategorien personenbezogener Daten im Bereich Medical Tourism (Art. 9 & Art. 49 DSGVO)",
+          heading: "4. Besondere Kategorien personenbezogener Daten im Bereich Medizintourismus (Art. 9 & Art. 49 DSGVO)",
           paragraphs: [
-            "Anfragen im Fachbereich Medical Tourism Coordination können bereits durch die Nennung eines gewünschten Behandlungs- oder Fachgebiets Gesundheitsdaten im Sinne von Art. 9 Abs. 1 DSGVO enthalten. Über unsere Website-Formulare dürfen keine Arztbriefe, Befunde, Röntgenbilder oder Ausweiskopien hochgeladen werden.",
+            "Anfragen im Fachbereich Medizintourismus-Koordination können bereits durch die Nennung eines gewünschten Behandlungs- oder Fachgebiets Gesundheitsdaten im Sinne von Art. 9 Abs. 1 DSGVO enthalten. Über unsere Website-Formulare dürfen keine Arztbriefe, Befunde, Röntgenbilder oder Ausweiskopien hochgeladen werden.",
             "Rechtsgrundlage: Die Verarbeitung gesundheitsbezogener Angaben im Rahmen Ihrer Koordinationsanfrage erfolgt ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung gemäß Art. 9 Abs. 2 lit. a DSGVO in Verbindung mit Art. 6 Abs. 1 lit. a DSGVO.",
             "Drittlandtransfer in die Türkei: Soweit Sie wünschen, dass wir Ihre Anfrage zur Einholung von Informationen oder Terminen an autorisierte Krankenhäuser oder zugelassene Gesundheitstourismus-Einrichtungen in der Republik Türkei weiterleiten, findet eine Datenübermittlung in ein Drittland außerhalb der EU/des EWR statt. Für die Türkei besteht derzeit kein Angemessenheitsbeschluss der EU-Kommission nach Art. 45 DSGVO. Die Übermittlung erfolgt daher ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung nach Information über die möglichen Risiken gemäß Art. 49 Abs. 1 lit. a DSGVO. Sie können diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen (Art. 7 Abs. 3 DSGVO).",
           ],
         },
         {
-          heading: "5. Bewerber- und Kandidatendaten im Bereich Recruitment (Art. 6 Abs. 1 lit. b DSGVO, § 26 BDSG)",
+          heading: "5. Bewerber- und Kandidatendaten im Bereich Personalvermittlung (Art. 6 Abs. 1 lit. b DSGVO, § 26 BDSG)",
           paragraphs: [
-            "Wenn Sie sich als Kandidat an unseren Fachbereich Recruitment wenden, verarbeiten wir Ihre Angaben zur beruflichen Qualifikation, Sprachkenntnissen und Erreichbarkeit zum Zweck der Prüfung passender Vakanzen und der strukturierten Vorstellung bei potenziellen Arbeitgebern in Deutschland (Art. 6 Abs. 1 lit. b DSGVO, § 26 BDSG). Eine Weitergabe an konkrete Arbeitgeber erfolgt nur im Rahmen Ihres Auftrags bzw. nach Abstimmung.",
+            "Wenn Sie sich als Kandidat an unseren Fachbereich Personalvermittlung wenden, verarbeiten wir Ihre Angaben zur beruflichen Qualifikation, Sprachkenntnissen und Erreichbarkeit zum Zweck der Prüfung passender Vakanzen und der strukturierten Vorstellung bei potenziellen Arbeitgebern in Deutschland (Art. 6 Abs. 1 lit. b DSGVO, § 26 BDSG). Eine Weitergabe an konkrete Arbeitgeber erfolgt nur im Rahmen Ihres Auftrags bzw. nach Abstimmung.",
             "Speicherdauer: Kommt es zu keiner Vermittlung, werden Bewerberunterlagen spätestens 6 Monate nach Abschluss des jeweiligen Prozesses gelöscht, sofern Sie nicht ausdrücklich in eine längere Aufnahme in unseren Kandidatenpool eingewilligt haben (Art. 6 Abs. 1 lit. a DSGVO).",
           ],
         },
@@ -168,10 +168,10 @@ export const legalContentDefault: Record<Locale, LocaleLegalDictionary> = {
           ],
         },
         {
-          heading: "§ 3 Besondere Regelungen für Recruitment & Medical Tourism",
+          heading: "§ 3 Besondere Regelungen für Personalvermittlung & Medizintourismus",
           paragraphs: [
-            "Recruitment: Arbeitsverträge kommen ausschließlich direkt zwischen Arbeitgeber und Arbeitnehmer zustande. Von stellensuchenden Bewerbern wird keine unzulässige Vermittlungsvergütung erhoben; eine etwaige Koordinations- oder Erfolgsvergütung im Bereich Personalgewinnung richtet sich nach gesonderter schriftlicher Vereinbarung mit dem jeweiligen Auftraggeber (i. d. R. Arbeitgeber) einschließlich individuell vereinbarter Fälligkeits- und Nachbesetzungsregelungen.",
-            "Medical Tourism Coordination: KALKAN PARTNER übernimmt ausschließlich Kommunikations-, Übersetzungs- und Reisekoordination mit autorisierten Gesundheitseinrichtungen in der Türkei. Für die medizinische Aufklärung, Durchführung und Nachsorge haftet allein der jeweilige medizinische Leistungserbringer. KALKAN PARTNER kann für die Koordinationsleistung entweder ein mit dem Kunden vereinbartes Servicehonorar oder eine Vermittlungs-/Servicevergütung von der autorisierten Partnerinstitution erhalten.",
+            "Personalvermittlung: Arbeitsverträge kommen ausschließlich direkt zwischen Arbeitgeber und Arbeitnehmer zustande. Von stellensuchenden Bewerbern wird keine unzulässige Vermittlungsvergütung erhoben; eine etwaige Koordinations- oder Erfolgsvergütung im Bereich Personalgewinnung richtet sich nach gesonderter schriftlicher Vereinbarung mit dem jeweiligen Auftraggeber (i. d. R. Arbeitgeber) einschließlich individuell vereinbarter Fälligkeits- und Nachbesetzungsregelungen.",
+            "Medizintourismus-Koordination: KALKAN PARTNER übernimmt ausschließlich Kommunikations-, Übersetzungs- und Reisekoordination mit autorisierten Gesundheitseinrichtungen in der Türkei. Für die medizinische Aufklärung, Durchführung und Nachsorge haftet allein der jeweilige medizinische Leistungserbringer. KALKAN PARTNER kann für die Koordinationsleistung entweder ein mit dem Kunden vereinbartes Servicehonorar oder eine Vermittlungs-/Servicevergütung von der autorisierten Partnerinstitution erhalten.",
           ],
         },
         {
@@ -264,7 +264,7 @@ export const legalContentDefault: Record<Locale, LocaleLegalDictionary> = {
           heading: "Faaliyet Alanı (Tätigkeitsbereich)",
           paragraphs: [
             "Semra Kalkan – KALKAN PARTNER, Almanya merkezli uluslararası odaklı bir hizmet ve süreç koordinasyon işletmesidir.",
-            "Hizmet yelpazesi özellikle uluslararası personel ve aday koordinasyonu, relocation ve yerleşim organizasyonu, idari kurum ve belge koordinasyonu, çeviri ve iletişim hizmetleri, uluslararası iş girişimlerine destek, sağlık turizmi koordinasyonu, dijital ve yapay zekâ destekli çözümler, eğitim ve aile hizmetleri ile operasyonel restoran ve mutfak çözümlerini kapsar.",
+            "Hizmet yelpazesi özellikle uluslararası personel ve aday koordinasyonu, taşınma ve yerleşim organizasyonu, idari kurum ve belge koordinasyonu, çeviri ve iletişim hizmetleri, uluslararası iş girişimlerine destek, sağlık turizmi koordinasyonu, dijital ve yapay zekâ destekli çözümler, eğitim ve aile hizmetleri ile operasyonel restoran ve mutfak çözümlerini kapsar.",
           ],
         },
         {
@@ -326,15 +326,15 @@ export const legalContentDefault: Record<Locale, LocaleLegalDictionary> = {
         {
           heading: "4. Sağlık Turizmi Taleplerinde Özel Nitelikli Sağlık Verileri ve Türkiye'ye Aktarım (Madde 9 & 49 DSGVO)",
           paragraphs: [
-            "Medical Tourism Coordination kapsamındaki talepler, ilgilenilen tedavi veya tıbbi alan bilgisini dahi içermesi sebebiyle DSGVO Madde 9/1 kapsamında sağlık verisi niteliği taşıyabilir. Web formlarımız üzerinden kesinlikle tıbbi rapor, röntgen veya kimlik fotokopisi yüklenmemelidir.",
+            "Sağlık Turizmi Koordinasyonu kapsamındaki talepler, ilgilenilen tedavi veya tıbbi alan bilgisini dahi içermesi sebebiyle DSGVO Madde 9/1 kapsamında sağlık verisi niteliği taşıyabilir. Web formlarımız üzerinden kesinlikle tıbbi rapor, röntgen veya kimlik fotokopisi yüklenmemelidir.",
             "Hukuki Dayanak: Sağlıkla bağlantılı iletişim bilgileriniz yalnızca formdaki özel onay kutusuyla verdiğiniz açık rızanıza (DSGVO Madde 9/2-a ve Madde 6/1-a) dayanarak işlenir.",
             "Türkiye'ye Veri Aktarımı: Talebiniz doğrultusunda Türkiye Cumhuriyeti'ndeki yetkili hastane veya sağlık turizmi kuruluşlarından bilgi/randevu alınması için verilerinizin paylaşılması AB/AEA dışına üçüncü ülke aktarımıdır. Türkiye için AB Komisyonu'nun Madde 45 kapsamında yürürlükte bir yeterlilik kararı bulunmamaktadır; bu nedenle aktarım yalnızca olası riskler konusunda bilgilendirilmiş açık rızanıza (DSGVO Madde 49/1-a) dayanarak yapılır. Açık rızanızı dilediğiniz zaman geleceğe etkili olarak geri alabilirsiniz (Madde 7/3).",
           ],
         },
         {
-          heading: "5. Recruitment Kapsamındaki Aday Verileri (DSGVO Madde 6/1-b, § 26 BDSG)",
+          heading: "5. İşe Alım & Personel Kapsamındaki Aday Verileri (DSGVO Madde 6/1-b, § 26 BDSG)",
           paragraphs: [
-            "Recruitment departmanımıza başvuran adayların mesleki nitelik, dil ve iletişim bilgileri uygun iş fırsatlarının değerlendirilmesi ve aday onayı/talebi doğrultusunda Almanya'daki işverenlerle paylaşılması amacıyla işlenir.",
+            "İşe Alım & Personel departmanımıza başvuran adayların mesleki nitelik, dil ve iletişim bilgileri uygun iş fırsatlarının değerlendirilmesi ve aday onayı/talebi doğrultusunda Almanya'daki işverenlerle paylaşılması amacıyla işlenir.",
             "Saklama Süresi: İşe yerleştirme gerçekleşmezse aday verileri sürecin tamamlanmasından itibaren en geç 6 ay içinde silinir (aday havuzunda daha uzun saklama için açık rıza verilmemişse).",
           ],
         },
@@ -398,10 +398,10 @@ export const legalContentDefault: Record<Locale, LocaleLegalDictionary> = {
           ],
         },
         {
-          heading: "§ 3 Recruitment ve Sağlık Turizmi Özel Hükümleri",
+          heading: "§ 3 İşe Alım ve Sağlık Turizmi Özel Hükümleri",
           paragraphs: [
-            "Recruitment: İş sözleşmeleri doğrudan işveren ile çalışan arasında imzalanır. İş arayan adaylardan mevzuata aykırı işe yerleştirme ücreti talep edilmez; personel koordinasyonu hizmet bedeli ilgili işverenle yapılan ayrı yazılı sözleşmeye tabidir.",
-            "Medical Tourism Coordination: KALKAN PARTNER yalnızca Türkiye'deki yetkili sağlık kuruluşlarıyla iletişim, tercüme ve seyahat koordinasyonu sağlar. Tıbbi aydınlatma ve tedaviden münhasıran ilgili sağlık kuruluşu sorumludur. KALKAN PARTNER bu hizmet karşılığında müşteriden kararlaştırılan koordinasyon ücreti veya yetkili partner kuruluştan aracılık/hizmet bedeli alabilir.",
+            "İşe Alım & Personel: İş sözleşmeleri doğrudan işveren ile çalışan arasında imzalanır. İş arayan adaylardan mevzuata aykırı işe yerleştirme ücreti talep edilmez; personel koordinasyonu hizmet bedeli ilgili işverenle yapılan ayrı yazılı sözleşmeye tabidir.",
+            "Sağlık Turizmi Koordinasyonu: KALKAN PARTNER yalnızca Türkiye'deki yetkili sağlık kuruluşlarıyla iletişim, tercüme ve seyahat koordinasyonu sağlar. Tıbbi aydınlatma ve tedaviden münhasıran ilgili sağlık kuruluşu sorumludur. KALKAN PARTNER bu hizmet karşılığında müşteriden kararlaştırılan koordinasyon ücreti veya yetkili partner kuruluştan aracılık/hizmet bedeli alabilir.",
           ],
         },
         {

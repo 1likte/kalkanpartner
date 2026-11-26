@@ -8,7 +8,7 @@ export const servicesOverviewEn: ServicesOverviewContent = {
   seo: {
     title: "Our Services – Nine Specialized Departments | KALKAN PARTNER",
     description:
-      "Explore all nine departments of KALKAN PARTNER: Recruitment, Relocation, Behördenservice, Translation, Business Setup, Medical Tourism, Digital & AI, Family & Education, and Restaurant & Kitchen Solutions.",
+      "Explore all nine departments of KALKAN PARTNER: Recruitment, Relocation, Public Authority Support, Translation & Communication, Business Setup, Medical Tourism Coordination, Digital & AI Solutions, Family & Education, and Restaurant & Kitchen Solutions.",
     keywords: [
       "Business services Germany",
       "International coordination Germany Türkiye",
@@ -298,17 +298,17 @@ export const servicesEn: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "landmark",
     seo: {
-      title: "Behördenservice Germany | KALKAN PARTNER",
+      title: "Public Authority Support Germany | KALKAN PARTNER",
       description:
         "Appointment scheduling, document preparation, and administrative coordination in Germany.",
       keywords: [
-        "Behördenservice Germany",
+        "Public authority support Germany",
         "Administrative coordination Germany",
         "Document preparation and appointment scheduling",
       ],
     },
-    eyebrow: "Department 03 · Behördenservice",
-    title: "Behördenservice & Administration",
+    eyebrow: "Department 03 · Public Authority Support",
+    title: "Public Authority Support",
     lead: "Structured appointment scheduling, complete document folders, and factual administrative coordination within legal limits.",
     audienceBadge: "For individuals & businesses in Germany",
     whatIs: {
@@ -396,7 +396,7 @@ export const servicesEn: Record<ServiceSlug, ServiceDetailContent> = {
         "Existing deadlines or dates",
         "Whether counsel is involved",
       ],
-      primaryCtaLabel: "Request Behördenservice",
+      primaryCtaLabel: "Request Public Authority Support",
       secondaryCtaLabel: "All Departments",
       sensitiveDataReminder:
         "Never send ID copies or official notices via initial forms.",

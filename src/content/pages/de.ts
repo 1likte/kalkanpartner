@@ -230,15 +230,15 @@ export const pagesDe: CorporatePagesContent = {
         ],
       },
       {
-        title: "Recruitment, Relocation & Behördenservice",
+        title: "Personalvermittlung, Umzug & Behördenservice",
         items: [
           {
-            question: "Schließen Kandidaten beim Recruitment ihren Arbeitsvertrag mit KALKAN PARTNER?",
+            question: "Schließen Kandidaten bei der Personalvermittlung ihren Arbeitsvertrag mit KALKAN PARTNER?",
             answer:
               "Nein. Arbeitsverträge werden immer direkt zwischen dem jeweiligen Arbeitgeber in Deutschland und dem Arbeitnehmer abgeschlossen. Wir betreiben keine Zeitarbeit (Arbeitnehmerüberlassung) und geben keine Garantie für Visa oder Arbeitsverträge.",
           },
           {
-            question: "Vermittelt KALKAN PARTNER beim Relocation-Service Mietwohnungen als Makler?",
+            question: "Vermittelt KALKAN PARTNER beim Umzugs- & Ansiedlungsservice Mietwohnungen als Makler?",
             answer:
               "Nein. Wir treten nicht als zugelassener Immobilienmakler auf. Unsere Unterstützung umfasst die Umzugsplanung, die kommunikative und terminliche Organisation rund um die Wohnungssuche sowie Schul-, Kita- und Versorgeranmeldungen.",
           },
@@ -250,7 +250,7 @@ export const pagesDe: CorporatePagesContent = {
         ],
       },
       {
-        title: "Restaurant & Kitchen Solutions",
+        title: "Restaurant- & Küchenlösungen",
         items: [
           {
             question: "Unterstützt KALKAN PARTNER sowohl Neueröffnungen als auch bestehende Restaurants?",
@@ -296,7 +296,7 @@ export const pagesDe: CorporatePagesContent = {
     articles: [
       {
         slug: "restaurant-eroeffnen-kuechenlayout-food-cost-sop",
-        category: "Restaurant & Kitchen Solutions",
+        category: "Restaurant- & Küchenlösungen",
         readTime: "3 Min. Lesezeit",
         title:
           "Restaurant eröffnen: Küchenlayout, Food Cost & SOPs",
@@ -335,7 +335,7 @@ export const pagesDe: CorporatePagesContent = {
       },
       {
         slug: "internationale-fachkraefte-strukturierte-koordination",
-        category: "Recruitment & Relocation",
+        category: "Personalvermittlung & Umzugsservice",
         readTime: "2 Min. Lesezeit",
         title:
           "Internationale Fachkräfte: Struktur statt Zufall",
@@ -359,16 +359,16 @@ export const pagesDe: CorporatePagesContent = {
             bullets: [
               "Klare Abstimmung von Aufgaben & Arbeitszeiten",
               "Zweisprachige Gesprächsbegleitung (DE–TR)",
-              "Verzahnung mit Relocation & Behördenstart",
+              "Verzahnung mit Umzugsservice & Behördenstart",
             ],
           },
         ],
         takeaway:
-          "Wenn Recruitment und Ankunftsorganisation ineinandergreifen, gelingt die Einarbeitung deutlich schneller.",
+          "Wenn Personalvermittlung und Ankunftsorganisation ineinandergreifen, gelingt die Einarbeitung deutlich schneller.",
       },
       {
         slug: "markteintritt-deutschland-typische-huerden-vermeiden",
-        category: "Business Setup",
+        category: "Unternehmensaufbau & Markteintritt",
         readTime: "2 Min. Lesezeit",
         title:
           "Markteintritt Deutschland: Frühzeitig richtig planen",
@@ -406,7 +406,7 @@ export const pagesDe: CorporatePagesContent = {
     seo: {
       title: "Kontakt & Anfragewege | KALKAN PARTNER",
       description:
-        "Starten Sie Ihre Anfrage in fünf klar strukturierten Themenfeldern: Recruitment, Restaurant & Kitchen Solutions, Business Services, Medical Tourism Coordination oder Allgemeine Anfragen.",
+        "Starten Sie Ihre Anfrage in fünf klar strukturierten Themenfeldern: Personalvermittlung, Restaurant- & Küchenlösungen, Unternehmensaufbau & Digital/KI, Medizintourismus-Koordination oder Allgemeine Anfragen.",
     },
     eyebrow: "Kontakt & Anfrage",
     title: "Strukturierte Anfrage an den passenden Fachbereich",
@@ -415,28 +415,28 @@ export const pagesDe: CorporatePagesContent = {
     paths: [
       {
         topic: "recruitment",
-        label: "Recruitment",
+        label: "Personalvermittlung",
         audience: "Arbeitgeber & Kandidaten",
         description: "Personalbedarf in Deutschland oder internationale Kandidatenkoordination.",
         defaultDepartment: "recruitment",
       },
       {
         topic: "restaurant",
-        label: "Restaurant & Kitchen Solutions",
+        label: "Restaurant- & Küchenlösungen",
         audience: "Gastronomie & Gründer",
         description: "Neueröffnung, Küchenlayout, Geräte, Menü, Food Cost & SOPs.",
         defaultDepartment: "restaurant-kitchen",
       },
       {
         topic: "business",
-        label: "Business Services & Digital/AI",
+        label: "Unternehmensaufbau & Digital / KI",
         audience: "Unternehmen",
-        description: "Business Setup in Deutschland, Partnerrecherche, Website, SEO & KI.",
+        description: "Markteintritt in Deutschland, Partnerrecherche, Website, SEO & KI.",
         defaultDepartment: "business-setup",
       },
       {
         topic: "medical-tourism",
-        label: "Medical Tourism Coordination",
+        label: "Medizintourismus-Koordination",
         audience: "Internationale Patienten",
         description: "Kommunikations- und Reisekoordination mit autorisierten Kliniken in der Türkei.",
         defaultDepartment: "medical-tourism",
@@ -445,7 +445,7 @@ export const pagesDe: CorporatePagesContent = {
         topic: "general",
         label: "Allgemeine Anfragen",
         audience: "Privatkunden & Familien",
-        description: "Relocation, Behördenservice, Übersetzungskoordination oder Family & Education.",
+        description: "Umzugs- & Ansiedlungsservice, Behördenservice, Übersetzung & Kommunikation oder Familie & Bildung.",
         defaultDepartment: "relocation",
       },
     ],
@@ -455,15 +455,15 @@ export const pagesDe: CorporatePagesContent = {
       businessLabel: "Unternehmen / Geschäftskunde",
       departmentLabel: "Gewünschter Fachbereich",
       departments: [
-        { value: "recruitment", label: "Recruitment" },
-        { value: "relocation", label: "Relocation" },
+        { value: "recruitment", label: "Personalvermittlung" },
+        { value: "relocation", label: "Umzugs- & Ansiedlungsservice" },
         { value: "behoerdenservice", label: "Behördenservice" },
-        { value: "translation-communication", label: "Translation & Communication" },
-        { value: "business-setup", label: "Business Setup" },
-        { value: "medical-tourism", label: "Medical Tourism Coordination" },
-        { value: "digital-ai", label: "Digital & AI Solutions" },
-        { value: "family-education", label: "Family & Education" },
-        { value: "restaurant-kitchen", label: "Restaurant & Kitchen Solutions" },
+        { value: "translation-communication", label: "Übersetzung & Kommunikation" },
+        { value: "business-setup", label: "Unternehmensaufbau & Markteintritt" },
+        { value: "medical-tourism", label: "Medizintourismus-Koordination" },
+        { value: "digital-ai", label: "Digital- & KI-Lösungen" },
+        { value: "family-education", label: "Familie & Bildung" },
+        { value: "restaurant-kitchen", label: "Restaurant- & Küchenlösungen" },
       ],
       countryLabel: "Land",
       countryPlaceholder: "z. B. Deutschland, Türkei, Österreich",

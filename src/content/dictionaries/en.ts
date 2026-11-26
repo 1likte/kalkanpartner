@@ -98,7 +98,7 @@ export const en: Dictionary = {
         slug: "behoerdenservice",
         inquiryTopic: "general",
         icon: "landmark",
-        title: "Behördenservice",
+        title: "Public Authority Support",
         audience: "Individuals & Businesses",
         summary:
           "Structured appointment scheduling, complete document folders, and factual administrative communication.",

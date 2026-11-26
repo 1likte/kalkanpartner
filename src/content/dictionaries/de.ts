@@ -67,7 +67,7 @@ export const de: Dictionary = {
         slug: "recruitment",
         inquiryTopic: "recruitment",
         icon: "users",
-        title: "Recruitment",
+        title: "Personalvermittlung",
         audience: "Arbeitgeber & Fachkräfte",
         summary:
           "Kandidatensuche aus der Türkei und internationalen Märkten – strukturiert vom CV bis zum Onboarding.",
@@ -84,7 +84,7 @@ export const de: Dictionary = {
         slug: "relocation",
         inquiryTopic: "general",
         icon: "home",
-        title: "Relocation",
+        title: "Umzugs- & Ansiedlungsservice",
         audience: "Fachkräfte & Familien",
         summary:
           "Geordneter Start in Deutschland: Umzugsplanung, Wohnungstermine sowie Strom- und Internetanmeldung.",
@@ -93,7 +93,7 @@ export const de: Dictionary = {
           "Wohnungskommunikation",
           "Versorger & Kita",
         ],
-        ctaLabel: "Relocation anfragen",
+        ctaLabel: "Umzugsservice anfragen",
         legalNote:
           "Reine Organisationshilfe; keine Immobilienmaklertätigkeit gemäß § 34c GewO.",
       },
@@ -118,7 +118,7 @@ export const de: Dictionary = {
         slug: "translation-communication",
         inquiryTopic: "general",
         icon: "languages",
-        title: "Translation & Communication",
+        title: "Übersetzung & Kommunikation",
         audience: "DE · TR · EN",
         summary:
           "Präzise Geschäftskorrespondenz, Dokumentenkoordination und Vermittlung ermächtigter Übersetzer.",
@@ -135,7 +135,7 @@ export const de: Dictionary = {
         slug: "business-setup",
         inquiryTopic: "business",
         icon: "briefcase",
-        title: "Business Setup",
+        title: "Unternehmensaufbau & Markteintritt",
         audience: "Unternehmer & Gründer",
         summary:
           "Markt- und Lieferantenrecherche, Partnerkontakte und Terminierung mit Notaren, Anwälten und Steuerberatern.",
@@ -152,7 +152,7 @@ export const de: Dictionary = {
         slug: "medical-tourism",
         inquiryTopic: "medical-tourism",
         icon: "heartPulse",
-        title: "Medical Tourism Coordination",
+        title: "Medizintourismus-Koordination",
         audience: "Internationale Patienten",
         summary:
           "Verbindung zu autorisierten Kliniken in der Türkei inklusive Patienten-, Dolmetscher- und Reisekoordination.",
@@ -169,7 +169,7 @@ export const de: Dictionary = {
         slug: "digital-ai",
         inquiryTopic: "business",
         icon: "cpu",
-        title: "Digital & AI Solutions",
+        title: "Digital- & KI-Lösungen",
         audience: "KMU & Marken",
         summary:
           "Moderne Websites, SEO, Local SEO, KI-Sichtbarkeit (GEO), Chatbots und praxisnahe Prozessautomatisierung.",
@@ -185,7 +185,7 @@ export const de: Dictionary = {
         slug: "family-education",
         inquiryTopic: "general",
         icon: "graduationCap",
-        title: "Family & Education",
+        title: "Familie & Bildung",
         audience: "Familien & Studierende",
         summary:
           "Schul-, Kita- und Kursrecherchen, Studienbewerbungskoordination und Familienorganisation in Deutschland.",
@@ -202,7 +202,7 @@ export const de: Dictionary = {
         slug: "restaurant-kitchen",
         inquiryTopic: "restaurant",
         icon: "utensilsCrossed",
-        title: "Restaurant & Kitchen Solutions",
+        title: "Restaurant- & Küchenlösungen",
         audience: "Gastronomie & Gründer",
         summary:
           "Praxisbegleitung aus echter Küchenerfahrung: Konzept, Küchenlayout, Geräte, Menü, Food Cost und SOPs.",
@@ -291,7 +291,7 @@ export const de: Dictionary = {
         region: "Deutschland",
         role: "Standort & Zielmarkt",
         description:
-          "Unternehmenskoordination, Arbeitgeberkontakte, Gastronomieprojekte und Relocation.",
+          "Unternehmenskoordination, Arbeitgeberkontakte, Gastronomieprojekte und Umzugs- & Ansiedlungsservice.",
       },
       {
         region: "Türkei",
@@ -311,7 +311,7 @@ export const de: Dictionary = {
   },
   restaurantSpotlight: {
     eyebrow: "Kernkompetenz · Gastronomie",
-    title: "Restaurant & Kitchen Solutions – von der Idee bis zum Service",
+    title: "Restaurant- & Küchenlösungen – von der Idee bis zum Service",
     subtitle: "Praxisnahe Küchenplanung aus echter operativer Erfahrung.",
     description:
       "Ein erfolgreiches Restaurant beginnt in einer wirtschaftlich kalkulierten, ergonomisch organisierten Küche. Wir begleiten Gründer und Gastronomen von der Planung bis zur Eröffnung.",
@@ -351,31 +351,31 @@ export const de: Dictionary = {
     paths: [
       {
         topic: "recruitment",
-        label: "Recruitment & Personal",
+        label: "Personalvermittlung",
         audience: "Arbeitgeber & Kandidaten",
         description: "Personalbedarf melden oder Kandidatenkoordination anfragen.",
       },
       {
         topic: "restaurant",
-        label: "Restaurant & Kitchen Solutions",
+        label: "Restaurant- & Küchenlösungen",
         audience: "Gastronomie & Gründer",
         description: "Neueröffnung, Küchenlayout, Food Cost oder SOP-Aufbau.",
       },
       {
         topic: "business",
-        label: "Business Setup & Digital / AI",
+        label: "Unternehmensaufbau & Digital / KI",
         audience: "Unternehmen",
         description: "Markteintritt Deutschland, Partnerkontakte, Website, SEO oder KI.",
       },
       {
         topic: "medical-tourism",
-        label: "Medical Tourism Coordination",
+        label: "Medizintourismus-Koordination",
         audience: "Internationale Patienten",
         description: "Kommunikation und Reisekoordination mit Kliniken in der Türkei.",
       },
       {
         topic: "general",
-        label: "Relocation, Behörden & Familie",
+        label: "Umzug, Behörden & Familie",
         audience: "Privatkunden & Familien",
         description: "Umzugsorganisation, Terminhilfe, Übersetzung oder Bildung.",
       },
@@ -388,7 +388,7 @@ export const de: Dictionary = {
   },
   footer: {
     tagline:
-      "International Business & Service Solutions – Strukturierte Koordination zwischen Deutschland, der Türkei und internationalen Märkten.",
+      "Internationale Geschäfts- & Servicelösungen – Strukturierte Koordination zwischen Deutschland, der Türkei und internationalen Märkten.",
     coordinationNotice:
       "KALKAN PARTNER erbringt organisatorische und koordinierende Dienstleistungen. Zugelassene Fachleistungen erfolgen ausschließlich durch entsprechend befugte Partner.",
     columns: {

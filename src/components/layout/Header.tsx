@@ -31,12 +31,14 @@ export function Header({ locale, dict, site }: HeaderProps) {
 
   const aboutLabel =
     locale === "tr" ? "Hakkımızda" : locale === "en" ? "About" : "Über uns";
+  const insightsLabel = locale === "tr" ? "Rehberler" : "Insights";
+  const faqLabel = locale === "tr" ? "SSS" : "FAQ";
   const socialLabel =
     locale === "tr"
       ? "Sosyal Medya"
       : locale === "en"
         ? "Social Media"
-        : "Social Media";
+        : "Soziale Medien";
 
   const navItems = [
     { label: dict.nav.services, href: `/${locale}/services` },
@@ -44,8 +46,8 @@ export function Header({ locale, dict, site }: HeaderProps) {
     { label: aboutLabel, href: `/${locale}/about` },
     { label: dict.nav.contact, href: `/${locale}/contact` },
     { label: dict.nav.network, href: `/${locale}/international-network` },
-    { label: "Insights", href: `/${locale}/insights` },
-    { label: "FAQ", href: `/${locale}/faq` },
+    { label: insightsLabel, href: `/${locale}/insights` },
+    { label: faqLabel, href: `/${locale}/faq` },
   ];
 
   // Lock background scroll and allow Escape key to close the side drawer

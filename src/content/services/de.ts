@@ -8,7 +8,7 @@ export const servicesOverviewDe: ServicesOverviewContent = {
   seo: {
     title: "Unsere Leistungen – Neun Fachbereiche | KALKAN PARTNER",
     description:
-      "Alle neun Fachbereiche von KALKAN PARTNER im Überblick: Recruitment, Relocation, Behördenservice, Translation, Business Setup, Medical Tourism, Digital & AI, Family & Education sowie Restaurant & Kitchen Solutions.",
+      "Alle neun Fachbereiche von KALKAN PARTNER im Überblick: Personalvermittlung, Umzugs- & Ansiedlungsservice, Behördenservice, Übersetzung & Kommunikation, Unternehmensaufbau & Markteintritt, Medizintourismus-Koordination, Digital- & KI-Lösungen, Familie & Bildung sowie Restaurant- & Küchenlösungen.",
     keywords: [
       "Unternehmensservice Deutschland",
       "Internationale Koordination Deutschland Türkei",
@@ -57,17 +57,17 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "recruitment",
     icon: "users",
     seo: {
-      title: "Recruitment & Internationale Kandidatenkoordination | KALKAN PARTNER",
+      title: "Personalvermittlung & Kandidatenkoordination | KALKAN PARTNER",
       description:
         "Strukturierte Kandidatenkoordination zwischen der Türkei, internationalen Märkten und Arbeitgebern in Deutschland.",
       keywords: [
         "Personalvermittlung Deutschland Türkei",
         "Internationale Fachkräfte Koordination Deutschland",
-        "Recruitment Gastronomie und Mittelstand",
+        "Personalvermittlung Gastronomie und Mittelstand",
       ],
     },
-    eyebrow: "Fachbereich 01 · Recruitment",
-    title: "Recruitment & Kandidatenkoordination",
+    eyebrow: "Fachbereich 01 · Personalvermittlung",
+    title: "Personalvermittlung",
     lead: "Wir verbinden Arbeitgeber in Deutschland mit qualifizierten Kandidaten aus der Türkei und internationalen Märkten – vom CV bis zum Onboarding.",
     audienceBadge: "Für Arbeitgeber in Deutschland & internationale Kandidaten",
     whatIs: {
@@ -156,7 +156,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
         "Sprachkenntnisse & Startzeitraum",
         "Unternehmensname & Ansprechpartner",
       ],
-      primaryCtaLabel: "Recruitment-Anfrage starten",
+      primaryCtaLabel: "Personalbedarf anfragen",
       secondaryCtaLabel: "Alle Fachbereiche",
       sensitiveDataReminder:
         "Bitte senden Sie über Erstkontakt-Formulare keine Reisepasskopien.",
@@ -178,17 +178,17 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "home",
     seo: {
-      title: "Relocation Service Deutschland | KALKAN PARTNER",
+      title: "Umzugs- & Ansiedlungsservice Deutschland | KALKAN PARTNER",
       description:
-        "Strukturierte Relocation-Koordination für Fachkräfte und Familien in Deutschland.",
+        "Strukturierte Umzugs- und Ansiedlungskoordination für Fachkräfte und Familien in Deutschland.",
       keywords: [
-        "Relocation Service Deutschland",
+        "Umzugs- und Ansiedlungsservice Deutschland",
         "Umzug nach Deutschland Organisation",
-        "Relocation Unterstützung Familien Türkei Deutschland",
+        "Umzugsunterstützung Familien Türkei Deutschland",
       ],
     },
-    eyebrow: "Fachbereich 02 · Relocation",
-    title: "Relocation & Ankunfts-Koordination",
+    eyebrow: "Fachbereich 02 · Umzugsservice",
+    title: "Umzugs- & Ansiedlungsservice",
     lead: "Strukturierte Begleitung für den Start in Deutschland: Umzugsplanung, Wohnungstermine, Kita-Recherche und Versorger.",
     audienceBadge: "Für Fachkräfte, Privatpersonen & Familien",
     whatIs: {
@@ -269,7 +269,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     inquiry: {
-      heading: "Relocation-Gespräch anfragen",
+      heading: "Umzugs- & Ansiedlungsservice anfragen",
       description: "Nennen Sie uns Zielstadt und Zeitraum für einen kompakten Ablaufplan.",
       prepChecklistTitle: "Hilfreiche Angaben",
       prepChecklist: [
@@ -277,7 +277,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
         "Einzelperson oder Familie (Kita/Schule)",
         "Gewünschte Schwerpunkte",
       ],
-      primaryCtaLabel: "Relocation-Gespräch anfragen",
+      primaryCtaLabel: "Umzugsservice anfragen",
       secondaryCtaLabel: "Alle Fachbereiche",
       sensitiveDataReminder:
         "Bitte übermitteln Sie im Erstkontakt keine Ausweis-, Konto- oder Schufa-Dokumente.",
@@ -308,7 +308,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Fachbereich 03 · Behördenservice",
-    title: "Behördenservice & Administration",
+    title: "Behördenservice",
     lead: "Sorgfältige Unterlagenvorbereitung, Termindisziplin und administrative Koordination im zulässigen Rahmen.",
     audienceBadge: "Für Privatpersonen & Unternehmen",
     whatIs: {
@@ -417,7 +417,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "languages",
     seo: {
-      title: "Translation & Communication (DE · TR · EN) | KALKAN PARTNER",
+      title: "Übersetzung & Kommunikation (DE · TR · EN) | KALKAN PARTNER",
       description:
         "Deutsch-türkisch-englische Geschäftskommunikation und Koordination beeidigter Übersetzer.",
       keywords: [
@@ -426,8 +426,8 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
         "Beglaubigte Übersetzer Koordination",
       ],
     },
-    eyebrow: "Fachbereich 04 · Translation",
-    title: "Translation & Communication",
+    eyebrow: "Fachbereich 04 · Übersetzung",
+    title: "Übersetzung & Kommunikation",
     lead: "Stilsichere Kommunikation auf Deutsch, Türkisch und Englisch – inklusive Koordination beeidigter Übersetzer.",
     audienceBadge: "Geschäftliche & private Kommunikation (DE · TR · EN)",
     whatIs: {
@@ -535,7 +535,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "business",
     icon: "briefcase",
     seo: {
-      title: "Business Setup Deutschland | KALKAN PARTNER",
+      title: "Unternehmensaufbau & Markteintritt Deutschland | KALKAN PARTNER",
       description:
         "Marktrecherche, Partner- und Lieferantensuche sowie Terminierung mit Notaren, Anwälten und Steuerberatern.",
       keywords: [
@@ -544,8 +544,8 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
         "Geschäftspartner und Lieferantenrecherche Deutschland",
       ],
     },
-    eyebrow: "Fachbereich 05 · Business Setup",
-    title: "Business Setup & Markteintritt",
+    eyebrow: "Fachbereich 05 · Unternehmensaufbau",
+    title: "Unternehmensaufbau & Markteintritt",
     lead: "Strukturierte Vorbereitung Ihres Starts in Deutschland – Recherche, Partnerkontakte und Terminierung mit Fachberatern.",
     audienceBadge: "Für Unternehmer, Gründer & Investoren",
     whatIs: {
@@ -634,7 +634,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
         "Aktueller Projektstand",
         "Gewünschte Schwerpunkte",
       ],
-      primaryCtaLabel: "Business-Setup anfragen",
+      primaryCtaLabel: "Unternehmensaufbau anfragen",
       secondaryCtaLabel: "Alle Fachbereiche",
       sensitiveDataReminder:
         "Bitte noch keine vertraulichen Verträge oder Ausweisdaten senden.",
@@ -654,17 +654,17 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "medical-tourism",
     icon: "heartPulse",
     seo: {
-      title: "Medical Tourism Coordination Türkei | KALKAN PARTNER",
+      title: "Medizintourismus-Koordination Türkei | KALKAN PARTNER",
       description:
         "Kommunikations-, Dolmetscher- und Reisekoordination mit autorisierten Kliniken in der Türkei.",
       keywords: [
-        "Medical Tourism Coordination Türkei",
+        "Medizintourismus-Koordination Türkei",
         "Patientenkoordination Deutschland Türkei",
         "Gesundheitstourismus Organisation Türkei",
       ],
     },
-    eyebrow: "Fachbereich 06 · Medical Tourism",
-    title: "Medical Tourism Coordination",
+    eyebrow: "Fachbereich 06 · Medizintourismus",
+    title: "Medizintourismus-Koordination",
     lead: "Transparente Kommunikations-, Dolmetscher- und Reisekoordination mit autorisierten Kliniken in der Türkei.",
     audienceBadge: "Für internationale Patienten",
     whatIs: {
@@ -771,18 +771,18 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "business",
     icon: "cpu",
     seo: {
-      title: "Digital & AI Solutions Deutschland | KALKAN PARTNER",
+      title: "Digital- & KI-Lösungen Deutschland | KALKAN PARTNER",
       description:
         "Unternehmenswebsites, SEO, Local SEO, GEO für KI-Suche, Chatbots und Automatisierung.",
       keywords: [
-        "Digital & AI Services Deutschland",
+        "Digital- & KI-Services Deutschland",
         "Unternehmenswebsite SEO Local SEO Deutschland",
         "GEO AI Search Sichtbarkeit",
         "KI Chatbot und Prozessautomatisierung KMU",
       ],
     },
-    eyebrow: "Fachbereich 07 · Digital & AI",
-    title: "Digital & AI Solutions",
+    eyebrow: "Fachbereich 07 · Digital & KI",
+    title: "Digital- & KI-Lösungen",
     lead: "Starke Websites, bessere Google- & KI-Sichtbarkeit (GEO) sowie praxistaugliche Automatisierung für den Mittelstand.",
     audienceBadge: "Für KMU, Gastronomie & Marken",
     whatIs: {
@@ -891,17 +891,17 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "graduationCap",
     seo: {
-      title: "Family & Education Deutschland | KALKAN PARTNER",
+      title: "Familie & Bildung Deutschland | KALKAN PARTNER",
       description:
         "Schul-, Kita- und Kursrecherchen sowie Studienbewerbungskoordination in Deutschland.",
       keywords: [
         "Schule Kita Recherche Deutschland",
         "Studienbewerbung Koordination Deutschland",
-        "Family Education Service Deutschland Türkei",
+        "Familie und Bildung Service Deutschland Türkei",
       ],
     },
-    eyebrow: "Fachbereich 08 · Family & Education",
-    title: "Family & Education",
+    eyebrow: "Fachbereich 08 · Familie & Bildung",
+    title: "Familie & Bildung",
     lead: "Orientierung und Organisation für Schul-, Kita- und Kursrecherchen sowie Studienbewerbungen in Deutschland.",
     audienceBadge: "Für Familien, Schüler & Studierende",
     whatIs: {
@@ -990,7 +990,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
         "Bedarf (Kita, Schule, Kurs, Studium)",
         "Aktueller Sprachstand",
       ],
-      primaryCtaLabel: "Family & Education anfragen",
+      primaryCtaLabel: "Familie & Bildung anfragen",
       secondaryCtaLabel: "Alle Fachbereiche",
       sensitiveDataReminder:
         "Im Erstkontakt bitte keine Zeugnisoriginale oder Urkunden senden.",
@@ -1015,7 +1015,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
       alt: "Professionelle Großküche mit Edelstahl-Arbeitsflächen, Induktionsinsel und strukturiertem Pass-Bereich",
     },
     seo: {
-      title: "Restaurant & Kitchen Solutions Deutschland | KALKAN PARTNER",
+      title: "Restaurant- & Küchenlösungen Deutschland | KALKAN PARTNER",
       description:
         "Konzept, Eröffnungskoordination, Küchenlayout, Geräteauswahl, Menü, Rezepturen, Food Cost, SOPs und Startbegleitung.",
       keywords: [
@@ -1026,7 +1026,7 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Fachbereich 09 · Kernkompetenz",
-    title: "Restaurant & Kitchen Solutions",
+    title: "Restaurant- & Küchenlösungen",
     lead: "Echte Küchenpraxis von der Idee bis zum Service: Küchenlayout, Gerätewahl, Menü, Rezepturen, Food Cost, SOPs und Eröffnungssupport.",
     audienceBadge: "Für Gastronomiegründer & bestehende Betriebe",
     whatIs: {

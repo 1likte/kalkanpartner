@@ -8,7 +8,7 @@ export const servicesOverviewTr: ServicesOverviewContent = {
   seo: {
     title: "Hizmetlerimiz – Dokuz Uzmanlık Departmanı | KALKAN PARTNER",
     description:
-      "KALKAN PARTNER'in dokuz hizmet departmanı: Recruitment, Relocation, Behördenservice, Translation, Business Setup, Medical Tourism, Digital & AI, Family & Education ve Restaurant & Kitchen Solutions.",
+      "KALKAN PARTNER'in dokuz hizmet departmanı: İşe Alım & Personel, Taşınma & Yerleşim, Resmî İşlemler & Randevu, Çeviri & İletişim, Şirket Kurulumu & Pazar Girişi, Sağlık Turizmi Koordinasyonu, Dijital & Yapay Zekâ Çözümleri, Aile & Eğitim ve Restoran & Mutfak Çözümleri.",
     keywords: [
       "Almanya iş ve hizmet koordinasyonu",
       "Almanya Türkiye personel koordinasyonu",
@@ -57,7 +57,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "recruitment",
     icon: "users",
     seo: {
-      title: "Recruitment & Uluslararası Aday Koordinasyonu | KALKAN PARTNER",
+      title: "İşe Alım & Personel Koordinasyonu | KALKAN PARTNER",
       description:
         "Almanya'daki işverenler ile Türkiye ve uluslararası pazarlardaki adaylar arasında yapılandırılmış süreç koordinasyonu.",
       keywords: [
@@ -66,8 +66,8 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Gastronomi ve KOBİ uluslararası aday organizasyonu",
       ],
     },
-    eyebrow: "Departman 01 · Recruitment",
-    title: "Recruitment & Aday Koordinasyonu",
+    eyebrow: "Departman 01 · İşe Alım & Personel",
+    title: "İşe Alım & Personel",
     lead: "Almanya'daki işverenleri Türkiye ve yurt dışındaki nitelikli adaylarla buluşturuyor, süreci baştan sona koordine ediyoruz.",
     audienceBadge: "Almanya'daki işverenler & uluslararası adaylar",
     whatIs: {
@@ -156,7 +156,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "İstenen dil seviyesi ve zaman planı",
         "İşverenler için şirket ve yetkili bilgisi",
       ],
-      primaryCtaLabel: "Recruitment Talebi Oluştur",
+      primaryCtaLabel: "Personel Talebi Oluştur",
       secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
         "İlk iletişimde pasaport veya kimlik kopyası göndermeyiniz.",
@@ -178,17 +178,17 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "home",
     seo: {
-      title: "Relocation – Almanya Taşınma Koordinasyonu | KALKAN PARTNER",
+      title: "Taşınma & Yerleşim – Almanya Koordinasyonu | KALKAN PARTNER",
       description:
         "Almanya'ya taşınan bireyler ve aileler için taşınma planı, ev arama iletişimi, okul/kreş araştırması ve abonelik organizasyonu.",
       keywords: [
-        "Almanya relocation desteği",
+        "Almanya taşınma desteği",
         "Almanya'ya taşınma organizasyonu",
         "Türkiye'den Almanya'ya aile yerleşim koordinasyonu",
       ],
     },
-    eyebrow: "Departman 02 · Relocation",
-    title: "Relocation & Yerleşim Desteği",
+    eyebrow: "Departman 02 · Taşınma & Yerleşim",
+    title: "Taşınma & Yerleşim",
     lead: "Almanya'ya taşınırken konut iletişimi, okul araştırması ve abonelik kurulumlarını adım adım organize ediyoruz.",
     audienceBadge: "Uzmanlar, bireyler & aileler",
     whatIs: {
@@ -277,7 +277,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Bireysel veya aile durumu (okul/kreş ihtiyacı)",
         "Öncelikli destek başlıkları",
       ],
-      primaryCtaLabel: "Relocation Görüşmesi İste",
+      primaryCtaLabel: "Taşınma Görüşmesi İste",
       secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
         "İlk iletişimde kimlik, pasaport veya banka belgesi göndermeyiniz.",
@@ -298,17 +298,17 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "landmark",
     seo: {
-      title: "Behördenservice – Almanya İdari Süreç Koordinasyonu | KALKAN PARTNER",
+      title: "Resmî İşlemler & Randevu – Almanya İdari Süreç Koordinasyonu | KALKAN PARTNER",
       description:
         "Almanya'da randevu organizasyonu, belge hazırlığı, dosya takibi ve geçerli vekâletle idari iletişim.",
       keywords: [
         "Almanya resmi kurum randevu organizasyonu",
-        "Behördenservice Türkçe destek Almanya",
+        "Resmî işlemler Türkçe destek Almanya",
         "Almanya belge hazırlığı ve dosya takibi",
       ],
     },
-    eyebrow: "Departman 03 · Behördenservice",
-    title: "Behördenservice & İdari Koordinasyon",
+    eyebrow: "Departman 03 · Resmî İşlemler & Randevu",
+    title: "Resmî İşlemler & Randevu",
     lead: "Resmî süreçlerde randevu planlaması, eksiksiz evrak hazırlığı ve izin verilen kapsamda idari takip desteği.",
     audienceBadge: "Almanya'daki bireyler & işletmeler",
     whatIs: {
@@ -396,7 +396,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Varsa son tarih veya mevcut randevu",
         "Avukat desteği olup olmadığı",
       ],
-      primaryCtaLabel: "Behördenservice Talebi",
+      primaryCtaLabel: "İdari Destek Talebi",
       secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
         "İlk iletişimde kimlik fotokopisi veya resmî karar metni göndermeyiniz.",
@@ -417,7 +417,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "languages",
     seo: {
-      title: "Translation & Communication (DE · TR · EN) | KALKAN PARTNER",
+      title: "Çeviri & İletişim (DE · TR · EN) | KALKAN PARTNER",
       description:
         "Almanca–Türkçe–İngilizce iş yazışmaları, belge çeviri organizasyonu ve yeminli tercüman koordinasyonu.",
       keywords: [
@@ -426,8 +426,8 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Uluslararası kurumsal iletişim desteği",
       ],
     },
-    eyebrow: "Departman 04 · Translation & Communication",
-    title: "Translation & Communication",
+    eyebrow: "Departman 04 · Çeviri & İletişim",
+    title: "Çeviri & İletişim",
     lead: "Almanca, Türkçe ve İngilizce iş yazışmalarından yeminli tercüman koordinasyonuna kadar net ve güvenilir iletişim.",
     audienceBadge: "Kurumsal & bireysel (DE · TR · EN)",
     whatIs: {
@@ -535,7 +535,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "business",
     icon: "briefcase",
     seo: {
-      title: "Business Setup – Almanya Pazarına Giriş | KALKAN PARTNER",
+      title: "Şirket Kurulumu & Pazar Girişi – Almanya | KALKAN PARTNER",
       description:
         "Almanya'da pazar ve tedarikçi araştırması, iş ortağı bağlantıları ve noter, avukat, mali müşavir randevu koordinasyonu.",
       keywords: [
@@ -544,8 +544,8 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Türkiye'den Almanya pazarına giriş koordinasyonu",
       ],
     },
-    eyebrow: "Departman 05 · Business Setup",
-    title: "Business Setup & Pazara Giriş",
+    eyebrow: "Departman 05 · Şirket Kurulumu",
+    title: "Şirket Kurulumu & Pazar Girişi",
     lead: "Almanya pazarına girişte pazar ve tedarikçi araştırması, iş ortağı bağlantıları ve uzman randevularının koordinasyonu.",
     audienceBadge: "Uluslararası girişimciler & şirketler",
     whatIs: {
@@ -634,7 +634,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Mevcut aşama (fikir, şirket, genişleme)",
         "Öncelikli ihtiyaçlar (araştırma, ortak, kuruluş)",
       ],
-      primaryCtaLabel: "Business Setup Talebi",
+      primaryCtaLabel: "Şirket Kurulumu Talebi",
       secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
         "İlk aşamada gizli şirket sözleşmeleri veya kimlik belgeleri paylaşmayınız.",
@@ -654,7 +654,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "medical-tourism",
     icon: "heartPulse",
     seo: {
-      title: "Medical Tourism Coordination | KALKAN PARTNER",
+      title: "Sağlık Turizmi Koordinasyonu | KALKAN PARTNER",
       description:
         "Türkiye'deki yetkili hastane ve sağlık turizmi kuruluşlarıyla iletişim, tercüme ve seyahat koordinasyonu.",
       keywords: [
@@ -663,8 +663,8 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Yetkili hastane bağlantı ve seyahat organizasyonu",
       ],
     },
-    eyebrow: "Departman 06 · Medical Tourism",
-    title: "Medical Tourism Coordination",
+    eyebrow: "Departman 06 · Sağlık Turizmi",
+    title: "Sağlık Turizmi Koordinasyonu",
     lead: "Uluslararası hastalar için Türkiye'deki yetkili hastanelerle şeffaf iletişim, tercüme ve seyahat koordinasyonu.",
     audienceBadge: "Uluslararası hastalar & refakatçiler",
     whatIs: {
@@ -771,7 +771,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "business",
     icon: "cpu",
     seo: {
-      title: "Digital & AI Solutions – Web, SEO, GEO & Otomasyon | KALKAN PARTNER",
+      title: "Dijital & Yapay Zekâ Çözümleri – Web, SEO, GEO & Otomasyon | KALKAN PARTNER",
       description:
         "Kurumsal web sitesi, SEO, Local SEO, yapay zekâ araması (GEO), chatbot ve iş süreci otomasyonu.",
       keywords: [
@@ -780,8 +780,8 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "KOBİ yapay zeka chatbot ve otomasyon",
       ],
     },
-    eyebrow: "Departman 07 · Digital & AI",
-    title: "Digital & AI Solutions",
+    eyebrow: "Departman 07 · Dijital & Yapay Zekâ",
+    title: "Dijital & Yapay Zekâ Çözümleri",
     lead: "Müşteri kazandıran web siteleri, Google ve yapay zekâ görünürlüğü (GEO) ile pratik iş otomasyonları.",
     audienceBadge: "KOBİ'ler, gastronomi & markalar",
     whatIs: {
@@ -890,7 +890,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
     inquiryTopic: "general",
     icon: "graduationCap",
     seo: {
-      title: "Family & Education – Okul, Kreş & Öğrenci | KALKAN PARTNER",
+      title: "Aile & Eğitim – Okul, Kreş & Öğrenci | KALKAN PARTNER",
       description:
         "Almanya'da okul ve kreş araştırması, öğrenci başvuru koordinasyonu ve aile yerleşim desteği.",
       keywords: [
@@ -899,8 +899,8 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "Aile yerleşim ve eğitim desteği Almanya",
       ],
     },
-    eyebrow: "Departman 08 · Family & Education",
-    title: "Family & Education",
+    eyebrow: "Departman 08 · Aile & Eğitim",
+    title: "Aile & Eğitim",
     lead: "Almanya'da okul, kreş, dil kursu ve üniversite başvurularında bölgesel araştırma ve düzenli dosya koordinasyonu.",
     audienceBadge: "Aileler, öğrenciler & kursiyerler",
     whatIs: {
@@ -989,7 +989,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "İhtiyaç türü (kreş, okul, kurs, üniversite)",
         "Mevcut dil düzeyi",
       ],
-      primaryCtaLabel: "Family & Education Talebi",
+      primaryCtaLabel: "Aile & Eğitim Talebi",
       secondaryCtaLabel: "Tüm Departmanlar",
       sensitiveDataReminder:
         "İlk iletişimde diploma aslı veya kimlik fotokopisi göndermeyiniz.",
@@ -1014,7 +1014,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
       alt: "Paslanmaz çelik hazırlık tezgahları, indüksiyon adası ve servis bankosuyla profesyonel ticari restoran mutfağı",
     },
     seo: {
-      title: "Restaurant & Kitchen Solutions Almanya | Restoran & Mutfak Danışmanlığı",
+      title: "Restoran & Mutfak Çözümleri Almanya | Restoran & Mutfak Danışmanlığı",
       description:
         "Gerçek mutfak tecrübesiyle restoran açılışı, mutfak yerleşimi, ekipman seçimi, menü, reçete, gramaj, food cost, SOP ve açılış desteği.",
       keywords: [
@@ -1025,7 +1025,7 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
       ],
     },
     eyebrow: "Departman 09 · Amiral Uzmanlık",
-    title: "Restaurant & Kitchen Solutions",
+    title: "Restoran & Mutfak Çözümleri",
     lead: "Gerçek mutfak tecrübesiyle konseptten açılışa: ergonomik mutfak yerleşimi, doğru ekipman, standart reçete, food cost ve SOP kurulumu.",
     audienceBadge: "Restoran girişimcileri & mevcut işletmeler",
     whatIs: {
