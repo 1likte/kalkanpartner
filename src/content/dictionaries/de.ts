@@ -352,7 +352,7 @@ export const de: Dictionary = {
     title: "Wählen Sie Ihren direkten Anfrageweg",
     subtitle:
       "Damit Ihr Anliegen ohne Umwege beim richtigen Fachbereich eingeht, strukturieren wir Anfragen nach fünf klaren Themenfeldern.",
-    pathsTitle: "Verfügbare Anfragewege (vollständiges Formular folgt in Aşama 3)",
+    pathsTitle: "Direkte Anfragewege nach Fachbereich",
     paths: [
       {
         topic: "recruitment",
@@ -385,9 +385,9 @@ export const de: Dictionary = {
         description: "Umzugsorganisation, Terminhilfe, Übersetzungskoordination oder Bildungsrecherche.",
       },
     ],
-    noticeTitle: "Transparenter Hinweis zum aktuellen Projektstand (Meilenstein 1)",
+    noticeTitle: "Direkte Zuordnung zum zuständigen Fachbereich",
     noticeBody:
-      "Die interaktiven Anfrageformulare mit sicherer E-Mail-Anbindung (SMTP/Resend), Validierung und Spamschutz werden in Meilenstein 3 aktiviert. Bis zur Konfiguration realer Geschäftsdaten werden keine Scheinbestätigungen ausgegeben.",
+      "Jeder Anfrageweg wählt im Kontaktformular automatisch den passenden Bereich vor. Ihre Angaben werden verschlüsselt übertragen und ausschließlich zur Bearbeitung Ihres Anliegens verwendet.",
     sensitiveDataNote:
       "Datenschutz-Grundsatz: Über normale Website-Formulare werden niemals Reisepässe, Ausweiskopien oder medizinische Unterlagen abgefragt.",
   },
@@ -399,7 +399,7 @@ export const de: Dictionary = {
     columns: {
       servicesTitle: "Fachbereiche",
       companyTitle: "Unternehmen",
-      legalTitle: "Rechtliches (TODO)",
+      legalTitle: "Rechtliches",
     },
     companyLinks: [
       { label: "Über Kalkan Partner", href: "/about" },
@@ -410,9 +410,9 @@ export const de: Dictionary = {
       { label: "Kontakt", href: "/contact" },
     ],
     legalLinks: [
-      { label: "Impressum", href: "/impressum", todoBadge: "TODO" },
-      { label: "Datenschutzerklärung", href: "/datenschutzerklaerung", todoBadge: "TODO" },
-      { label: "AGB & Widerrufshinweise", href: "/agb", todoBadge: "TODO" },
+      { label: "Impressum", href: "/impressum", todoBadge: "" },
+      { label: "Datenschutzerklärung", href: "/datenschutzerklaerung", todoBadge: "" },
+      { label: "AGB & Widerrufshinweise", href: "/agb", todoBadge: "" },
     ],
     futureLanguageNote: "Sprachen: Deutsch · Türkçe · English",
     copyright: "KALKAN PARTNER. Alle Rechte vorbehalten.",

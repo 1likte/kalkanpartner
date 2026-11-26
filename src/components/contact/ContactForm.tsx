@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import {
   AlertTriangle,
@@ -9,7 +10,7 @@ import {
   Lock,
   Send,
 } from "lucide-react";
-import type { Locale } from "@/i18n/config";
+import { LEGAL_SLUGS, type Locale } from "@/i18n/config";
 import type { InquiryTopic } from "@/content/types";
 import type { CorporatePagesContent } from "@/content/pages/types";
 
@@ -20,25 +21,50 @@ interface ContactFormProps {
 
 type SubmitState = "idle" | "submitting" | "sent" | "not_configured" | "error";
 
-export function ContactForm({ locale, content }: ContactFormProps) {
+function TopicQuerySync({
+  paths,
+  onMatch,
+}: {
+  paths: CorporatePagesContent["contact"]["paths"];
+  onMatch: (topic: InquiryTopic, defaultDepartment: string) => void;
+}) {
   const searchParams = useSearchParams();
-  const initialTopicParam = searchParams.get("topic") as InquiryTopic | null;
-  const matchedInitial =
-    content.paths.find((p) => p.topic === initialTopicParam) ||
-    content.paths[0];
+  const topicParam = searchParams.get("topic") as InquiryTopic | null;
+
+  useEffect(() => {
+    if (!topicParam) return;
+    const matched = paths.find((p) => p.topic === topicParam);
+    if (matched) {
+      onMatch(matched.topic, matched.defaultDepartment);
+    }
+  }, [topicParam, paths, onMatch]);
+
+  return null;
+}
+
+const MEDICAL_CONSENT_COPY: Record<Locale, string> = {
+  de: "Ausdrückliche Einwilligung (Art. 9 Abs. 2 lit. a & Art. 49 Abs. 1 lit. a DSGVO): Ich willige ausdrücklich ein, dass meine gesundheitsbezogenen Angaben zur Bearbeitung meiner Koordinationsanfrage verarbeitet und – soweit für die Einholung von Informationen oder Terminen erforderlich – an autorisierte Krankenhäuser bzw. Gesundheitstourismus-Einrichtungen in der Republik Türkei (Drittland ohne EU-Angemessenheitsbeschluss) übermittelt werden. Diese Einwilligung kann ich jederzeit mit Wirkung für die Zukunft widerrufen.",
+  tr: "Açık Rıza Beyanı (DSGVO Madde 9/2-a & Madde 49/1-a): Sağlık turizmi koordinasyon talebim kapsamında paylaştığım sağlıkla bağlantılı bilgilerin işlenmesine ve bilgi/randevu temini amacıyla Türkiye Cumhuriyeti'ndeki (AB yeterlilik kararı bulunmayan üçüncü ülke) yetkili hastane ve sağlık turizmi kuruluşlarına aktarılmasına açıkça rıza gösteriyorum. Bu rızamı dilediğim zaman geleceğe etkili olarak geri çekebilirim.",
+  en: "Explicit Consent (Art. 9(2)(a) & Art. 49(1)(a) GDPR): I explicitly consent to the processing of any health-related details included in my inquiry for coordination purposes and – where required to request information or appointments – to their transfer to authorized hospitals or licensed medical tourism institutions in the Republic of Türkiye (a third country without an EU adequacy decision). I may withdraw this consent at any time with future effect.",
+};
+
+const PRIVACY_LINK_LABEL: Record<Locale, string> = {
+  de: "Datenschutzerklärung lesen",
+  tr: "Gizlilik ve Kişisel Verilerin Korunması Beyanını inceleyin",
+  en: "Read Privacy Policy",
+};
+
+export function ContactForm({ locale, content }: ContactFormProps) {
+  const firstPath = content.paths[0];
 
   const [selectedTopic, setSelectedTopic] = useState<InquiryTopic>(
-    matchedInitial.topic
+    firstPath.topic
   );
   const [customerType, setCustomerType] = useState<"individual" | "business">(
-    matchedInitial.topic === "business" ||
-      matchedInitial.topic === "restaurant" ||
-      matchedInitial.topic === "recruitment"
-      ? "business"
-      : "individual"
+    "business"
   );
   const [department, setDepartment] = useState<string>(
-    matchedInitial.defaultDepartment
+    firstPath.defaultDepartment
   );
   const [country, setCountry] = useState("");
   const [name, setName] = useState("");
@@ -46,6 +72,7 @@ export function ContactForm({ locale, content }: ContactFormProps) {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [privacyConsent, setPrivacyConsent] = useState(false);
+  const [medicalConsent, setMedicalConsent] = useState(false);
   const [companyWebsite, setCompanyWebsite] = useState(""); // Honeypot
   const [submitState, setSubmitState] = useState<SubmitState>("idle");
   const [errorMessage, setErrorMessage] = useState("");
@@ -55,6 +82,9 @@ export function ContactForm({ locale, content }: ContactFormProps) {
   useEffect(() => {
     startedAtRef.current = Date.now();
   }, []);
+
+  const isMedicalInquiry =
+    selectedTopic === "medical-tourism" || department === "medical-tourism";
 
   const handlePathSelect = (topic: InquiryTopic, defaultDepartment: string) => {
     setSelectedTopic(topic);
@@ -75,7 +105,8 @@ export function ContactForm({ locale, content }: ContactFormProps) {
       country.trim().length < 2 ||
       !email.includes("@") ||
       message.trim().length < 15 ||
-      !privacyConsent
+      !privacyConsent ||
+      (isMedicalInquiry && !medicalConsent)
     ) {
       setSubmitState("error");
       setErrorMessage(content.form.validationError);
@@ -99,6 +130,7 @@ export function ContactForm({ locale, content }: ContactFormProps) {
           phone,
           message,
           privacyConsent,
+          medicalConsent: isMedicalInquiry ? medicalConsent : undefined,
           companyWebsite,
           startedAt: startedAtRef.current,
         }),
@@ -117,6 +149,7 @@ export function ContactForm({ locale, content }: ContactFormProps) {
         setCountry("");
         setMessage("");
         setPrivacyConsent(false);
+        setMedicalConsent(false);
         return;
       }
 
@@ -133,8 +166,15 @@ export function ContactForm({ locale, content }: ContactFormProps) {
     }
   };
 
+  const privacyHref = `/${locale}/${LEGAL_SLUGS[locale].privacy}`;
+
   return (
     <div className="space-y-8">
+      {/* Non-blocking URL ?topic= sync so entire form renders in static SSR HTML */}
+      <Suspense fallback={null}>
+        <TopicQuerySync paths={content.paths} onMatch={handlePathSelect} />
+      </Suspense>
+
       {/* Step 1: 5 Inquiry Paths */}
       <div>
         <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-dark">
@@ -248,7 +288,7 @@ export function ContactForm({ locale, content }: ContactFormProps) {
         noValidate
         className="rounded-2xl border border-border-subtle bg-surface p-6 sm:p-8 shadow-xs space-y-6"
       >
-        {/* Honeypot anti-spam field (hidden from human users) */}
+        {/* Honeypot anti-spam field */}
         <div className="hidden" aria-hidden="true">
           <label htmlFor="companyWebsite">Company Website</label>
           <input
@@ -335,7 +375,7 @@ export function ContactForm({ locale, content }: ContactFormProps) {
           </div>
         </div>
 
-        {/* Name, Email, Phone */}
+        {/* Name & Email */}
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
           <div>
             <label
@@ -378,6 +418,7 @@ export function ContactForm({ locale, content }: ContactFormProps) {
           </div>
         </div>
 
+        {/* Phone */}
         <div>
           <label
             htmlFor="phone"
@@ -418,19 +459,43 @@ export function ContactForm({ locale, content }: ContactFormProps) {
           />
         </div>
 
-        {/* Privacy Consent */}
-        <label className="flex items-start gap-3 cursor-pointer">
-          <input
-            type="checkbox"
-            checked={privacyConsent}
-            onChange={(e) => setPrivacyConsent(e.target.checked)}
-            required
-            className="mt-1 h-4 w-4 rounded border-border-subtle text-navy focus:ring-gold"
-          />
-          <span className="text-xs leading-relaxed text-muted">
-            {content.form.privacyConsent}
-          </span>
-        </label>
+        {/* Special Category Health Data & Third-Country Transfer Consent (Art. 9 & Art. 49 DSGVO) */}
+        {isMedicalInquiry && (
+          <label className="flex items-start gap-3 rounded-xl border border-gold/60 bg-ivory p-4 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={medicalConsent}
+              onChange={(e) => setMedicalConsent(e.target.checked)}
+              required
+              className="mt-1 h-4 w-4 shrink-0 rounded border-border-subtle text-navy focus:ring-gold"
+            />
+            <span className="text-xs leading-relaxed text-ink">
+              {MEDICAL_CONSENT_COPY[locale]} *
+            </span>
+          </label>
+        )}
+
+        {/* General Privacy Notice Acknowledgment + Direct Link */}
+        <div className="space-y-2">
+          <label className="flex items-start gap-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={privacyConsent}
+              onChange={(e) => setPrivacyConsent(e.target.checked)}
+              required
+              className="mt-1 h-4 w-4 shrink-0 rounded border-border-subtle text-navy focus:ring-gold"
+            />
+            <span className="text-xs leading-relaxed text-muted">
+              {content.form.privacyConsent} *{" "}
+              <Link
+                href={privacyHref}
+                className="font-semibold text-navy underline underline-offset-4 hover:text-gold-dark"
+              >
+                ({PRIVACY_LINK_LABEL[locale]})
+              </Link>
+            </span>
+          </label>
+        </div>
 
         {/* Submit */}
         <div>

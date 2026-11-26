@@ -1,3 +1,4 @@
+import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 
 interface ContactPayload {
@@ -11,7 +12,7 @@ interface ContactPayload {
   phone?: string;
   message?: string;
   privacyConsent?: boolean;
-  // Spam protection fields
+  medicalConsent?: boolean;
   companyWebsite?: string;
   startedAt?: number;
 }
@@ -43,7 +44,27 @@ function sanitize(value: unknown, maxLen: number): string {
   return value.trim().slice(0, maxLen);
 }
 
+function isSameOrigin(request: Request): boolean {
+  const origin = request.headers.get("origin");
+  if (!origin) return true;
+  const host =
+    request.headers.get("x-forwarded-host") || request.headers.get("host");
+  if (!host) return true;
+  try {
+    return new URL(origin).host === host;
+  } catch {
+    return false;
+  }
+}
+
 export async function POST(request: Request) {
+  if (!isSameOrigin(request)) {
+    return NextResponse.json(
+      { status: "error", message: "Cross-origin requests are not allowed." },
+      { status: 403 }
+    );
+  }
+
   let body: ContactPayload;
   try {
     body = (await request.json()) as ContactPayload;
@@ -84,6 +105,9 @@ export async function POST(request: Request) {
   const message = sanitize(body.message, 5000);
   const locale = sanitize(body.locale, 5) || "de";
 
+  const isMedical =
+    topic === "medical-tourism" || department === "medical-tourism";
+
   if (
     !VALID_TOPICS.has(topic) ||
     (customerType !== "individual" && customerType !== "business") ||
@@ -92,34 +116,18 @@ export async function POST(request: Request) {
     name.length < 2 ||
     !EMAIL_REGEX.test(email) ||
     message.length < 15 ||
-    body.privacyConsent !== true
+    body.privacyConsent !== true ||
+    (isMedical && body.medicalConsent !== true)
   ) {
     return NextResponse.json(
       {
         status: "validation_error",
-        message: "Required fields are missing or invalid.",
+        message: "Required fields or mandatory consents are missing.",
       },
       { status: 400 }
     );
   }
 
-  // 4. Honest delivery check: never pretend success unless real email integration is configured
-  const resendApiKey = process.env.RESEND_API_KEY;
-  const toEmail = process.env.CONTACT_TO_EMAIL;
-  const fromEmail = process.env.CONTACT_FROM_EMAIL;
-
-  if (!resendApiKey || !toEmail || !fromEmail) {
-    return NextResponse.json(
-      {
-        status: "not_configured",
-        message:
-          "Email delivery is not configured yet. Configure RESEND_API_KEY, CONTACT_FROM_EMAIL, and CONTACT_TO_EMAIL to enable live delivery.",
-      },
-      { status: 503 }
-    );
-  }
-
-  // 5. Real email dispatch via Resend REST API
   const textBody = [
     `New KALKAN PARTNER Website Inquiry`,
     `----------------------------------`,
@@ -131,38 +139,85 @@ export async function POST(request: Request) {
     `Name: ${name}`,
     `Email: ${email}`,
     `Phone: ${phone || "-"}`,
+    `Art. 9/49 Medical Consent: ${isMedical ? "YES (Explicitly Granted)" : "N/A"}`,
     ``,
     `Message:`,
     message,
   ].join("\n");
 
-  try {
-    const emailResponse = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${resendApiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from: fromEmail,
-        to: [toEmail],
-        reply_to: email,
-        subject: `[KALKAN PARTNER · ${department}] New inquiry from ${name}`,
-        text: textBody,
-      }),
-    });
+  const subject = `[KALKAN PARTNER · ${department}] New inquiry from ${name}`;
 
-    if (!emailResponse.ok) {
-      return NextResponse.json(
-        {
-          status: "error",
-          message: "Email service rejected the request.",
+  const resendApiKey = process.env.RESEND_API_KEY;
+  const smtpHost = process.env.SMTP_HOST;
+  const smtpPort = Number(process.env.SMTP_PORT || "587");
+  const smtpUser = process.env.SMTP_USER;
+  const smtpPass = process.env.SMTP_PASS;
+  const toEmail =
+    process.env.CONTACT_TO_EMAIL || smtpUser || "kontakt@kalkanpartner.de";
+  const fromEmail =
+    process.env.CONTACT_FROM_EMAIL || smtpUser || "kontakt@kalkanpartner.de";
+
+  const hasResend = Boolean(resendApiKey && toEmail && fromEmail);
+  const hasSmtp = Boolean(smtpHost && smtpUser && smtpPass);
+
+  if (!hasResend && !hasSmtp) {
+    return NextResponse.json(
+      {
+        status: "not_configured",
+        message:
+          "Email delivery is not configured yet. Configure either SMTP_HOST/SMTP_USER/SMTP_PASS or RESEND_API_KEY in Vercel Environment Variables.",
+      },
+      { status: 503 }
+    );
+  }
+
+  try {
+    if (hasSmtp) {
+      const transporter = nodemailer.createTransport({
+        host: smtpHost,
+        port: smtpPort,
+        secure: smtpPort === 465,
+        auth: {
+          user: smtpUser,
+          pass: smtpPass,
         },
-        { status: 502 }
-      );
+      });
+
+      await transporter.sendMail({
+        from: `"KALKAN PARTNER Website" <${fromEmail}>`,
+        to: toEmail,
+        replyTo: email,
+        subject,
+        text: textBody,
+      });
+    } else if (hasResend) {
+      const emailResponse = await fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${resendApiKey}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          from: fromEmail,
+          to: [toEmail],
+          reply_to: email,
+          subject,
+          text: textBody,
+        }),
+      });
+
+      if (!emailResponse.ok) {
+        return NextResponse.json(
+          {
+            status: "error",
+            message: "Email service rejected the request.",
+          },
+          { status: 502 }
+        );
+      }
     }
 
-    // Optional CRM webhook forwarding for future scalability (best-effort)
+    // Optional CRM webhook forwarding (only non-medical or if explicitly configured)
     const crmWebhook = process.env.CRM_WEBHOOK_URL;
     if (crmWebhook) {
       fetch(crmWebhook, {
@@ -179,11 +234,10 @@ export async function POST(request: Request) {
           email,
           phone,
           message,
+          medicalConsent: isMedical ? true : undefined,
           receivedAt: new Date().toISOString(),
         }),
-      }).catch(() => {
-        // Non-blocking CRM hook
-      });
+      }).catch(() => {});
     }
 
     return NextResponse.json({ status: "sent" }, { status: 200 });

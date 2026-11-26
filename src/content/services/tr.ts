@@ -841,11 +841,12 @@ export const servicesTr: Record<ServiceSlug, ServiceDetailContent> = {
         "ÖNEMLİ: Standart iletişim formları üzerinden asla epikriz, tahlil, röntgen, tıbbi rapor veya pasaport göndermeyiniz.",
     },
     legalBoundary: {
-      heading: "Tıbbi & Hukuki Sınır Bilgilendirmesi",
+      heading: "Tıbbi, Tanıtım Mevzuatı (HWG) & Hukuki Sınır Bilgilendirmesi",
       points: [
         "KALKAN PARTNER teşhis koymaz, reçete yazmaz, tıbbi tedavi uygulamaz ve herhangi bir tıbbi sonuç garantisi vermez.",
-        "Doğrulanmamış tıbbi iddialar veya tedavi başarı oranları yayınlanmaz.",
-        "Tüm koordinasyon yalnızca Türkiye'deki sağlık turizmi yetkilendirme mevzuatına uygun yetkili hastane ve kuruluşlarla yürütülür.",
+        "Alman Sağlık Hizmetleri Reklam Yasası (HWG) uyarınca doğrulanmamış iyileşme vaatleri, başarı oranları veya yanıltıcı öncesi-sonrası görselleri yayınlanmaz.",
+        "Tıbbi tedavi sözleşmesi yalnızca doğrudan hasta ile Türkiye'deki ilgili yetkili sağlık kuruluşu arasında kurulur.",
+        "Şeffaflık beyanı: KALKAN PARTNER bağımsız koordinatör olarak hareket eder; hizmet karşılığında müşteriden kararlaştırılan koordinasyon ücreti veya yetkili partner kuruluştan aracılık/hizmet komisyonu alabilir.",
       ],
     },
     relatedSlugs: ["translation-communication", "relocation", "family-education"],

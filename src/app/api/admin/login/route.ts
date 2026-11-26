@@ -9,6 +9,25 @@ import {
 const failedAttempts = new Map<string, { count: number; resetAt: number }>();
 
 export async function POST(request: Request) {
+  const origin = request.headers.get("origin");
+  const host =
+    request.headers.get("x-forwarded-host") || request.headers.get("host");
+  if (origin && host) {
+    try {
+      if (new URL(origin).host !== host) {
+        return NextResponse.json(
+          { status: "error", message: "Yetkisiz kaynak." },
+          { status: 403 }
+        );
+      }
+    } catch {
+      return NextResponse.json(
+        { status: "error", message: "Yetkisiz kaynak." },
+        { status: 403 }
+      );
+    }
+  }
+
   const { username, password, secret, configured } = getAdminEnvConfig();
 
   if (!configured) {

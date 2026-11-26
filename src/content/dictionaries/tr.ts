@@ -350,7 +350,7 @@ export const tr: Dictionary = {
     title: "İhtiyacınıza uygun talep yolunu seçin",
     subtitle:
       "Talebinizin doğru departmana en hızlı şekilde ulaşması için beş ayrı müşteri edinme akışı hazırladık.",
-    pathsTitle: "Müşteri Talep Akışları (İnteraktif form Aşama 3'te aktif edilecektir)",
+    pathsTitle: "Departmana Göre Doğrudan Talep Akışları",
     paths: [
       {
         topic: "recruitment",
@@ -383,9 +383,9 @@ export const tr: Dictionary = {
         description: "Taşınma organizasyonu, randevu desteği, çeviri koordinasyonu veya eğitim araştırması.",
       },
     ],
-    noticeTitle: "Mevcut Aşama Bilgilendirmesi (Aşama 1)",
+    noticeTitle: "İlgili Departmana Doğrudan Yönlendirme",
     noticeBody:
-      "Gerçek e-posta entegrasyonu (SMTP/Resend), doğrulama ve spam korumasına sahip interaktif iletişim formları Aşama 3'te eklenecektir. Gerçek şirket bilgileri tanımlanmadan sahte gönderim onayı verilmeyecektir.",
+      "Seçtiğiniz her talep yolu iletişim formunda ilgili hizmet departmanını otomatik olarak seçer. Bilgileriniz şifreli bağlantıyla iletilir ve yalnızca talebinizin değerlendirilmesi amacıyla işlenir.",
     sensitiveDataNote:
       "Gizlilik ilkesi: Standart web formları üzerinden hiçbir zaman pasaport, kimlik veya tıbbi rapor yüklemesi talep edilmez.",
   },
@@ -397,7 +397,7 @@ export const tr: Dictionary = {
     columns: {
       servicesTitle: "Hizmet Departmanları",
       companyTitle: "Kurumsal",
-      legalTitle: "Yasal Bilgiler (TODO)",
+      legalTitle: "Yasal Bilgiler",
     },
     companyLinks: [
       { label: "Hakkımızda", href: "/about" },
@@ -408,16 +408,16 @@ export const tr: Dictionary = {
       { label: "İletişim", href: "/contact" },
     ],
     legalLinks: [
-      { label: "Künye (Impressum)", href: "/kuenye", todoBadge: "TODO" },
+      { label: "Künye (Impressum)", href: "/kuenye", todoBadge: "" },
       {
         label: "Gizlilik ve Kişisel Verilerin Korunması Beyanı",
         href: "/gizlilik-ve-kisisel-verilerin-korunmasi-beyani",
-        todoBadge: "TODO",
+        todoBadge: "",
       },
       {
         label: "Hizmet Şartları ve Cayma Hakları",
         href: "/hizmet-sartlari-ve-cayma-haklari",
-        todoBadge: "TODO",
+        todoBadge: "",
       },
     ],
     futureLanguageNote: "Diller: Deutsch · Türkçe · English",

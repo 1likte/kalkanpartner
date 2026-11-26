@@ -507,7 +507,7 @@ export const pagesEn: CorporatePagesContent = {
       ],
       legalNoticeTitle: "Corporate Contact Details",
       legalNoticeBody:
-        "Final legal form and commercial register details will be completed prior to official launch.",
+        "Direct contact details for Semra Kalkan – KALKAN PARTNER in Germany.",
     },
   },
 };

@@ -25,6 +25,7 @@ export interface SiteSettings {
   phoneHref: string;
   whatsappUrl: string;
   telegramUrl: string;
+  mstvResponsible: string;
   commercialRegister: string;
   vatId: string;
   supervisoryAuthority: string;
@@ -99,6 +100,7 @@ export function getDefaultSiteSettings(): SiteSettings {
     phoneHref: siteConfig.legal.phoneHref,
     whatsappUrl: siteConfig.legal.whatsappUrl,
     telegramUrl: siteConfig.legal.telegramUrl,
+    mstvResponsible: siteConfig.legal.mstvResponsible,
     commercialRegister: siteConfig.legal.commercialRegister,
     vatId: siteConfig.legal.vatId,
     supervisoryAuthority: siteConfig.legal.supervisoryAuthority,

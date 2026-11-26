@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CheckCircle2, Info, MessageCircle, Send } from "lucide-react";
@@ -101,15 +100,7 @@ export default async function ContactPage({
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-start">
             <div className="lg:col-span-8">
-              <Suspense
-                fallback={
-                  <div className="rounded-2xl border border-border-subtle bg-surface p-8 text-sm text-muted">
-                    ...
-                  </div>
-                }
-              >
-                <ContactForm locale={locale} content={contact} />
-              </Suspense>
+              <ContactForm locale={locale} content={contact} />
             </div>
 
             <aside className="lg:col-span-4 space-y-6">

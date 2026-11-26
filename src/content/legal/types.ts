@@ -17,6 +17,7 @@ export interface LegalDocumentContent {
 }
 
 export interface LocaleLegalDictionary {
+  languageBindingNotice: string;
   imprint: LegalDocumentContent;
   privacy: LegalDocumentContent;
   terms: LegalDocumentContent;
@@ -25,7 +26,8 @@ export interface LocaleLegalDictionary {
     phoneWhatsappLabel: string;
     emailLabel: string;
     websiteLabel: string;
-    pendingRegistryTitle: string;
+    mstvHeading: string;
+    registryHeading: string;
     backToContact: string;
     toPrivacy: string;
     toImprint: string;

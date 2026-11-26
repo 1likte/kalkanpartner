@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Cormorant_Garamond, Plus_Jakarta_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import {
   ACTIVE_LOCALES,
@@ -11,6 +12,21 @@ import { siteConfig } from "@/config/site";
 import { getSiteSettings } from "@/lib/cms";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import "../globals.css";
+
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-plus-jakarta",
+  display: "swap",
+});
+
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin", "latin-ext"],
+  weight: ["500", "600", "700"],
+  variable: "--font-cormorant",
+  display: "swap",
+});
 
 export function generateStaticParams() {
   return ACTIVE_LOCALES.map((locale) => ({ locale }));
@@ -28,7 +44,11 @@ export async function generateMetadata({
   const meta = LOCALE_META[locale];
 
   return {
-    title: dict.meta.title,
+    metadataBase: new URL(siteConfig.siteUrl),
+    title: {
+      default: dict.meta.title,
+      template: "%s | KALKAN PARTNER",
+    },
     description: dict.meta.description,
     keywords: dict.meta.keywords,
     alternates: {
@@ -50,7 +70,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function LocaleLayout({
+export default async function LocaleRootLayout({
   children,
   params,
 }: {
@@ -66,31 +86,50 @@ export default async function LocaleLayout({
   const dict = getDictionary(typedLocale);
   const site = getSiteSettings();
 
-  // Verified Organization structured data only (no fabricated address, phone, or registration numbers)
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: site.brandName,
+    name: `${site.owner} – ${site.brandName}`,
+    alternateName: site.brandName,
     url: siteConfig.siteUrl,
     description: dict.meta.description,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: site.streetAddress,
+      postalCode: "79739",
+      addressLocality: "Schwörstadt",
+      addressCountry: "DE",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: site.phoneHref,
+      email: site.email,
+      availableLanguage: ["German", "Turkish", "English"],
+    },
     areaServed: ["DE", "TR"],
-    availableLanguage: ["German", "Turkish", "English"],
   };
 
   return (
-    <div lang={LOCALE_META[typedLocale].htmlLang} className="flex min-h-screen flex-col">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
-      />
-      <Header
-        locale={typedLocale}
-        dict={dict}
-        whatsappUrl={site.whatsappUrl}
-        telegramUrl={site.telegramUrl}
-      />
-      <main className="flex-1">{children}</main>
-      <Footer locale={typedLocale} dict={dict} site={site} />
-    </div>
+    <html
+      lang={LOCALE_META[typedLocale].htmlLang}
+      className={`${plusJakarta.variable} ${cormorant.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col bg-surface text-ink">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd),
+          }}
+        />
+        <Header
+          locale={typedLocale}
+          dict={dict}
+          whatsappUrl={site.whatsappUrl}
+          telegramUrl={site.telegramUrl}
+        />
+        <main className="flex-1">{children}</main>
+        <Footer locale={typedLocale} dict={dict} site={site} />
+      </body>
+    </html>
   );
 }

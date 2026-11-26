@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { DEFAULT_LOCALE } from "@/i18n/config";
 
-export default function RootPage() {
+export default function RootRedirectPage() {
   redirect(`/${DEFAULT_LOCALE}`);
 }

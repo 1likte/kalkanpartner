@@ -407,9 +407,9 @@ export const en: Dictionary = {
       { label: "Contact", href: "/contact" },
     ],
     legalLinks: [
-      { label: "Imprint (Impressum)", href: "/imprint", todoBadge: "TODO" },
-      { label: "Privacy Policy", href: "/privacy-policy", todoBadge: "TODO" },
-      { label: "Terms & Withdrawal Rights", href: "/terms-and-withdrawal", todoBadge: "TODO" },
+      { label: "Imprint (Impressum)", href: "/imprint", todoBadge: "" },
+      { label: "Privacy Policy", href: "/privacy-policy", todoBadge: "" },
+      { label: "Terms & Withdrawal Rights", href: "/terms-and-withdrawal", todoBadge: "" },
     ],
     futureLanguageNote: "Languages: Deutsch · Türkçe · English",
     copyright: "KALKAN PARTNER. All rights reserved.",

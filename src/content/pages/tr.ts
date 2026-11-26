@@ -505,9 +505,9 @@ export const pagesTr: CorporatePagesContent = {
         "Organizasyonel koordinasyon kapsamının ön değerlendirmesi",
         "Ön görüşme planlaması için şeffaf geri dönüş",
       ],
-      legalNoticeTitle: "Şirket İletişim Bilgileri (Canlı Yayın Öncesi TODO)",
+      legalNoticeTitle: "Kurumsal İletişim Bilgileri",
       legalNoticeBody:
-        "Resmî iş e-postası, telefon, şirket adresi ve sicil bilgileri canlı yayına geçmeden önce merkezi yapılandırma üzerinden eklenecektir.",
+        "Almanya merkezli Semra Kalkan – KALKAN PARTNER doğrudan iletişim bilgileri.",
     },
   },
 };

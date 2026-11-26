@@ -505,9 +505,9 @@ export const pagesDe: CorporatePagesContent = {
         "Klärung, welche Schritte organisatorisch koordiniert werden können",
         "Rückmeldung zur Abstimmung eines unverbindlichen Erstgesprächs",
       ],
-      legalNoticeTitle: "Unternehmensdaten (TODO vor Livegang)",
+      legalNoticeTitle: "Unternehmens- & Kontaktdaten",
       legalNoticeBody:
-        "Geschäftliche E-Mail-Adresse, Telefonnummer, ladungsfähige Anschrift und Registerangaben werden vor der Live-Veröffentlichung zentral ergänzt.",
+        "Direkter Kontakt zu Semra Kalkan – KALKAN PARTNER in Deutschland.",
     },
   },
 };

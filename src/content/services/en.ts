@@ -841,11 +841,12 @@ export const servicesEn: Record<ServiceSlug, ServiceDetailContent> = {
         "IMPORTANT: Never submit medical records, diagnoses, X-rays, health data, or passport copies via website contact forms.",
     },
     legalBoundary: {
-      heading: "Medical & Legal Boundary",
+      heading: "Medical, Advertising (HWG) & Legal Scope Boundary",
       points: [
-        "KALKAN PARTNER does not diagnose, prescribe, perform medical treatment, or guarantee medical outcomes.",
-        "We never publish unverified medical claims or treatment success rates.",
-        "Coordination is conducted exclusively in accordance with Turkish health tourism authorization requirements with duly authorized providers.",
+        "KALKAN PARTNER does not diagnose, prescribe, perform medical treatment, or guarantee clinical outcomes.",
+        "In compliance with the German Therapeutic Products Advertising Act (HWG), we publish no unverified healing promises, clinical success rates, or misleading before-and-after representations.",
+        "Any medical treatment contract is concluded exclusively and directly between the patient and the respective authorized hospital in Türkiye.",
+        "Transparency disclosure: KALKAN PARTNER acts as an independent coordinator and may receive either an agreed coordination fee from the client or a service/referral commission from the authorized partner healthcare institution.",
       ],
     },
     relatedSlugs: ["translation-communication", "relocation", "family-education"],

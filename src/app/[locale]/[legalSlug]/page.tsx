@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { AlertTriangle, Check } from "lucide-react";
+import { AlertTriangle, Check, Info } from "lucide-react";
 import {
   ACTIVE_LOCALES,
   isValidLocale,
@@ -42,7 +42,6 @@ export async function generateMetadata({
   return {
     title: doc.seoTitle,
     description: doc.seoDescription,
-    robots: { index: false, follow: true },
     alternates: {
       canonical: `/${locale}/${canonicalSlug}`,
       languages: {
@@ -68,7 +67,6 @@ export default async function LocalizedLegalPage({
     notFound();
   }
 
-  // Redirect legacy or wrong-language legal slug to canonical native-language slug
   const canonicalSlug = LEGAL_SLUGS[locale][docKey];
   if (legalSlug !== canonicalSlug) {
     redirect(`/${locale}/${canonicalSlug}`);
@@ -78,6 +76,12 @@ export default async function LocalizedLegalPage({
   const doc = legalDict[docKey];
   const labels = legalDict.labels;
   const site = getSiteSettings();
+
+  const optionalRegistryLines = [
+    site.commercialRegister,
+    site.vatId,
+    site.supervisoryAuthority,
+  ].filter((line) => Boolean(line && line.trim().length > 0));
 
   const siblingLink =
     docKey === "imprint"
@@ -111,6 +115,13 @@ export default async function LocalizedLegalPage({
 
       <section className="bg-ivory py-14 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-8">
+          {legalDict.languageBindingNotice && (
+            <div className="flex items-start gap-3 rounded-xl border border-gold/45 bg-surface p-4 text-xs sm:text-sm text-ink shadow-2xs">
+              <Info className="mt-0.5 h-4 w-4 shrink-0 text-gold-dark" />
+              <p className="leading-relaxed">{legalDict.languageBindingNotice}</p>
+            </div>
+          )}
+
           {doc.warningTitle && (
             <div className="flex items-start gap-3.5 rounded-xl border border-amber-400/70 bg-amber-50 p-5 text-amber-950">
               <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-amber-700" />
@@ -125,13 +136,12 @@ export default async function LocalizedLegalPage({
             {doc.showContactBlock && (
               <div className="grid grid-cols-1 gap-6 rounded-xl border border-border-subtle bg-ivory/70 p-6 sm:grid-cols-2">
                 <div className="space-y-1 text-muted">
-                  <p className="font-semibold text-navy">{site.brandName}</p>
+                  <p className="font-semibold text-navy">
+                    {site.companyLegalName || `${site.owner} – ${site.brandName}`}
+                  </p>
                   <p>
                     {labels.ownerPrefix}
                     {site.owner}
-                  </p>
-                  <p className="text-amber-800 font-medium">
-                    {site.companyLegalName}
                   </p>
                   <p>{site.streetAddress}</p>
                   <p>{site.postalCodeCity}</p>
@@ -176,6 +186,28 @@ export default async function LocalizedLegalPage({
               </div>
             )}
 
+            {docKey === "imprint" && site.mstvResponsible && (
+              <div className="space-y-2">
+                <h2 className="font-serif text-2xl font-semibold text-navy">
+                  {labels.mstvHeading}
+                </h2>
+                <p className="text-muted">{site.mstvResponsible}</p>
+              </div>
+            )}
+
+            {docKey === "imprint" && optionalRegistryLines.length > 0 && (
+              <div className="space-y-2">
+                <h2 className="font-serif text-2xl font-semibold text-navy">
+                  {labels.registryHeading}
+                </h2>
+                {optionalRegistryLines.map((line) => (
+                  <p key={line} className="text-muted">
+                    {line}
+                  </p>
+                ))}
+              </div>
+            )}
+
             {doc.sections.map((section) => (
               <div key={section.heading} className="space-y-3">
                 <h2 className="font-serif text-2xl font-semibold text-navy">
@@ -204,17 +236,6 @@ export default async function LocalizedLegalPage({
                 )}
               </div>
             ))}
-
-            {docKey === "imprint" && (
-              <div className="rounded-xl border border-border-subtle bg-ivory p-5 space-y-2 text-xs text-muted">
-                <p className="font-semibold uppercase tracking-[0.14em] text-navy">
-                  {labels.pendingRegistryTitle}
-                </p>
-                <p>• {site.commercialRegister}</p>
-                <p>• {site.vatId}</p>
-                <p>• {site.supervisoryAuthority}</p>
-              </div>
-            )}
 
             <div className="border-t border-border-subtle pt-6 flex flex-wrap items-center justify-between gap-4">
               <Link

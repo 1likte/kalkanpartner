@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { ACTIVE_LOCALES } from "@/i18n/config";
+import { ACTIVE_LOCALES, LEGAL_SLUGS, type LegalDocKey } from "@/i18n/config";
 import { siteConfig } from "@/config/site";
 import { SERVICE_SLUGS } from "@/content/services/types";
 import { getAllInsightSlugs } from "@/content/pages";
@@ -66,6 +66,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
             "de-DE": `${baseUrl}/de/insights/${slug}`,
             "tr-TR": `${baseUrl}/tr/insights/${slug}`,
             "en-US": `${baseUrl}/en/insights/${slug}`,
+          },
+        },
+      });
+    }
+  }
+
+  for (const docKey of ["imprint", "privacy", "terms"] as LegalDocKey[]) {
+    for (const locale of ACTIVE_LOCALES) {
+      entries.push({
+        url: `${baseUrl}/${locale}/${LEGAL_SLUGS[locale][docKey]}`,
+        changeFrequency: "yearly",
+        priority: 0.4,
+        alternates: {
+          languages: {
+            "de-DE": `${baseUrl}/de/${LEGAL_SLUGS.de[docKey]}`,
+            "tr-TR": `${baseUrl}/tr/${LEGAL_SLUGS.tr[docKey]}`,
+            "en-US": `${baseUrl}/en/${LEGAL_SLUGS.en[docKey]}`,
           },
         },
       });

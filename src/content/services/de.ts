@@ -842,11 +842,12 @@ export const servicesDe: Record<ServiceSlug, ServiceDetailContent> = {
         "WICHTIG: Senden Sie über normale Kontaktformulare niemals Arztbriefe, Diagnosen, Röntgenbilder, Gesundheitsdaten oder Reisepässe.",
     },
     legalBoundary: {
-      heading: "Medizinische & rechtliche Abgrenzung",
+      heading: "Medizinische, werberechtliche (HWG) & rechtliche Abgrenzung",
       points: [
         "KALKAN PARTNER stellt keine Diagnosen, verordnet keine Therapien, führt keine medizinischen Behandlungen durch und gibt keinerlei medizinische Erfolgsgarantien ab.",
-        "Es werden keine ungeprüften Heilungsversprechen oder Erfolgsquoten veröffentlicht.",
-        "Die Zusammenarbeit erfolgt ausschließlich im Rahmen der türkischen Genehmigungs- und Autorisierungsanforderungen für Gesundheitstourismus mit entsprechend befugten Einrichtungen.",
+        "Gemäß deutschem Heilmittelwerbegesetz (HWG) veröffentlichen wir keine ungeprüften Heilungsversprechen, Erfolgsquoten oder irreführenden Vorher-Nachher-Darstellungen.",
+        "Ein Behandlungsvertrag kommt ausschließlich direkt zwischen dem Patienten und der jeweiligen autorisierten Gesundheitseinrichtung in der Türkei zustande.",
+        "Transparenzhinweis: KALKAN PARTNER wird als unabhängiger Koordinator tätig und kann hierfür entweder eine vereinbarte Koordinationsvergütung vom Kunden oder eine Vermittlungs-/Servicevergütung von der autorisierten Partnerinstitution erhalten.",
       ],
     },
     relatedSlugs: ["translation-communication", "relocation", "family-education"],
