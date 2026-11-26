@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 interface BrandLogoProps {
   variant?: "full" | "compact" | "mark";
@@ -16,51 +16,21 @@ export function BrandLogo({
   const isLight = theme === "light";
   const primaryTextColor = isLight ? "text-white" : "text-navy";
   const subTextColor = isLight ? "text-gold-light" : "text-muted";
-  const strokePrimary = isLight ? "#FFFFFF" : "#0B1D3A";
-  const shieldFill = isLight ? "rgba(255,255,255,0.06)" : "#0B1D3A";
-  const emblemKStroke = "#FFFFFF";
+  const strokePrimary = isLight ? "#E4D1AA" : "#091933";
 
-  const emblemSize = variant === "compact" ? 34 : 40;
+  const emblemHeight = variant === "compact" ? 38 : 46;
+  const emblemWidth = Math.round(emblemHeight * 0.89);
 
   return (
     <span className={`inline-flex items-center gap-3 select-none ${className}`}>
-      <svg
-        width={emblemSize}
-        height={emblemSize}
-        viewBox="0 0 64 64"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-        className="shrink-0"
-      >
-        <rect
-          width="64"
-          height="64"
-          rx="12"
-          fill={shieldFill}
-          stroke={isLight ? "rgba(197,165,103,0.45)" : "transparent"}
-          strokeWidth={isLight ? "1.5" : "0"}
-        />
-        <path
-          d="M32 10L50 17.5V31.5C50 43.2 42.3 51.3 32 55C21.7 51.3 14 43.2 14 31.5V17.5L32 10Z"
-          stroke="#C5A567"
-          strokeWidth="2.4"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M25.5 21V43"
-          stroke={emblemKStroke}
-          strokeWidth="2.8"
-          strokeLinecap="round"
-        />
-        <path
-          d="M39.5 21.5L27 32L40 43"
-          stroke="#C5A567"
-          strokeWidth="2.8"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+      <Image
+        src="/brand/kp-logo.png"
+        alt="KALKAN PARTNER Emblem"
+        width={emblemWidth}
+        height={emblemHeight}
+        priority
+        className="shrink-0 object-contain drop-shadow-xs"
+      />
 
       {variant !== "mark" && (
         <span className="flex flex-col leading-none">
@@ -72,7 +42,7 @@ export function BrandLogo({
             KALKAN{" "}
             <span
               className="font-normal"
-              style={{ color: isLight ? "#DFCA9F" : strokePrimary }}
+              style={{ color: strokePrimary }}
             >
               PARTNER
             </span>
