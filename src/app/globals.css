@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --kp-navy: #0b1d3a;
-  --kp-navy-deep: #071327;
-  --kp-navy-mid: #132c54;
+  --kp-navy: #091933;
+  --kp-navy-deep: #050f21;
+  --kp-navy-mid: #11294f;
   --kp-gold: #c5a567;
-  --kp-gold-light: #dfca9f;
-  --kp-gold-dark: #9e7f43;
-  --kp-ivory: #f8f7f4;
+  --kp-gold-light: #e4d1aa;
+  --kp-gold-dark: #846427;
+  --kp-ivory: #f7f6f2;
   --kp-surface: #ffffff;
-  --kp-border: #e5e2da;
-  --kp-ink: #162133;
-  --kp-muted: #4b586e;
+  --kp-border: #d6d1c6;
+  /* Darker, sharper, high-contrast body and secondary ink */
+  --kp-ink: #07111f;
+  --kp-muted: #1e293b;
 }
 
 @theme inline {
@@ -39,12 +40,13 @@ body {
   background-color: var(--kp-surface);
   color: var(--kp-ink);
   font-family: var(--font-sans);
+  font-weight: 450;
   text-rendering: optimizeLegibility;
 }
 
 ::selection {
-  background-color: rgba(197, 165, 103, 0.28);
-  color: #0b1d3a;
+  background-color: rgba(197, 165, 103, 0.32);
+  color: #07111f;
 }
 
 /* Subtle architectural grid overlay for hero and featured dark sections */

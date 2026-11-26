@@ -20,11 +20,11 @@ export function Footer({ locale, dict, site }: FooterProps) {
             <Link href={`/${locale}`} aria-label="KALKAN PARTNER">
               <BrandLogo variant="full" theme="light" showDescriptor />
             </Link>
-            <p className="text-sm leading-relaxed text-white/75 max-w-sm">
+            <p className="text-sm leading-relaxed text-white/90 max-w-sm">
               {dict.footer.tagline}
             </p>
-            <div className="rounded-lg border border-gold/25 bg-white/5 p-4">
-              <p className="text-xs leading-relaxed text-white/80">
+            <div className="rounded-lg border border-gold/30 bg-white/8 p-4">
+              <p className="text-xs leading-relaxed text-white/90">
                 {dict.footer.coordinationNotice}
               </p>
             </div>
@@ -40,7 +40,7 @@ export function Footer({ locale, dict, site }: FooterProps) {
                 <li key={dept.slug}>
                   <Link
                     href={`/${locale}/services/${dept.slug}`}
-                    className="text-white/75 transition-colors hover:text-gold-light"
+                    className="text-white/90 transition-colors hover:text-gold-light"
                   >
                     {dept.title}
                   </Link>
@@ -59,7 +59,7 @@ export function Footer({ locale, dict, site }: FooterProps) {
                 <li key={item.label}>
                   <Link
                     href={`/${locale}${item.href}`}
-                    className="text-white/75 transition-colors hover:text-gold-light"
+                    className="text-white/90 transition-colors hover:text-gold-light"
                   >
                     {item.label}
                   </Link>
@@ -78,7 +78,7 @@ export function Footer({ locale, dict, site }: FooterProps) {
                 <li key={item.label} className="flex items-start gap-2">
                   <Link
                     href={`/${locale}${item.href}`}
-                    className="text-white/80 transition-colors hover:text-gold-light leading-snug"
+                    className="text-white/90 transition-colors hover:text-gold-light leading-snug"
                   >
                     {item.label}
                   </Link>
@@ -91,8 +91,8 @@ export function Footer({ locale, dict, site }: FooterProps) {
               ))}
             </ul>
 
-            <div className="mt-6 space-y-1.5 border-t border-white/10 pt-4 text-xs text-white/65">
-              <p className="font-medium text-white/90">{site.brandName}</p>
+            <div className="mt-6 space-y-1.5 border-t border-white/15 pt-4 text-xs text-white/85">
+              <p className="font-semibold text-white">{site.brandName}</p>
               <p>{site.streetAddress}</p>
               <p>
                 {site.postalCodeCity}, {site.country}
@@ -118,7 +118,7 @@ export function Footer({ locale, dict, site }: FooterProps) {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-14 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/60 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-14 flex flex-col gap-3 border-t border-white/15 pt-6 text-xs text-white/80 sm:flex-row sm:items-center sm:justify-between">
           <p>© {dict.footer.copyright}</p>
           <p>{dict.footer.futureLanguageNote}</p>
         </div>

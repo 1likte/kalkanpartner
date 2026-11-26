@@ -43,7 +43,7 @@ export function HeroSection({ locale, dict }: HeroSectionProps) {
             {hero.headline}
           </h1>
 
-          <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg">
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/92 sm:text-lg">
             {hero.description}
           </p>
 
@@ -65,7 +65,7 @@ export function HeroSection({ locale, dict }: HeroSectionProps) {
           </div>
 
           {/* Transparent Legal Positioning Pill */}
-          <div className="mt-8 inline-flex items-start gap-2.5 text-xs leading-relaxed text-white/70">
+          <div className="mt-8 inline-flex items-start gap-2.5 text-xs leading-relaxed text-white/85">
             <ShieldCheck
               className="mt-0.5 h-4 w-4 shrink-0 text-gold"
               aria-hidden="true"

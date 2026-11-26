@@ -87,7 +87,7 @@ export const legalContentDefault: Record<Locale, LocaleLegalDictionary> = {
           heading: "3. Kontaktformular, E-Mail-Kommunikation & Speicherdauer",
           paragraphs: [
             "Wenn Sie uns über das Kontaktformular oder per E-Mail kontaktieren, verarbeiten wir Ihre Angaben (Kundentyp, gewählter Fachbereich, Land, Vor- und Nachname, E-Mail-Adresse, optionale Telefonnummer sowie Ihre Nachricht). Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen bzw. Vertragserfüllung) sowie bei allgemeinen Anfragen Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sachgerechten Beantwortung).",
-            "Für die technische Zustellung von Formularanfragen kann ein vertraglich gebundener E-Mail-/SMTP-Dienstleister oder Transaktions-E-Mail-Dienst (z. B. Resend Inc., 2261 Market Street #4818, San Francisco, CA 94114, USA, auf Basis eines DPA gemäß Art. 28 DSGVO sowie EU-US DPF / Standardvertragsklauseln nach Art. 45, 46 DSGVO) eingesetzt werden.",
+            "Für den technischen E-Mail-Versand von Formularanfragen nutzen wir entweder den verschlüsselten SMTP-Postausgang unseres eigenen geschäftlichen E-Mail-Postfachs oder den Transaktions-E-Mail-Dienst Resend Inc., 2261 Market Street #4818, San Francisco, CA 94114, USA (auf Grundlage eines Auftragsverarbeitungsvertrags gemäß Art. 28 DSGVO sowie EU-US Data Privacy Framework / Standardvertragsklauseln nach Art. 45, 46 DSGVO). Kundenanfragen werden nicht in einer externen Website-Datenbank gespeichert, sondern direkt als E-Mail an unser Geschäftspostfach zugestellt.",
             "Speicherdauer: Ihre Anfragedaten werden gelöscht, sobald Ihr Anliegen abschließend bearbeitet wurde und der Zweck der Speicherung entfällt, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Soweit geschäfts- oder steuerrechtlich relevante Korrespondenz vorliegt, gelten die gesetzlichen Aufbewahrungsfristen von 6 Jahren (§ 257 HGB) bzw. 10 Jahren (§ 147 AO).",
           ],
         },
@@ -319,7 +319,7 @@ export const legalContentDefault: Record<Locale, LocaleLegalDictionary> = {
           heading: "3. İletişim Formu, E-posta İletişimi ve Saklama Süreleri",
           paragraphs: [
             "İletişim formu veya e-posta yoluyla bize ulaştığınızda paylaştığınız veriler (müşteri tipi, departman, ülke, ad soyad, e-posta, opsiyonel telefon ve mesaj) sözleşme öncesi işlemler veya sözleşmenin ifası (DSGVO Madde 6/1-b) ve genel sorularda meşru menfaat (Madde 6/1-f) temelinde işlenir.",
-            "Form iletilerinin teknik gönderimi için sözleşmeli SMTP sağlayıcısı veya işlem e-posta servisi (ör. Resend Inc., 2261 Market Street #4818, San Francisco, CA 94114, ABD – DPA, EU-US DPF ve SCC güvenceleriyle) kullanılabilir.",
+            "Form iletilerinin teknik gönderimi için doğrudan kurumsal e-posta kutumuzun şifreli SMTP altyapısı veya işlem e-posta sağlayıcısı Resend Inc., 2261 Market Street #4818, San Francisco, CA 94114, ABD (DSGVO Madde 28 DPA, EU-US DPF ve SCC güvenceleriyle) kullanılır. Müşteri form talepleri harici bir web veritabanında saklanmaz; doğrudan kurumsal e-posta kutumuza iletilir.",
             "Saklama Süresi: Talebiniz sonuçlandığında ve saklama amacı ortadan kalktığında verileriniz silinir; ticari ve vergisel yazışmalarda Alman mevzuatındaki zorunlu saklama süreleri (6 yıl – § 257 HGB; 10 yıl – § 147 AO) saklıdır.",
           ],
         },
@@ -538,7 +538,7 @@ export const legalContentDefault: Record<Locale, LocaleLegalDictionary> = {
           heading: "3. Contact Form, Email Dispatch & Retention Periods",
           paragraphs: [
             "When you contact us via our website form or email, we process your details (client type, selected department, country, full name, email, optional phone number, and message) pursuant to Art. 6(1)(b) GDPR (pre-contractual/contractual steps) or Art. 6(1)(f) GDPR (legitimate interest in answering inquiries).",
-            "For technical email delivery, a contracted SMTP provider or transactional email service (such as Resend Inc., 2261 Market Street #4818, San Francisco, CA 94114, USA, bound by DPA, EU–US DPF, and SCCs under Art. 28, 45, 46 GDPR) may be used.",
+            "For technical email dispatch of contact form submissions, we use either the encrypted SMTP server of our business mailbox or the transactional email provider Resend Inc., 2261 Market Street #4818, San Francisco, CA 94114, USA (governed by an Art. 28 GDPR DPA, EU–US Data Privacy Framework, and SCCs under Art. 45, 46 GDPR). Visitor form submissions are not stored in any website database; they are delivered directly via email to our business inbox.",
             "Retention Period: Inquiry data is deleted once processing is complete unless statutory commercial or tax retention periods apply (6 years under § 257 HGB; 10 years under § 147 AO).",
           ],
         },

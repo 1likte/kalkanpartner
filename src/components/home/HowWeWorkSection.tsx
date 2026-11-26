@@ -22,7 +22,7 @@ export function HowWeWorkSection({ dict }: HowWeWorkSectionProps) {
           <h2 className="mt-3 font-serif text-3xl font-semibold tracking-tight text-white sm:text-4xl">
             {howWeWork.title}
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-white/75 sm:text-lg">
+          <p className="mt-4 text-base leading-relaxed text-white/90 sm:text-lg">
             {howWeWork.subtitle}
           </p>
         </div>
@@ -31,7 +31,7 @@ export function HowWeWorkSection({ dict }: HowWeWorkSectionProps) {
           {howWeWork.steps.map((item, idx) => (
             <div
               key={item.step}
-              className="relative flex flex-col rounded-xl border border-white/15 bg-white/[0.04] p-6 backdrop-blur-xs"
+              className="relative flex flex-col rounded-xl border border-white/20 bg-white/[0.06] p-6 backdrop-blur-xs"
             >
               <div className="flex items-center justify-between">
                 <span className="font-serif text-3xl font-semibold text-gold-light">
@@ -47,7 +47,7 @@ export function HowWeWorkSection({ dict }: HowWeWorkSectionProps) {
               <h3 className="mt-5 font-serif text-2xl font-semibold text-white">
                 {item.title}
               </h3>
-              <p className="mt-3 text-sm leading-relaxed text-white/75">
+              <p className="mt-3 text-sm leading-relaxed text-white/90">
                 {item.description}
               </p>
             </div>

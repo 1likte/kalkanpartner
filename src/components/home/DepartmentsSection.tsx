@@ -103,7 +103,7 @@ export function DepartmentsSection({ locale, dict }: DepartmentsSectionProps) {
                 {/* Summary */}
                 <p
                   className={`mt-3 text-sm leading-relaxed ${
-                    isFeatured ? "text-white/80" : "text-muted"
+                    isFeatured ? "text-white/90" : "text-muted"
                   }`}
                 >
                   {dept.summary}
@@ -114,8 +114,8 @@ export function DepartmentsSection({ locale, dict }: DepartmentsSectionProps) {
                   {dept.highlights.map((item) => (
                     <li
                       key={item}
-                      className={`flex items-start gap-2.5 text-xs sm:text-[13px] ${
-                        isFeatured ? "text-white/90" : "text-ink/85"
+                      className={`flex items-start gap-2.5 text-xs sm:text-[13px] font-medium ${
+                        isFeatured ? "text-white/95" : "text-ink"
                       }`}
                     >
                       <Check
@@ -133,8 +133,8 @@ export function DepartmentsSection({ locale, dict }: DepartmentsSectionProps) {
                   <p
                     className={`rounded-md border px-3 py-2 text-[11px] leading-relaxed ${
                       isFeatured
-                        ? "border-white/15 bg-white/5 text-white/70"
-                        : "border-border-subtle/80 bg-ivory/70 text-muted"
+                        ? "border-white/20 bg-white/8 text-white/85"
+                        : "border-border-subtle bg-ivory/85 text-ink/90"
                     }`}
                   >
                     {dept.legalNote}
